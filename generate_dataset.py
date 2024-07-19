@@ -12,7 +12,7 @@ productos = [
     {"nombre": "Turrón", "precio_produccion": 11.90, "precio_venta": 34.00},
 ]
 
-num_filas = 200
+num_filas = 10000
 
 fecha_inicio = datetime(2023, 1, 1)
 
@@ -53,5 +53,5 @@ df = pd.DataFrame(dataset, columns=[
     "Precio Total de la Venta (MXN)"
 ])
 
-df.to_csv('/mnt/data/historial_ventas_comida_rapida.csv', index=False)
+df.to_csv('historial_ventas_comida_rapida.csv', index=False)
 df.head()
