@@ -4,7 +4,7 @@ import os
 
 df_encuestas = pd.read_csv('market analysis/datasets/encuestas_clientes.csv')
 
-output_dir = 'market analysis/images'
+output_dir = 'market analysis/images_customer_preference_analysis'
 os.makedirs(output_dir, exist_ok=True)
 
 for archivo in os.listdir(output_dir):
