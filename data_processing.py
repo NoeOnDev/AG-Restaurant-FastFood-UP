@@ -29,13 +29,25 @@ def calcular_precio_venta(combo, precios_venta):
     return sum(precios_venta[producto] for producto in combo)
 
 def funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, precios_venta):
-    rentabilidad = calcular_rentabilidad(combo, rentabilidades)
-    popularidad = calcular_popularidad(combo, popularidades)
-    costo_produccion = calcular_costo_produccion(combo, costos_produccion)
-    precio_venta_individual = calcular_precio_venta(combo, precios_venta)
-    precio_venta_combo = max(costo_produccion * 1.2, precio_venta_individual * 0.8)
-    aptitud = rentabilidad * popularidad / precio_venta_combo
-    return aptitud, precio_venta_combo, costo_produccion
+    try:
+        rentabilidad = calcular_rentabilidad(combo, rentabilidades)
+        popularidad = calcular_popularidad(combo, popularidades)
+        costo_produccion = calcular_costo_produccion(combo, costos_produccion)
+        precio_venta_individual = calcular_precio_venta(combo, precios_venta)
+        precio_venta_combo = max(costo_produccion * 1.2, precio_venta_individual * 0.8)
+        aptitud = rentabilidad * popularidad / precio_venta_combo
+
+        print(f"Combo: {combo}")
+        print(f"Rentabilidad: {rentabilidad}")
+        print(f"Popularidad: {popularidad}")
+        print(f"Costo Producción: {costo_produccion}")
+        print(f"Precio Venta Individual: {precio_venta_individual}")
+        print(f"Precio Venta Combo: {precio_venta_combo}")
+        print(f"Aptitud: {aptitud}")
+        return aptitud, precio_venta_combo, costo_produccion
+    except KeyError as e:
+        print(f"Error: {e}. Combo: {combo}")
+        return 0, 0, 0
 
 # Inicialización
 def crear_poblacion_inicial(tamano_poblacion, productos, tamano_combo):
@@ -44,6 +56,10 @@ def crear_poblacion_inicial(tamano_poblacion, productos, tamano_combo):
 # Selección
 def seleccion(poblacion, rentabilidades, popularidades, costos_produccion, precios_venta):
     puntuaciones = [(funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, precios_venta), combo) for combo in poblacion]
+    puntuaciones = [p for p in puntuaciones if p[0][0] > 0]  # Filtrar puntuaciones no válidas
+    if not puntuaciones:
+        print("No se encontraron combinaciones válidas en la población inicial. Verifique los datos y condiciones de aptitud.")
+        raise ValueError("No se encontraron combinaciones válidas en la población.")
     puntuaciones.sort(reverse=True, key=lambda x: x[0][0])
     seleccionados = [combo for _, combo in puntuaciones[:len(poblacion)//2]]
     return seleccionados, puntuaciones[0]
@@ -75,6 +91,8 @@ def evolucionar_poblacion(poblacion, rentabilidades, popularidades, costos_produ
         seleccionados, mejor_individuo = seleccion(poblacion, rentabilidades, popularidades, costos_produccion, precios_venta)
         nueva_poblacion = seleccionados[:]
         while len(nueva_poblacion) < tamano_poblacion:
+            if len(seleccionados) < 2:
+                break
             padre1, padre2 = random.sample(seleccionados, 2)
             hijo = cruzar(padre1, padre2)
             hijo = mutar(hijo, productos, prob_mut_indiv, prob_mut_gen)
@@ -96,21 +114,24 @@ productos = datos_combinados.index.tolist()
 poblacion_inicial = crear_poblacion_inicial(tamano_poblacion, productos, tamano_combo)
 
 # Evolucionar la población
-mejor_combo, estadisticas = evolucionar_poblacion(
-    poblacion_inicial,
-    datos_combinados['Rentabilidad'],
-    datos_combinados['Popularidad'],
-    costos_produccion,
-    precios_venta,
-    generaciones,
-    tamano_poblacion,
-    max_poblacion,
-    prob_mut_indiv,
-    prob_mut_gen
-)
+try:
+    mejor_combo, estadisticas = evolucionar_poblacion(
+        poblacion_inicial,
+        datos_combinados['Rentabilidad'],
+        datos_combinados['Popularidad'],
+        costos_produccion,
+        precios_venta,
+        generaciones,
+        tamano_poblacion,
+        max_poblacion,
+        prob_mut_indiv,
+        prob_mut_gen
+    )
 
-# Resultados
-print("Mejor Combo:", mejor_combo[1])
-print("Aptitud del Mejor Combo:", mejor_combo[0][0])
-print("Precio de Venta del Combo:", mejor_combo[0][1])
-print("Costo de Producción del Combo:", mejor_combo[0][2])
+    # Resultados
+    print("Mejor Combo:", mejor_combo[1])
+    print("Aptitud del Mejor Combo:", mejor_combo[0][0])
+    print("Precio de Venta del Combo:", mejor_combo[0][1])
+    print("Costo de Producción del Combo:", mejor_combo[0][2])
+except ValueError as e:
+    print(e)
