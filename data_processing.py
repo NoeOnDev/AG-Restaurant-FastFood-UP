@@ -30,6 +30,9 @@ def calcular_precio_venta(combo, precios_venta):
 
 def funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, precios_venta):
     try:
+        if len(combo) != len(set(combo)):
+            raise KeyError("Productos duplicados en el combo")
+        
         rentabilidad = calcular_rentabilidad(combo, rentabilidades)
         popularidad = calcular_popularidad(combo, popularidades)
         costo_produccion = calcular_costo_produccion(combo, costos_produccion)
@@ -51,12 +54,17 @@ def funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, pre
 
 # Inicialización
 def crear_poblacion_inicial(tamano_poblacion, productos, tamano_combo):
-    return [random.sample(productos, tamano_combo) for _ in range(tamano_poblacion)]
+    poblacion = []
+    while len(poblacion) < tamano_poblacion:
+        combo = random.sample(productos, tamano_combo)
+        if len(combo) == len(set(combo)):
+            poblacion.append(combo)
+    return poblacion
 
 # Selección
 def seleccion(poblacion, rentabilidades, popularidades, costos_produccion, precios_venta):
     puntuaciones = [(funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, precios_venta), combo) for combo in poblacion]
-    puntuaciones = [p for p in puntuaciones if p[0][0] > 0]  # Filtrar puntuaciones no válidas
+    puntuaciones = [p for p in puntuaciones if p[0][0] > 0]
     if not puntuaciones:
         print("No se encontraron combinaciones válidas en la población inicial. Verifique los datos y condiciones de aptitud.")
         raise ValueError("No se encontraron combinaciones válidas en la población.")
@@ -68,12 +76,17 @@ def seleccion(poblacion, rentabilidades, popularidades, costos_produccion, preci
 def cruzar(padre1, padre2):
     punto_cruce = random.randint(1, len(padre1) - 2)
     hijo = padre1[:punto_cruce] + padre2[punto_cruce:]
-    return hijo
+    if len(hijo) == len(set(hijo)):
+        return hijo
+    else:
+        return padre1
 
 # Mutación
 def mutar(combo, productos, prob_mut_indiv, prob_mut_gen):
     if random.random() < prob_mut_indiv:
         combo = [gen if random.random() >= prob_mut_gen else random.choice(productos) for gen in combo]
+        if len(combo) == len(set(combo)):
+            return combo
     return combo
 
 # Poda
@@ -102,12 +115,12 @@ def evolucionar_poblacion(poblacion, rentabilidades, popularidades, costos_produ
     return mejor_individuo, estadisticas
 
 # Parámetros del algoritmo
-tamano_poblacion = 50
+tamano_poblacion = 20
 tamano_combo = 3
-generaciones = 100
-max_poblacion = 100
-prob_mut_indiv = 0.1
-prob_mut_gen = 0.1
+generaciones = 10
+max_poblacion = 50
+prob_mut_indiv = 0.01
+prob_mut_gen = 0.01
 
 # Crear la población inicial
 productos = datos_combinados.index.tolist()
