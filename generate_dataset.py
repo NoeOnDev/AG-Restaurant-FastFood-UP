@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from datetime import datetime, timedelta
 import random
 
@@ -14,19 +13,22 @@ productos = [
 ]
 
 num_filas = 200
+
 fecha_inicio = datetime(2023, 1, 1)
-ventas_por_dia = random.randint(5, 100)
 
 fechas_venta = []
-for i in range(num_filas // ventas_por_dia + 1):
-    for j in range(ventas_por_dia):
-        fecha_venta = fecha_inicio + timedelta(days=i, hours=random.randint(0, 23), minutes=random.randint(0, 59))
-        fechas_venta.append(fecha_venta.strftime('%Y-%m-%d %H:%M:%S'))
 
-fechas_venta = fechas_venta[:num_filas]
+for i in range(num_filas // 10 + 1):
+    for j in range(random.randint(10, 100)):
+        if len(fechas_venta) >= num_filas:
+            break
+        fecha_venta = fecha_inicio + timedelta(days=i, hours=7, minutes=random.randint(0, 600))
+        fechas_venta.append(fecha_venta)
+
+fechas_venta = sorted(fechas_venta)[:num_filas]
 
 dataset = []
-for i in range(num_filas):
+for i, fecha_venta in enumerate(fechas_venta):
     id_transaccion = i + 1
     producto = random.choice(productos)
     cantidad = random.randint(1, 10)
@@ -34,7 +36,7 @@ for i in range(num_filas):
     precio_total_venta = precio_venta_unidad * cantidad
     
     dataset.append([
-        fechas_venta[i],
+        fecha_venta.strftime('%Y-%m-%d %H:%M:%S'),
         id_transaccion,
         producto["nombre"],
         cantidad,
@@ -51,6 +53,5 @@ df = pd.DataFrame(dataset, columns=[
     "Precio Total de la Venta (MXN)"
 ])
 
-df.to_csv('historial_ventas_comida_rapida.csv', index=False)
-
+df.to_csv('/mnt/data/historial_ventas_comida_rapida.csv', index=False)
 df.head()
