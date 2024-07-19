@@ -15,10 +15,18 @@ productos = [
 
 num_filas = 200
 fecha_inicio = datetime(2023, 1, 1)
-dataset = []
+ventas_por_dia = random.randint(5, 100)
 
+fechas_venta = []
+for i in range(num_filas // ventas_por_dia + 1):
+    for j in range(ventas_por_dia):
+        fecha_venta = fecha_inicio + timedelta(days=i, hours=random.randint(0, 23), minutes=random.randint(0, 59))
+        fechas_venta.append(fecha_venta.strftime('%Y-%m-%d %H:%M:%S'))
+
+fechas_venta = fechas_venta[:num_filas]
+
+dataset = []
 for i in range(num_filas):
-    fecha_venta = fecha_inicio + timedelta(days=random.randint(0, 365), hours=random.randint(0, 23), minutes=random.randint(0, 59))
     id_transaccion = i + 1
     producto = random.choice(productos)
     cantidad = random.randint(1, 10)
@@ -26,7 +34,7 @@ for i in range(num_filas):
     precio_total_venta = precio_venta_unidad * cantidad
     
     dataset.append([
-        fecha_venta.strftime('%Y-%m-%d %H:%M:%S'),
+        fechas_venta[i],
         id_transaccion,
         producto["nombre"],
         cantidad,
@@ -44,4 +52,5 @@ df = pd.DataFrame(dataset, columns=[
 ])
 
 df.to_csv('historial_ventas_comida_rapida.csv', index=False)
+
 df.head()
