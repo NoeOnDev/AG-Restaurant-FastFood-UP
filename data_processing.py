@@ -31,3 +31,26 @@ datos_combinados = pd.DataFrame({
 })
 print("Datos Combinados para el Algoritmo Genético:")
 print(datos_combinados)
+
+def calcular_rentabilidad(combo, rentabilidades):
+    return sum(rentabilidades[producto] for producto in combo)
+
+def calcular_popularidad(combo, popularidades):
+    return sum(popularidades[producto] for producto in combo) / len(combo)
+
+def calcular_costo_produccion(combo, costos_produccion):
+    return sum(costos_produccion[producto] for producto in combo)
+
+def calcular_precio_venta(combo, precios_venta):
+    return sum(precios_venta[producto] for producto in combo)
+
+def funcion_aptitud(combo, rentabilidades, popularidades, costos_produccion, precios_venta):
+    rentabilidad = calcular_rentabilidad(combo, rentabilidades)
+    popularidad = calcular_popularidad(combo, popularidades)
+    costo_produccion = calcular_costo_produccion(combo, costos_produccion)
+    precio_venta_individual = calcular_precio_venta(combo, precios_venta)
+    
+    precio_venta_combo = max(costo_produccion * 1.2, precio_venta_individual * 0.8)
+
+    aptitud = rentabilidad * popularidad / precio_venta_combo
+    return aptitud, precio_venta_combo, costo_produccion
