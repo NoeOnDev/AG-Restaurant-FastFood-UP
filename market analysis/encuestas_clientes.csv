@@ -1,0 +1,1001 @@
+Número de Encuesta,Bebida Favorita,Comida Favorita,Postre Favorito,Frecuencia de Consumo
+1,Pozol,Empanada,Turrón,Mensual
+2,Coca-Cola,Gordita,Turrón,Mensual
+3,Pozol,Gordita,Nuegado,Mensual
+4,Pozol,Gordita,Nuegado,Diario
+5,Coca-Cola,Empanada,Turrón,Diario
+6,Pozol,Taco,Nuegado,Semanal
+7,Coca-Cola,Taco,Nuegado,Mensual
+8,Pozol,Gordita,Turrón,Mensual
+9,Pozol,Gordita,Nuegado,Diario
+10,Coca-Cola,Taco,Turrón,Semanal
+11,Coca-Cola,Taco,Turrón,Mensual
+12,Coca-Cola,Taco,Nuegado,Rara vez
+13,Pozol,Gordita,Nuegado,Rara vez
+14,Pozol,Gordita,Turrón,Semanal
+15,Coca-Cola,Empanada,Nuegado,Semanal
+16,Coca-Cola,Taco,Nuegado,Semanal
+17,Pozol,Empanada,Nuegado,Mensual
+18,Pozol,Gordita,Turrón,Mensual
+19,Coca-Cola,Empanada,Nuegado,Mensual
+20,Coca-Cola,Empanada,Turrón,Diario
+21,Pozol,Empanada,Turrón,Mensual
+22,Pozol,Taco,Turrón,Semanal
+23,Pozol,Taco,Turrón,Diario
+24,Pozol,Taco,Nuegado,Diario
+25,Pozol,Taco,Turrón,Semanal
+26,Coca-Cola,Taco,Turrón,Mensual
+27,Pozol,Empanada,Turrón,Diario
+28,Pozol,Empanada,Nuegado,Semanal
+29,Coca-Cola,Empanada,Nuegado,Mensual
+30,Coca-Cola,Taco,Turrón,Mensual
+31,Coca-Cola,Gordita,Turrón,Rara vez
+32,Coca-Cola,Gordita,Turrón,Rara vez
+33,Pozol,Gordita,Nuegado,Semanal
+34,Coca-Cola,Gordita,Nuegado,Semanal
+35,Pozol,Gordita,Nuegado,Mensual
+36,Pozol,Empanada,Nuegado,Diario
+37,Coca-Cola,Taco,Turrón,Diario
+38,Pozol,Empanada,Turrón,Mensual
+39,Pozol,Gordita,Nuegado,Diario
+40,Coca-Cola,Taco,Turrón,Mensual
+41,Coca-Cola,Empanada,Turrón,Diario
+42,Pozol,Gordita,Turrón,Rara vez
+43,Coca-Cola,Gordita,Nuegado,Mensual
+44,Coca-Cola,Gordita,Nuegado,Diario
+45,Pozol,Gordita,Nuegado,Mensual
+46,Coca-Cola,Taco,Nuegado,Rara vez
+47,Coca-Cola,Taco,Nuegado,Rara vez
+48,Coca-Cola,Taco,Nuegado,Diario
+49,Pozol,Taco,Nuegado,Mensual
+50,Pozol,Taco,Turrón,Diario
+51,Coca-Cola,Gordita,Nuegado,Rara vez
+52,Coca-Cola,Gordita,Turrón,Diario
+53,Pozol,Empanada,Turrón,Mensual
+54,Coca-Cola,Empanada,Nuegado,Rara vez
+55,Coca-Cola,Gordita,Nuegado,Diario
+56,Pozol,Gordita,Turrón,Rara vez
+57,Pozol,Taco,Turrón,Semanal
+58,Coca-Cola,Taco,Nuegado,Mensual
+59,Coca-Cola,Gordita,Turrón,Semanal
+60,Pozol,Empanada,Turrón,Semanal
+61,Coca-Cola,Taco,Nuegado,Semanal
+62,Coca-Cola,Taco,Turrón,Semanal
+63,Coca-Cola,Gordita,Turrón,Semanal
+64,Pozol,Taco,Turrón,Rara vez
+65,Pozol,Gordita,Turrón,Diario
+66,Coca-Cola,Taco,Turrón,Mensual
+67,Coca-Cola,Gordita,Turrón,Semanal
+68,Coca-Cola,Gordita,Turrón,Rara vez
+69,Pozol,Taco,Turrón,Rara vez
+70,Coca-Cola,Gordita,Nuegado,Semanal
+71,Pozol,Taco,Nuegado,Diario
+72,Pozol,Taco,Nuegado,Diario
+73,Pozol,Gordita,Turrón,Semanal
+74,Pozol,Taco,Turrón,Semanal
+75,Pozol,Empanada,Turrón,Semanal
+76,Pozol,Gordita,Nuegado,Semanal
+77,Coca-Cola,Gordita,Turrón,Mensual
+78,Pozol,Gordita,Nuegado,Mensual
+79,Coca-Cola,Empanada,Nuegado,Diario
+80,Coca-Cola,Empanada,Turrón,Semanal
+81,Coca-Cola,Taco,Turrón,Semanal
+82,Pozol,Gordita,Nuegado,Mensual
+83,Coca-Cola,Empanada,Turrón,Mensual
+84,Pozol,Taco,Nuegado,Mensual
+85,Pozol,Taco,Turrón,Rara vez
+86,Pozol,Empanada,Turrón,Rara vez
+87,Pozol,Empanada,Turrón,Rara vez
+88,Coca-Cola,Taco,Nuegado,Semanal
+89,Pozol,Empanada,Nuegado,Mensual
+90,Coca-Cola,Empanada,Turrón,Mensual
+91,Pozol,Gordita,Turrón,Semanal
+92,Coca-Cola,Taco,Nuegado,Rara vez
+93,Pozol,Empanada,Turrón,Rara vez
+94,Pozol,Empanada,Nuegado,Rara vez
+95,Pozol,Empanada,Turrón,Diario
+96,Coca-Cola,Gordita,Nuegado,Rara vez
+97,Coca-Cola,Empanada,Turrón,Diario
+98,Pozol,Gordita,Turrón,Mensual
+99,Coca-Cola,Gordita,Nuegado,Rara vez
+100,Coca-Cola,Taco,Turrón,Diario
+101,Pozol,Taco,Nuegado,Mensual
+102,Coca-Cola,Taco,Turrón,Semanal
+103,Coca-Cola,Gordita,Turrón,Mensual
+104,Pozol,Taco,Nuegado,Mensual
+105,Pozol,Empanada,Turrón,Semanal
+106,Coca-Cola,Gordita,Turrón,Rara vez
+107,Coca-Cola,Taco,Nuegado,Rara vez
+108,Coca-Cola,Empanada,Nuegado,Semanal
+109,Coca-Cola,Empanada,Turrón,Diario
+110,Pozol,Taco,Turrón,Semanal
+111,Coca-Cola,Taco,Turrón,Rara vez
+112,Coca-Cola,Taco,Turrón,Diario
+113,Pozol,Gordita,Turrón,Diario
+114,Pozol,Empanada,Nuegado,Rara vez
+115,Coca-Cola,Taco,Nuegado,Semanal
+116,Pozol,Empanada,Nuegado,Semanal
+117,Coca-Cola,Gordita,Turrón,Rara vez
+118,Coca-Cola,Taco,Nuegado,Rara vez
+119,Pozol,Empanada,Nuegado,Mensual
+120,Coca-Cola,Empanada,Nuegado,Semanal
+121,Pozol,Gordita,Turrón,Semanal
+122,Pozol,Taco,Nuegado,Rara vez
+123,Coca-Cola,Taco,Nuegado,Rara vez
+124,Pozol,Taco,Nuegado,Mensual
+125,Coca-Cola,Empanada,Turrón,Semanal
+126,Coca-Cola,Taco,Turrón,Semanal
+127,Pozol,Gordita,Turrón,Semanal
+128,Pozol,Gordita,Nuegado,Semanal
+129,Coca-Cola,Empanada,Nuegado,Rara vez
+130,Coca-Cola,Empanada,Turrón,Mensual
+131,Coca-Cola,Taco,Turrón,Diario
+132,Coca-Cola,Empanada,Nuegado,Mensual
+133,Coca-Cola,Gordita,Nuegado,Diario
+134,Coca-Cola,Empanada,Turrón,Semanal
+135,Pozol,Gordita,Turrón,Semanal
+136,Coca-Cola,Empanada,Turrón,Semanal
+137,Coca-Cola,Taco,Turrón,Diario
+138,Pozol,Gordita,Nuegado,Semanal
+139,Pozol,Gordita,Nuegado,Rara vez
+140,Coca-Cola,Gordita,Nuegado,Mensual
+141,Coca-Cola,Gordita,Turrón,Rara vez
+142,Coca-Cola,Gordita,Turrón,Mensual
+143,Pozol,Taco,Turrón,Mensual
+144,Pozol,Gordita,Turrón,Semanal
+145,Coca-Cola,Taco,Nuegado,Rara vez
+146,Coca-Cola,Gordita,Nuegado,Semanal
+147,Coca-Cola,Taco,Turrón,Diario
+148,Coca-Cola,Empanada,Nuegado,Semanal
+149,Pozol,Gordita,Turrón,Mensual
+150,Coca-Cola,Taco,Turrón,Diario
+151,Pozol,Gordita,Nuegado,Mensual
+152,Pozol,Taco,Nuegado,Rara vez
+153,Coca-Cola,Taco,Turrón,Semanal
+154,Coca-Cola,Empanada,Turrón,Diario
+155,Coca-Cola,Taco,Turrón,Semanal
+156,Pozol,Taco,Turrón,Diario
+157,Pozol,Taco,Turrón,Semanal
+158,Pozol,Taco,Turrón,Mensual
+159,Coca-Cola,Empanada,Turrón,Rara vez
+160,Pozol,Empanada,Nuegado,Mensual
+161,Pozol,Taco,Turrón,Rara vez
+162,Pozol,Taco,Nuegado,Semanal
+163,Coca-Cola,Taco,Nuegado,Diario
+164,Pozol,Empanada,Turrón,Semanal
+165,Coca-Cola,Gordita,Nuegado,Semanal
+166,Coca-Cola,Gordita,Nuegado,Diario
+167,Pozol,Empanada,Nuegado,Semanal
+168,Pozol,Gordita,Turrón,Mensual
+169,Pozol,Empanada,Turrón,Semanal
+170,Pozol,Empanada,Turrón,Semanal
+171,Coca-Cola,Gordita,Turrón,Semanal
+172,Pozol,Empanada,Nuegado,Diario
+173,Coca-Cola,Empanada,Turrón,Diario
+174,Coca-Cola,Taco,Turrón,Diario
+175,Coca-Cola,Taco,Turrón,Mensual
+176,Pozol,Empanada,Turrón,Mensual
+177,Coca-Cola,Empanada,Nuegado,Semanal
+178,Coca-Cola,Gordita,Turrón,Rara vez
+179,Coca-Cola,Empanada,Nuegado,Semanal
+180,Coca-Cola,Empanada,Turrón,Semanal
+181,Coca-Cola,Taco,Nuegado,Rara vez
+182,Coca-Cola,Taco,Nuegado,Mensual
+183,Pozol,Empanada,Turrón,Diario
+184,Pozol,Gordita,Turrón,Diario
+185,Coca-Cola,Gordita,Turrón,Semanal
+186,Coca-Cola,Empanada,Turrón,Semanal
+187,Coca-Cola,Gordita,Nuegado,Diario
+188,Pozol,Empanada,Turrón,Semanal
+189,Pozol,Taco,Nuegado,Semanal
+190,Coca-Cola,Taco,Nuegado,Diario
+191,Pozol,Empanada,Turrón,Semanal
+192,Coca-Cola,Taco,Nuegado,Diario
+193,Coca-Cola,Gordita,Turrón,Semanal
+194,Coca-Cola,Empanada,Turrón,Mensual
+195,Pozol,Taco,Nuegado,Diario
+196,Pozol,Taco,Nuegado,Diario
+197,Pozol,Empanada,Nuegado,Diario
+198,Pozol,Empanada,Turrón,Diario
+199,Coca-Cola,Taco,Nuegado,Mensual
+200,Coca-Cola,Empanada,Turrón,Rara vez
+201,Coca-Cola,Gordita,Nuegado,Rara vez
+202,Coca-Cola,Gordita,Turrón,Diario
+203,Coca-Cola,Gordita,Nuegado,Rara vez
+204,Pozol,Taco,Turrón,Semanal
+205,Coca-Cola,Empanada,Nuegado,Semanal
+206,Pozol,Empanada,Nuegado,Rara vez
+207,Pozol,Taco,Turrón,Diario
+208,Coca-Cola,Empanada,Turrón,Rara vez
+209,Coca-Cola,Gordita,Nuegado,Rara vez
+210,Coca-Cola,Gordita,Turrón,Mensual
+211,Pozol,Gordita,Nuegado,Mensual
+212,Coca-Cola,Taco,Nuegado,Rara vez
+213,Pozol,Empanada,Nuegado,Mensual
+214,Pozol,Gordita,Nuegado,Rara vez
+215,Coca-Cola,Empanada,Turrón,Rara vez
+216,Pozol,Taco,Turrón,Semanal
+217,Coca-Cola,Taco,Turrón,Mensual
+218,Coca-Cola,Empanada,Turrón,Mensual
+219,Pozol,Empanada,Nuegado,Semanal
+220,Coca-Cola,Gordita,Nuegado,Rara vez
+221,Coca-Cola,Gordita,Turrón,Semanal
+222,Coca-Cola,Gordita,Turrón,Rara vez
+223,Coca-Cola,Taco,Nuegado,Semanal
+224,Coca-Cola,Gordita,Nuegado,Semanal
+225,Coca-Cola,Empanada,Turrón,Semanal
+226,Coca-Cola,Gordita,Turrón,Rara vez
+227,Coca-Cola,Empanada,Nuegado,Rara vez
+228,Coca-Cola,Taco,Turrón,Diario
+229,Coca-Cola,Empanada,Turrón,Diario
+230,Coca-Cola,Taco,Nuegado,Semanal
+231,Pozol,Empanada,Nuegado,Semanal
+232,Pozol,Taco,Nuegado,Rara vez
+233,Pozol,Taco,Nuegado,Mensual
+234,Pozol,Empanada,Turrón,Mensual
+235,Coca-Cola,Gordita,Nuegado,Mensual
+236,Coca-Cola,Empanada,Turrón,Rara vez
+237,Pozol,Empanada,Nuegado,Semanal
+238,Coca-Cola,Gordita,Nuegado,Diario
+239,Pozol,Empanada,Turrón,Semanal
+240,Coca-Cola,Gordita,Turrón,Diario
+241,Coca-Cola,Gordita,Nuegado,Mensual
+242,Pozol,Gordita,Nuegado,Semanal
+243,Coca-Cola,Empanada,Turrón,Diario
+244,Pozol,Empanada,Turrón,Mensual
+245,Pozol,Empanada,Turrón,Diario
+246,Pozol,Gordita,Turrón,Mensual
+247,Pozol,Empanada,Nuegado,Semanal
+248,Coca-Cola,Gordita,Turrón,Mensual
+249,Coca-Cola,Gordita,Turrón,Semanal
+250,Coca-Cola,Empanada,Nuegado,Rara vez
+251,Coca-Cola,Gordita,Nuegado,Semanal
+252,Pozol,Taco,Nuegado,Semanal
+253,Pozol,Empanada,Turrón,Semanal
+254,Pozol,Empanada,Turrón,Semanal
+255,Coca-Cola,Taco,Nuegado,Diario
+256,Pozol,Gordita,Nuegado,Diario
+257,Coca-Cola,Gordita,Nuegado,Rara vez
+258,Pozol,Taco,Turrón,Mensual
+259,Pozol,Gordita,Turrón,Semanal
+260,Pozol,Taco,Nuegado,Diario
+261,Coca-Cola,Empanada,Nuegado,Mensual
+262,Pozol,Taco,Turrón,Diario
+263,Pozol,Gordita,Turrón,Mensual
+264,Coca-Cola,Empanada,Nuegado,Semanal
+265,Coca-Cola,Taco,Nuegado,Semanal
+266,Coca-Cola,Taco,Nuegado,Semanal
+267,Pozol,Empanada,Turrón,Semanal
+268,Coca-Cola,Taco,Nuegado,Diario
+269,Coca-Cola,Gordita,Turrón,Mensual
+270,Pozol,Gordita,Turrón,Semanal
+271,Pozol,Gordita,Turrón,Diario
+272,Coca-Cola,Taco,Turrón,Mensual
+273,Pozol,Gordita,Nuegado,Semanal
+274,Coca-Cola,Empanada,Nuegado,Semanal
+275,Coca-Cola,Gordita,Turrón,Mensual
+276,Pozol,Gordita,Nuegado,Rara vez
+277,Coca-Cola,Taco,Turrón,Rara vez
+278,Coca-Cola,Taco,Nuegado,Diario
+279,Coca-Cola,Empanada,Turrón,Diario
+280,Pozol,Taco,Turrón,Diario
+281,Pozol,Gordita,Turrón,Diario
+282,Coca-Cola,Gordita,Nuegado,Diario
+283,Coca-Cola,Empanada,Turrón,Diario
+284,Pozol,Empanada,Nuegado,Semanal
+285,Coca-Cola,Empanada,Nuegado,Mensual
+286,Coca-Cola,Taco,Turrón,Rara vez
+287,Pozol,Empanada,Turrón,Mensual
+288,Coca-Cola,Taco,Nuegado,Mensual
+289,Pozol,Gordita,Turrón,Semanal
+290,Pozol,Taco,Nuegado,Semanal
+291,Pozol,Gordita,Nuegado,Mensual
+292,Coca-Cola,Taco,Nuegado,Semanal
+293,Pozol,Taco,Turrón,Diario
+294,Coca-Cola,Empanada,Turrón,Rara vez
+295,Coca-Cola,Taco,Nuegado,Diario
+296,Pozol,Taco,Turrón,Mensual
+297,Coca-Cola,Gordita,Nuegado,Rara vez
+298,Coca-Cola,Taco,Turrón,Rara vez
+299,Coca-Cola,Empanada,Turrón,Diario
+300,Pozol,Empanada,Turrón,Rara vez
+301,Pozol,Empanada,Turrón,Mensual
+302,Pozol,Empanada,Nuegado,Rara vez
+303,Pozol,Taco,Nuegado,Diario
+304,Pozol,Taco,Turrón,Diario
+305,Pozol,Empanada,Nuegado,Rara vez
+306,Pozol,Gordita,Turrón,Rara vez
+307,Pozol,Taco,Turrón,Mensual
+308,Coca-Cola,Empanada,Nuegado,Rara vez
+309,Pozol,Taco,Nuegado,Diario
+310,Pozol,Gordita,Nuegado,Diario
+311,Coca-Cola,Empanada,Turrón,Semanal
+312,Coca-Cola,Gordita,Nuegado,Rara vez
+313,Coca-Cola,Gordita,Nuegado,Mensual
+314,Coca-Cola,Empanada,Turrón,Semanal
+315,Coca-Cola,Empanada,Nuegado,Mensual
+316,Coca-Cola,Taco,Turrón,Rara vez
+317,Coca-Cola,Empanada,Nuegado,Mensual
+318,Coca-Cola,Empanada,Nuegado,Mensual
+319,Pozol,Gordita,Nuegado,Diario
+320,Coca-Cola,Gordita,Nuegado,Mensual
+321,Coca-Cola,Empanada,Turrón,Semanal
+322,Pozol,Empanada,Turrón,Rara vez
+323,Pozol,Taco,Turrón,Semanal
+324,Pozol,Taco,Nuegado,Diario
+325,Pozol,Gordita,Nuegado,Semanal
+326,Pozol,Empanada,Turrón,Semanal
+327,Pozol,Gordita,Nuegado,Rara vez
+328,Pozol,Empanada,Nuegado,Diario
+329,Coca-Cola,Gordita,Nuegado,Mensual
+330,Pozol,Gordita,Turrón,Semanal
+331,Pozol,Empanada,Nuegado,Mensual
+332,Pozol,Empanada,Nuegado,Rara vez
+333,Coca-Cola,Empanada,Nuegado,Rara vez
+334,Pozol,Taco,Turrón,Semanal
+335,Pozol,Empanada,Nuegado,Diario
+336,Pozol,Taco,Nuegado,Semanal
+337,Coca-Cola,Gordita,Nuegado,Semanal
+338,Coca-Cola,Gordita,Turrón,Diario
+339,Pozol,Empanada,Turrón,Rara vez
+340,Coca-Cola,Empanada,Nuegado,Mensual
+341,Coca-Cola,Empanada,Nuegado,Mensual
+342,Coca-Cola,Empanada,Turrón,Semanal
+343,Pozol,Taco,Nuegado,Diario
+344,Coca-Cola,Empanada,Nuegado,Diario
+345,Pozol,Empanada,Nuegado,Rara vez
+346,Pozol,Taco,Turrón,Rara vez
+347,Pozol,Taco,Nuegado,Mensual
+348,Pozol,Empanada,Nuegado,Mensual
+349,Pozol,Empanada,Nuegado,Mensual
+350,Coca-Cola,Gordita,Turrón,Diario
+351,Pozol,Taco,Nuegado,Rara vez
+352,Pozol,Empanada,Nuegado,Rara vez
+353,Pozol,Gordita,Turrón,Semanal
+354,Coca-Cola,Empanada,Nuegado,Mensual
+355,Coca-Cola,Empanada,Nuegado,Diario
+356,Coca-Cola,Empanada,Turrón,Mensual
+357,Pozol,Empanada,Nuegado,Rara vez
+358,Coca-Cola,Taco,Turrón,Diario
+359,Pozol,Taco,Turrón,Semanal
+360,Pozol,Gordita,Nuegado,Rara vez
+361,Coca-Cola,Gordita,Nuegado,Rara vez
+362,Pozol,Taco,Turrón,Diario
+363,Coca-Cola,Empanada,Nuegado,Rara vez
+364,Pozol,Empanada,Turrón,Mensual
+365,Pozol,Empanada,Nuegado,Semanal
+366,Pozol,Gordita,Nuegado,Diario
+367,Pozol,Gordita,Nuegado,Semanal
+368,Coca-Cola,Empanada,Nuegado,Semanal
+369,Pozol,Empanada,Turrón,Semanal
+370,Pozol,Gordita,Nuegado,Rara vez
+371,Pozol,Taco,Nuegado,Semanal
+372,Coca-Cola,Taco,Turrón,Diario
+373,Coca-Cola,Gordita,Nuegado,Diario
+374,Pozol,Gordita,Turrón,Mensual
+375,Coca-Cola,Empanada,Nuegado,Diario
+376,Pozol,Taco,Turrón,Mensual
+377,Pozol,Gordita,Turrón,Semanal
+378,Coca-Cola,Empanada,Turrón,Rara vez
+379,Pozol,Empanada,Nuegado,Diario
+380,Pozol,Empanada,Nuegado,Rara vez
+381,Pozol,Empanada,Nuegado,Semanal
+382,Coca-Cola,Empanada,Turrón,Mensual
+383,Coca-Cola,Gordita,Nuegado,Diario
+384,Pozol,Gordita,Nuegado,Rara vez
+385,Pozol,Taco,Nuegado,Mensual
+386,Pozol,Taco,Nuegado,Diario
+387,Coca-Cola,Empanada,Nuegado,Mensual
+388,Coca-Cola,Taco,Nuegado,Diario
+389,Pozol,Taco,Nuegado,Mensual
+390,Pozol,Empanada,Turrón,Rara vez
+391,Coca-Cola,Taco,Nuegado,Mensual
+392,Coca-Cola,Taco,Nuegado,Semanal
+393,Coca-Cola,Gordita,Nuegado,Rara vez
+394,Pozol,Gordita,Nuegado,Mensual
+395,Pozol,Taco,Turrón,Semanal
+396,Coca-Cola,Taco,Turrón,Mensual
+397,Pozol,Taco,Nuegado,Rara vez
+398,Coca-Cola,Taco,Turrón,Diario
+399,Pozol,Gordita,Nuegado,Mensual
+400,Pozol,Taco,Nuegado,Diario
+401,Pozol,Gordita,Nuegado,Semanal
+402,Pozol,Taco,Nuegado,Mensual
+403,Pozol,Gordita,Turrón,Diario
+404,Pozol,Taco,Nuegado,Rara vez
+405,Pozol,Gordita,Turrón,Mensual
+406,Pozol,Empanada,Turrón,Mensual
+407,Coca-Cola,Gordita,Nuegado,Diario
+408,Pozol,Gordita,Nuegado,Rara vez
+409,Pozol,Empanada,Turrón,Mensual
+410,Pozol,Empanada,Turrón,Rara vez
+411,Coca-Cola,Empanada,Nuegado,Rara vez
+412,Coca-Cola,Taco,Nuegado,Diario
+413,Pozol,Taco,Turrón,Diario
+414,Pozol,Empanada,Nuegado,Semanal
+415,Pozol,Empanada,Nuegado,Mensual
+416,Pozol,Gordita,Turrón,Rara vez
+417,Coca-Cola,Empanada,Nuegado,Diario
+418,Coca-Cola,Empanada,Turrón,Semanal
+419,Coca-Cola,Empanada,Nuegado,Semanal
+420,Pozol,Taco,Turrón,Semanal
+421,Pozol,Gordita,Turrón,Diario
+422,Pozol,Gordita,Nuegado,Diario
+423,Pozol,Taco,Turrón,Rara vez
+424,Coca-Cola,Empanada,Nuegado,Rara vez
+425,Pozol,Taco,Nuegado,Rara vez
+426,Pozol,Empanada,Nuegado,Semanal
+427,Coca-Cola,Gordita,Nuegado,Diario
+428,Pozol,Gordita,Nuegado,Diario
+429,Pozol,Taco,Turrón,Semanal
+430,Coca-Cola,Taco,Nuegado,Rara vez
+431,Coca-Cola,Gordita,Turrón,Rara vez
+432,Coca-Cola,Empanada,Turrón,Diario
+433,Pozol,Empanada,Turrón,Semanal
+434,Pozol,Taco,Turrón,Diario
+435,Pozol,Gordita,Turrón,Mensual
+436,Coca-Cola,Empanada,Nuegado,Mensual
+437,Coca-Cola,Empanada,Nuegado,Diario
+438,Pozol,Gordita,Turrón,Rara vez
+439,Pozol,Empanada,Turrón,Mensual
+440,Coca-Cola,Taco,Turrón,Diario
+441,Coca-Cola,Gordita,Nuegado,Rara vez
+442,Pozol,Gordita,Turrón,Mensual
+443,Coca-Cola,Empanada,Nuegado,Mensual
+444,Coca-Cola,Taco,Turrón,Semanal
+445,Coca-Cola,Gordita,Nuegado,Semanal
+446,Pozol,Taco,Nuegado,Rara vez
+447,Pozol,Empanada,Nuegado,Diario
+448,Pozol,Empanada,Nuegado,Diario
+449,Pozol,Gordita,Turrón,Mensual
+450,Coca-Cola,Taco,Nuegado,Semanal
+451,Coca-Cola,Gordita,Nuegado,Rara vez
+452,Pozol,Gordita,Nuegado,Mensual
+453,Coca-Cola,Taco,Turrón,Diario
+454,Pozol,Empanada,Turrón,Rara vez
+455,Pozol,Empanada,Nuegado,Mensual
+456,Coca-Cola,Gordita,Turrón,Diario
+457,Coca-Cola,Gordita,Turrón,Mensual
+458,Pozol,Taco,Nuegado,Mensual
+459,Pozol,Gordita,Turrón,Rara vez
+460,Coca-Cola,Empanada,Turrón,Diario
+461,Pozol,Gordita,Nuegado,Diario
+462,Coca-Cola,Taco,Turrón,Diario
+463,Coca-Cola,Gordita,Nuegado,Rara vez
+464,Pozol,Empanada,Nuegado,Semanal
+465,Coca-Cola,Taco,Nuegado,Rara vez
+466,Coca-Cola,Gordita,Turrón,Semanal
+467,Coca-Cola,Taco,Turrón,Semanal
+468,Coca-Cola,Empanada,Nuegado,Rara vez
+469,Coca-Cola,Gordita,Turrón,Semanal
+470,Pozol,Empanada,Turrón,Diario
+471,Pozol,Taco,Turrón,Rara vez
+472,Pozol,Gordita,Turrón,Rara vez
+473,Coca-Cola,Taco,Nuegado,Mensual
+474,Pozol,Taco,Turrón,Rara vez
+475,Coca-Cola,Gordita,Nuegado,Diario
+476,Coca-Cola,Taco,Nuegado,Mensual
+477,Coca-Cola,Empanada,Nuegado,Rara vez
+478,Pozol,Empanada,Turrón,Diario
+479,Coca-Cola,Empanada,Turrón,Semanal
+480,Coca-Cola,Gordita,Turrón,Rara vez
+481,Pozol,Gordita,Nuegado,Diario
+482,Coca-Cola,Gordita,Turrón,Semanal
+483,Pozol,Empanada,Turrón,Semanal
+484,Pozol,Empanada,Nuegado,Mensual
+485,Pozol,Empanada,Turrón,Mensual
+486,Coca-Cola,Gordita,Turrón,Mensual
+487,Pozol,Gordita,Nuegado,Rara vez
+488,Coca-Cola,Taco,Nuegado,Rara vez
+489,Pozol,Gordita,Nuegado,Mensual
+490,Coca-Cola,Gordita,Nuegado,Diario
+491,Coca-Cola,Taco,Turrón,Semanal
+492,Pozol,Empanada,Nuegado,Rara vez
+493,Coca-Cola,Empanada,Nuegado,Semanal
+494,Coca-Cola,Empanada,Nuegado,Semanal
+495,Pozol,Empanada,Turrón,Semanal
+496,Coca-Cola,Empanada,Turrón,Rara vez
+497,Pozol,Empanada,Turrón,Mensual
+498,Coca-Cola,Empanada,Nuegado,Mensual
+499,Coca-Cola,Taco,Nuegado,Mensual
+500,Pozol,Empanada,Turrón,Diario
+501,Pozol,Taco,Nuegado,Rara vez
+502,Pozol,Taco,Turrón,Mensual
+503,Pozol,Taco,Nuegado,Mensual
+504,Pozol,Gordita,Nuegado,Rara vez
+505,Pozol,Gordita,Nuegado,Mensual
+506,Coca-Cola,Empanada,Nuegado,Mensual
+507,Coca-Cola,Empanada,Turrón,Rara vez
+508,Pozol,Empanada,Nuegado,Semanal
+509,Coca-Cola,Empanada,Nuegado,Semanal
+510,Pozol,Taco,Turrón,Rara vez
+511,Coca-Cola,Taco,Nuegado,Mensual
+512,Pozol,Empanada,Nuegado,Semanal
+513,Coca-Cola,Gordita,Nuegado,Mensual
+514,Coca-Cola,Gordita,Nuegado,Diario
+515,Pozol,Taco,Nuegado,Rara vez
+516,Coca-Cola,Gordita,Nuegado,Mensual
+517,Pozol,Gordita,Nuegado,Rara vez
+518,Coca-Cola,Taco,Nuegado,Diario
+519,Pozol,Taco,Nuegado,Diario
+520,Coca-Cola,Empanada,Nuegado,Diario
+521,Pozol,Empanada,Nuegado,Rara vez
+522,Pozol,Empanada,Turrón,Diario
+523,Pozol,Empanada,Turrón,Mensual
+524,Pozol,Empanada,Nuegado,Mensual
+525,Pozol,Taco,Turrón,Mensual
+526,Pozol,Taco,Turrón,Mensual
+527,Pozol,Empanada,Nuegado,Diario
+528,Coca-Cola,Empanada,Turrón,Semanal
+529,Pozol,Taco,Nuegado,Rara vez
+530,Pozol,Empanada,Nuegado,Rara vez
+531,Coca-Cola,Gordita,Nuegado,Diario
+532,Coca-Cola,Empanada,Turrón,Semanal
+533,Pozol,Empanada,Nuegado,Mensual
+534,Pozol,Taco,Turrón,Rara vez
+535,Coca-Cola,Taco,Turrón,Mensual
+536,Pozol,Empanada,Turrón,Mensual
+537,Pozol,Taco,Nuegado,Semanal
+538,Coca-Cola,Taco,Turrón,Mensual
+539,Coca-Cola,Empanada,Turrón,Semanal
+540,Pozol,Empanada,Nuegado,Diario
+541,Coca-Cola,Taco,Turrón,Rara vez
+542,Pozol,Gordita,Turrón,Diario
+543,Coca-Cola,Taco,Nuegado,Diario
+544,Pozol,Taco,Turrón,Mensual
+545,Coca-Cola,Taco,Turrón,Mensual
+546,Pozol,Empanada,Nuegado,Mensual
+547,Pozol,Taco,Nuegado,Semanal
+548,Coca-Cola,Empanada,Turrón,Diario
+549,Coca-Cola,Taco,Nuegado,Mensual
+550,Pozol,Empanada,Nuegado,Semanal
+551,Pozol,Taco,Turrón,Semanal
+552,Pozol,Taco,Nuegado,Diario
+553,Coca-Cola,Taco,Nuegado,Mensual
+554,Pozol,Taco,Turrón,Semanal
+555,Coca-Cola,Gordita,Turrón,Rara vez
+556,Coca-Cola,Empanada,Turrón,Rara vez
+557,Pozol,Empanada,Turrón,Semanal
+558,Pozol,Gordita,Turrón,Rara vez
+559,Coca-Cola,Gordita,Nuegado,Rara vez
+560,Pozol,Empanada,Turrón,Mensual
+561,Pozol,Empanada,Nuegado,Diario
+562,Coca-Cola,Gordita,Nuegado,Rara vez
+563,Pozol,Gordita,Nuegado,Rara vez
+564,Pozol,Empanada,Turrón,Mensual
+565,Pozol,Empanada,Turrón,Semanal
+566,Pozol,Gordita,Nuegado,Mensual
+567,Coca-Cola,Empanada,Turrón,Diario
+568,Pozol,Empanada,Turrón,Semanal
+569,Coca-Cola,Empanada,Nuegado,Diario
+570,Coca-Cola,Gordita,Turrón,Diario
+571,Coca-Cola,Taco,Nuegado,Rara vez
+572,Coca-Cola,Empanada,Turrón,Semanal
+573,Pozol,Empanada,Turrón,Mensual
+574,Coca-Cola,Empanada,Nuegado,Diario
+575,Pozol,Gordita,Turrón,Semanal
+576,Coca-Cola,Taco,Turrón,Diario
+577,Pozol,Gordita,Turrón,Diario
+578,Pozol,Gordita,Nuegado,Mensual
+579,Pozol,Empanada,Nuegado,Semanal
+580,Pozol,Gordita,Turrón,Semanal
+581,Pozol,Taco,Nuegado,Mensual
+582,Coca-Cola,Taco,Turrón,Semanal
+583,Coca-Cola,Gordita,Nuegado,Diario
+584,Pozol,Taco,Turrón,Semanal
+585,Coca-Cola,Gordita,Nuegado,Semanal
+586,Coca-Cola,Gordita,Nuegado,Mensual
+587,Pozol,Taco,Nuegado,Mensual
+588,Pozol,Empanada,Turrón,Mensual
+589,Pozol,Taco,Turrón,Rara vez
+590,Coca-Cola,Gordita,Turrón,Rara vez
+591,Coca-Cola,Gordita,Nuegado,Mensual
+592,Pozol,Empanada,Turrón,Semanal
+593,Coca-Cola,Empanada,Nuegado,Rara vez
+594,Coca-Cola,Taco,Nuegado,Mensual
+595,Pozol,Empanada,Turrón,Rara vez
+596,Coca-Cola,Empanada,Nuegado,Semanal
+597,Coca-Cola,Empanada,Turrón,Mensual
+598,Pozol,Empanada,Turrón,Semanal
+599,Pozol,Gordita,Turrón,Mensual
+600,Pozol,Taco,Nuegado,Diario
+601,Pozol,Taco,Nuegado,Mensual
+602,Pozol,Empanada,Nuegado,Diario
+603,Pozol,Empanada,Turrón,Rara vez
+604,Coca-Cola,Gordita,Nuegado,Rara vez
+605,Coca-Cola,Empanada,Turrón,Rara vez
+606,Coca-Cola,Gordita,Turrón,Rara vez
+607,Pozol,Empanada,Turrón,Mensual
+608,Coca-Cola,Gordita,Nuegado,Rara vez
+609,Coca-Cola,Empanada,Turrón,Mensual
+610,Pozol,Taco,Turrón,Rara vez
+611,Coca-Cola,Empanada,Nuegado,Mensual
+612,Coca-Cola,Gordita,Turrón,Semanal
+613,Coca-Cola,Empanada,Nuegado,Mensual
+614,Coca-Cola,Taco,Turrón,Rara vez
+615,Coca-Cola,Taco,Nuegado,Mensual
+616,Coca-Cola,Taco,Nuegado,Mensual
+617,Coca-Cola,Empanada,Nuegado,Diario
+618,Pozol,Gordita,Turrón,Rara vez
+619,Pozol,Taco,Turrón,Mensual
+620,Pozol,Empanada,Turrón,Rara vez
+621,Coca-Cola,Empanada,Nuegado,Rara vez
+622,Pozol,Empanada,Nuegado,Semanal
+623,Coca-Cola,Empanada,Nuegado,Rara vez
+624,Coca-Cola,Taco,Turrón,Rara vez
+625,Coca-Cola,Taco,Turrón,Diario
+626,Pozol,Empanada,Turrón,Diario
+627,Pozol,Empanada,Nuegado,Semanal
+628,Coca-Cola,Empanada,Nuegado,Mensual
+629,Coca-Cola,Taco,Nuegado,Rara vez
+630,Coca-Cola,Gordita,Nuegado,Mensual
+631,Pozol,Empanada,Nuegado,Rara vez
+632,Pozol,Gordita,Turrón,Semanal
+633,Pozol,Gordita,Nuegado,Mensual
+634,Pozol,Gordita,Turrón,Diario
+635,Pozol,Gordita,Nuegado,Rara vez
+636,Pozol,Gordita,Turrón,Diario
+637,Coca-Cola,Empanada,Turrón,Mensual
+638,Pozol,Taco,Turrón,Diario
+639,Coca-Cola,Gordita,Nuegado,Semanal
+640,Coca-Cola,Taco,Nuegado,Mensual
+641,Coca-Cola,Empanada,Nuegado,Mensual
+642,Pozol,Taco,Turrón,Rara vez
+643,Pozol,Empanada,Nuegado,Rara vez
+644,Pozol,Empanada,Nuegado,Rara vez
+645,Coca-Cola,Empanada,Turrón,Mensual
+646,Pozol,Taco,Nuegado,Mensual
+647,Pozol,Taco,Nuegado,Rara vez
+648,Coca-Cola,Taco,Turrón,Semanal
+649,Pozol,Gordita,Nuegado,Mensual
+650,Pozol,Gordita,Turrón,Mensual
+651,Coca-Cola,Taco,Turrón,Mensual
+652,Pozol,Gordita,Turrón,Rara vez
+653,Pozol,Taco,Nuegado,Rara vez
+654,Coca-Cola,Taco,Turrón,Mensual
+655,Coca-Cola,Empanada,Nuegado,Semanal
+656,Coca-Cola,Empanada,Nuegado,Diario
+657,Pozol,Empanada,Nuegado,Semanal
+658,Coca-Cola,Empanada,Turrón,Rara vez
+659,Pozol,Taco,Turrón,Mensual
+660,Coca-Cola,Empanada,Turrón,Mensual
+661,Coca-Cola,Empanada,Turrón,Semanal
+662,Coca-Cola,Taco,Turrón,Diario
+663,Pozol,Gordita,Nuegado,Semanal
+664,Pozol,Taco,Nuegado,Rara vez
+665,Pozol,Gordita,Nuegado,Diario
+666,Coca-Cola,Empanada,Nuegado,Rara vez
+667,Coca-Cola,Empanada,Nuegado,Diario
+668,Coca-Cola,Taco,Turrón,Diario
+669,Coca-Cola,Empanada,Nuegado,Mensual
+670,Coca-Cola,Empanada,Turrón,Diario
+671,Coca-Cola,Gordita,Turrón,Diario
+672,Coca-Cola,Gordita,Nuegado,Diario
+673,Pozol,Empanada,Turrón,Mensual
+674,Pozol,Gordita,Nuegado,Mensual
+675,Pozol,Empanada,Nuegado,Semanal
+676,Pozol,Gordita,Turrón,Semanal
+677,Coca-Cola,Empanada,Turrón,Semanal
+678,Coca-Cola,Taco,Turrón,Mensual
+679,Coca-Cola,Empanada,Turrón,Rara vez
+680,Coca-Cola,Taco,Turrón,Mensual
+681,Coca-Cola,Gordita,Nuegado,Diario
+682,Pozol,Empanada,Turrón,Diario
+683,Pozol,Gordita,Nuegado,Mensual
+684,Pozol,Gordita,Nuegado,Rara vez
+685,Coca-Cola,Gordita,Nuegado,Semanal
+686,Pozol,Empanada,Nuegado,Semanal
+687,Pozol,Gordita,Nuegado,Diario
+688,Coca-Cola,Taco,Nuegado,Diario
+689,Pozol,Empanada,Nuegado,Rara vez
+690,Coca-Cola,Gordita,Nuegado,Rara vez
+691,Coca-Cola,Empanada,Turrón,Semanal
+692,Coca-Cola,Gordita,Turrón,Mensual
+693,Pozol,Taco,Turrón,Mensual
+694,Pozol,Taco,Turrón,Mensual
+695,Pozol,Gordita,Nuegado,Rara vez
+696,Coca-Cola,Taco,Turrón,Rara vez
+697,Coca-Cola,Gordita,Turrón,Mensual
+698,Coca-Cola,Empanada,Turrón,Rara vez
+699,Coca-Cola,Taco,Nuegado,Rara vez
+700,Coca-Cola,Gordita,Turrón,Diario
+701,Coca-Cola,Empanada,Nuegado,Mensual
+702,Coca-Cola,Taco,Nuegado,Diario
+703,Coca-Cola,Empanada,Turrón,Mensual
+704,Coca-Cola,Gordita,Turrón,Diario
+705,Pozol,Gordita,Turrón,Diario
+706,Pozol,Taco,Nuegado,Diario
+707,Coca-Cola,Empanada,Turrón,Mensual
+708,Pozol,Gordita,Turrón,Diario
+709,Coca-Cola,Gordita,Turrón,Mensual
+710,Coca-Cola,Empanada,Turrón,Diario
+711,Pozol,Gordita,Nuegado,Mensual
+712,Pozol,Gordita,Nuegado,Mensual
+713,Pozol,Taco,Nuegado,Rara vez
+714,Pozol,Gordita,Nuegado,Mensual
+715,Coca-Cola,Taco,Nuegado,Mensual
+716,Coca-Cola,Taco,Turrón,Rara vez
+717,Pozol,Empanada,Nuegado,Diario
+718,Coca-Cola,Gordita,Nuegado,Semanal
+719,Coca-Cola,Empanada,Nuegado,Semanal
+720,Coca-Cola,Empanada,Nuegado,Mensual
+721,Coca-Cola,Empanada,Nuegado,Rara vez
+722,Coca-Cola,Empanada,Turrón,Mensual
+723,Pozol,Gordita,Turrón,Semanal
+724,Coca-Cola,Gordita,Turrón,Rara vez
+725,Coca-Cola,Gordita,Turrón,Mensual
+726,Coca-Cola,Gordita,Turrón,Semanal
+727,Coca-Cola,Taco,Turrón,Mensual
+728,Pozol,Empanada,Nuegado,Rara vez
+729,Coca-Cola,Gordita,Nuegado,Diario
+730,Coca-Cola,Empanada,Turrón,Mensual
+731,Pozol,Taco,Turrón,Diario
+732,Pozol,Empanada,Turrón,Mensual
+733,Coca-Cola,Empanada,Nuegado,Diario
+734,Pozol,Taco,Nuegado,Semanal
+735,Pozol,Empanada,Turrón,Semanal
+736,Pozol,Empanada,Turrón,Rara vez
+737,Pozol,Gordita,Turrón,Mensual
+738,Coca-Cola,Taco,Turrón,Mensual
+739,Coca-Cola,Empanada,Turrón,Mensual
+740,Coca-Cola,Gordita,Nuegado,Rara vez
+741,Coca-Cola,Gordita,Turrón,Semanal
+742,Pozol,Gordita,Turrón,Rara vez
+743,Coca-Cola,Gordita,Turrón,Rara vez
+744,Pozol,Empanada,Turrón,Semanal
+745,Coca-Cola,Taco,Nuegado,Mensual
+746,Coca-Cola,Empanada,Nuegado,Mensual
+747,Pozol,Taco,Turrón,Semanal
+748,Coca-Cola,Gordita,Turrón,Semanal
+749,Coca-Cola,Gordita,Nuegado,Semanal
+750,Pozol,Taco,Turrón,Rara vez
+751,Pozol,Empanada,Turrón,Mensual
+752,Coca-Cola,Empanada,Turrón,Diario
+753,Pozol,Empanada,Turrón,Semanal
+754,Coca-Cola,Gordita,Turrón,Mensual
+755,Coca-Cola,Gordita,Turrón,Mensual
+756,Coca-Cola,Taco,Turrón,Semanal
+757,Pozol,Gordita,Nuegado,Mensual
+758,Coca-Cola,Gordita,Nuegado,Diario
+759,Pozol,Empanada,Nuegado,Diario
+760,Pozol,Gordita,Nuegado,Mensual
+761,Pozol,Taco,Nuegado,Mensual
+762,Pozol,Taco,Nuegado,Diario
+763,Coca-Cola,Gordita,Nuegado,Mensual
+764,Pozol,Taco,Nuegado,Diario
+765,Pozol,Taco,Turrón,Mensual
+766,Pozol,Gordita,Turrón,Rara vez
+767,Coca-Cola,Taco,Nuegado,Semanal
+768,Pozol,Gordita,Nuegado,Mensual
+769,Pozol,Empanada,Nuegado,Mensual
+770,Pozol,Gordita,Turrón,Mensual
+771,Coca-Cola,Gordita,Turrón,Semanal
+772,Pozol,Empanada,Nuegado,Semanal
+773,Pozol,Gordita,Nuegado,Diario
+774,Pozol,Empanada,Nuegado,Rara vez
+775,Pozol,Empanada,Nuegado,Rara vez
+776,Pozol,Gordita,Nuegado,Semanal
+777,Coca-Cola,Empanada,Nuegado,Mensual
+778,Coca-Cola,Gordita,Turrón,Semanal
+779,Pozol,Gordita,Nuegado,Semanal
+780,Pozol,Gordita,Turrón,Diario
+781,Coca-Cola,Taco,Nuegado,Mensual
+782,Pozol,Gordita,Turrón,Semanal
+783,Coca-Cola,Empanada,Nuegado,Rara vez
+784,Pozol,Gordita,Nuegado,Semanal
+785,Pozol,Gordita,Turrón,Diario
+786,Coca-Cola,Empanada,Turrón,Mensual
+787,Coca-Cola,Gordita,Turrón,Diario
+788,Coca-Cola,Gordita,Nuegado,Mensual
+789,Coca-Cola,Empanada,Nuegado,Diario
+790,Coca-Cola,Taco,Turrón,Rara vez
+791,Coca-Cola,Empanada,Turrón,Diario
+792,Coca-Cola,Gordita,Nuegado,Rara vez
+793,Coca-Cola,Gordita,Nuegado,Rara vez
+794,Coca-Cola,Taco,Turrón,Diario
+795,Coca-Cola,Taco,Nuegado,Mensual
+796,Coca-Cola,Taco,Turrón,Diario
+797,Pozol,Taco,Turrón,Mensual
+798,Coca-Cola,Gordita,Nuegado,Semanal
+799,Coca-Cola,Gordita,Turrón,Rara vez
+800,Pozol,Taco,Turrón,Diario
+801,Coca-Cola,Empanada,Turrón,Rara vez
+802,Coca-Cola,Gordita,Nuegado,Diario
+803,Coca-Cola,Empanada,Turrón,Diario
+804,Coca-Cola,Gordita,Nuegado,Mensual
+805,Pozol,Taco,Nuegado,Diario
+806,Pozol,Gordita,Nuegado,Mensual
+807,Pozol,Taco,Turrón,Rara vez
+808,Coca-Cola,Empanada,Turrón,Mensual
+809,Pozol,Gordita,Nuegado,Rara vez
+810,Pozol,Taco,Nuegado,Rara vez
+811,Pozol,Gordita,Turrón,Diario
+812,Coca-Cola,Empanada,Turrón,Diario
+813,Pozol,Taco,Nuegado,Semanal
+814,Pozol,Empanada,Turrón,Diario
+815,Pozol,Empanada,Nuegado,Diario
+816,Pozol,Empanada,Turrón,Semanal
+817,Pozol,Gordita,Turrón,Mensual
+818,Pozol,Empanada,Nuegado,Semanal
+819,Coca-Cola,Gordita,Nuegado,Semanal
+820,Pozol,Taco,Turrón,Semanal
+821,Coca-Cola,Empanada,Nuegado,Rara vez
+822,Coca-Cola,Gordita,Turrón,Mensual
+823,Pozol,Gordita,Nuegado,Diario
+824,Coca-Cola,Empanada,Turrón,Mensual
+825,Coca-Cola,Taco,Turrón,Diario
+826,Pozol,Empanada,Turrón,Mensual
+827,Coca-Cola,Gordita,Nuegado,Semanal
+828,Coca-Cola,Taco,Turrón,Mensual
+829,Pozol,Gordita,Turrón,Diario
+830,Pozol,Taco,Nuegado,Semanal
+831,Pozol,Taco,Nuegado,Rara vez
+832,Pozol,Gordita,Turrón,Rara vez
+833,Pozol,Taco,Turrón,Semanal
+834,Coca-Cola,Taco,Turrón,Semanal
+835,Coca-Cola,Taco,Turrón,Mensual
+836,Pozol,Empanada,Turrón,Semanal
+837,Coca-Cola,Taco,Nuegado,Rara vez
+838,Pozol,Gordita,Nuegado,Diario
+839,Pozol,Taco,Turrón,Diario
+840,Coca-Cola,Taco,Nuegado,Rara vez
+841,Coca-Cola,Gordita,Nuegado,Mensual
+842,Pozol,Taco,Nuegado,Rara vez
+843,Pozol,Empanada,Turrón,Mensual
+844,Pozol,Empanada,Nuegado,Semanal
+845,Coca-Cola,Taco,Turrón,Semanal
+846,Coca-Cola,Taco,Turrón,Semanal
+847,Coca-Cola,Gordita,Turrón,Diario
+848,Coca-Cola,Empanada,Nuegado,Mensual
+849,Coca-Cola,Gordita,Nuegado,Mensual
+850,Pozol,Taco,Turrón,Mensual
+851,Pozol,Taco,Nuegado,Rara vez
+852,Pozol,Taco,Turrón,Rara vez
+853,Pozol,Taco,Nuegado,Diario
+854,Pozol,Gordita,Turrón,Semanal
+855,Coca-Cola,Taco,Nuegado,Mensual
+856,Coca-Cola,Gordita,Nuegado,Semanal
+857,Coca-Cola,Taco,Turrón,Mensual
+858,Pozol,Gordita,Turrón,Diario
+859,Pozol,Taco,Turrón,Diario
+860,Pozol,Gordita,Nuegado,Diario
+861,Coca-Cola,Empanada,Nuegado,Diario
+862,Pozol,Gordita,Nuegado,Mensual
+863,Pozol,Taco,Turrón,Semanal
+864,Pozol,Gordita,Nuegado,Mensual
+865,Pozol,Gordita,Turrón,Mensual
+866,Pozol,Gordita,Nuegado,Rara vez
+867,Coca-Cola,Gordita,Nuegado,Semanal
+868,Coca-Cola,Empanada,Turrón,Rara vez
+869,Pozol,Taco,Turrón,Semanal
+870,Coca-Cola,Gordita,Turrón,Semanal
+871,Pozol,Empanada,Nuegado,Mensual
+872,Coca-Cola,Gordita,Nuegado,Mensual
+873,Coca-Cola,Gordita,Turrón,Diario
+874,Pozol,Empanada,Turrón,Semanal
+875,Pozol,Taco,Nuegado,Diario
+876,Coca-Cola,Taco,Nuegado,Rara vez
+877,Pozol,Taco,Turrón,Diario
+878,Coca-Cola,Gordita,Nuegado,Diario
+879,Pozol,Empanada,Nuegado,Rara vez
+880,Coca-Cola,Taco,Turrón,Rara vez
+881,Pozol,Taco,Turrón,Rara vez
+882,Pozol,Gordita,Turrón,Mensual
+883,Pozol,Taco,Turrón,Rara vez
+884,Pozol,Gordita,Turrón,Rara vez
+885,Coca-Cola,Taco,Nuegado,Diario
+886,Coca-Cola,Empanada,Nuegado,Mensual
+887,Pozol,Taco,Turrón,Rara vez
+888,Pozol,Empanada,Turrón,Semanal
+889,Coca-Cola,Gordita,Nuegado,Semanal
+890,Pozol,Empanada,Turrón,Rara vez
+891,Pozol,Gordita,Nuegado,Rara vez
+892,Coca-Cola,Gordita,Turrón,Semanal
+893,Pozol,Gordita,Nuegado,Semanal
+894,Pozol,Taco,Turrón,Rara vez
+895,Coca-Cola,Taco,Turrón,Mensual
+896,Coca-Cola,Taco,Nuegado,Mensual
+897,Pozol,Taco,Nuegado,Rara vez
+898,Coca-Cola,Taco,Turrón,Mensual
+899,Coca-Cola,Taco,Nuegado,Rara vez
+900,Pozol,Empanada,Nuegado,Mensual
+901,Pozol,Empanada,Nuegado,Diario
+902,Coca-Cola,Empanada,Nuegado,Mensual
+903,Coca-Cola,Gordita,Nuegado,Diario
+904,Coca-Cola,Taco,Turrón,Mensual
+905,Pozol,Empanada,Nuegado,Diario
+906,Pozol,Empanada,Nuegado,Mensual
+907,Coca-Cola,Empanada,Turrón,Mensual
+908,Coca-Cola,Gordita,Nuegado,Semanal
+909,Coca-Cola,Gordita,Nuegado,Mensual
+910,Pozol,Gordita,Nuegado,Diario
+911,Coca-Cola,Taco,Turrón,Rara vez
+912,Pozol,Gordita,Turrón,Rara vez
+913,Pozol,Empanada,Nuegado,Diario
+914,Coca-Cola,Empanada,Turrón,Rara vez
+915,Pozol,Empanada,Turrón,Mensual
+916,Pozol,Taco,Turrón,Mensual
+917,Pozol,Empanada,Nuegado,Mensual
+918,Pozol,Taco,Turrón,Semanal
+919,Pozol,Taco,Nuegado,Mensual
+920,Pozol,Empanada,Nuegado,Semanal
+921,Coca-Cola,Gordita,Turrón,Rara vez
+922,Coca-Cola,Taco,Turrón,Diario
+923,Pozol,Gordita,Nuegado,Rara vez
+924,Pozol,Empanada,Nuegado,Rara vez
+925,Pozol,Empanada,Nuegado,Diario
+926,Pozol,Empanada,Nuegado,Mensual
+927,Pozol,Gordita,Turrón,Mensual
+928,Coca-Cola,Gordita,Turrón,Mensual
+929,Pozol,Taco,Turrón,Mensual
+930,Coca-Cola,Taco,Nuegado,Rara vez
+931,Pozol,Empanada,Nuegado,Semanal
+932,Coca-Cola,Taco,Turrón,Semanal
+933,Pozol,Taco,Nuegado,Semanal
+934,Pozol,Taco,Turrón,Semanal
+935,Coca-Cola,Empanada,Turrón,Diario
+936,Pozol,Taco,Turrón,Diario
+937,Coca-Cola,Taco,Nuegado,Mensual
+938,Coca-Cola,Empanada,Turrón,Mensual
+939,Pozol,Empanada,Turrón,Rara vez
+940,Coca-Cola,Empanada,Turrón,Semanal
+941,Pozol,Empanada,Turrón,Mensual
+942,Coca-Cola,Gordita,Turrón,Mensual
+943,Pozol,Taco,Turrón,Semanal
+944,Pozol,Empanada,Nuegado,Diario
+945,Coca-Cola,Gordita,Turrón,Diario
+946,Coca-Cola,Gordita,Nuegado,Semanal
+947,Pozol,Empanada,Turrón,Diario
+948,Coca-Cola,Taco,Turrón,Rara vez
+949,Coca-Cola,Gordita,Nuegado,Mensual
+950,Coca-Cola,Empanada,Nuegado,Semanal
+951,Coca-Cola,Taco,Nuegado,Semanal
+952,Coca-Cola,Empanada,Turrón,Semanal
+953,Pozol,Gordita,Turrón,Diario
+954,Pozol,Empanada,Turrón,Semanal
+955,Coca-Cola,Gordita,Nuegado,Semanal
+956,Coca-Cola,Taco,Nuegado,Mensual
+957,Pozol,Gordita,Nuegado,Rara vez
+958,Coca-Cola,Empanada,Turrón,Semanal
+959,Pozol,Taco,Nuegado,Mensual
+960,Pozol,Empanada,Turrón,Rara vez
+961,Coca-Cola,Empanada,Turrón,Diario
+962,Coca-Cola,Taco,Nuegado,Semanal
+963,Coca-Cola,Empanada,Turrón,Mensual
+964,Pozol,Gordita,Nuegado,Semanal
+965,Coca-Cola,Empanada,Turrón,Mensual
+966,Coca-Cola,Gordita,Turrón,Mensual
+967,Coca-Cola,Empanada,Nuegado,Diario
+968,Pozol,Taco,Nuegado,Semanal
+969,Coca-Cola,Gordita,Turrón,Semanal
+970,Coca-Cola,Taco,Turrón,Rara vez
+971,Pozol,Taco,Nuegado,Diario
+972,Pozol,Empanada,Turrón,Diario
+973,Pozol,Taco,Nuegado,Diario
+974,Pozol,Taco,Nuegado,Mensual
+975,Pozol,Taco,Turrón,Semanal
+976,Coca-Cola,Empanada,Turrón,Rara vez
+977,Coca-Cola,Empanada,Turrón,Semanal
+978,Coca-Cola,Taco,Turrón,Diario
+979,Coca-Cola,Empanada,Nuegado,Diario
+980,Pozol,Empanada,Turrón,Diario
+981,Coca-Cola,Gordita,Turrón,Diario
+982,Coca-Cola,Gordita,Nuegado,Rara vez
+983,Pozol,Empanada,Nuegado,Mensual
+984,Pozol,Taco,Nuegado,Semanal
+985,Pozol,Taco,Turrón,Mensual
+986,Coca-Cola,Gordita,Nuegado,Semanal
+987,Coca-Cola,Taco,Turrón,Diario
+988,Coca-Cola,Gordita,Turrón,Semanal
+989,Pozol,Gordita,Nuegado,Semanal
+990,Coca-Cola,Taco,Nuegado,Mensual
+991,Coca-Cola,Taco,Turrón,Rara vez
+992,Pozol,Gordita,Turrón,Diario
+993,Pozol,Gordita,Nuegado,Semanal
+994,Pozol,Empanada,Nuegado,Rara vez
+995,Pozol,Gordita,Turrón,Rara vez
+996,Coca-Cola,Empanada,Nuegado,Mensual
+997,Coca-Cola,Gordita,Nuegado,Diario
+998,Pozol,Gordita,Nuegado,Mensual
+999,Coca-Cola,Gordita,Nuegado,Diario
+1000,Coca-Cola,Empanada,Turrón,Rara vez
