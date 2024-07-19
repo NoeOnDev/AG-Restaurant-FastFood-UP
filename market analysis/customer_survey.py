@@ -6,7 +6,7 @@ comidas = ["Gordita", "Empanada", "Taco"]
 postres = ["Nuegado", "Turrón"]
 frecuencia_consumo = ["Diario", "Semanal", "Mensual", "Rara vez"]
 
-num_encuestas = 1000
+num_encuestas = 50
 
 encuestas = []
 for i in range(1, num_encuestas + 1):

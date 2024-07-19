@@ -17,5 +17,3 @@ df_popularidad = pd.DataFrame({
 })
 
 df_popularidad.to_csv('market analysis/datasets/popularidad_preferencias_final.csv', index=False)
-
-print("Tabla de popularidad generada y guardada en 'market analysis/datasets/popularidad_preferencias_final.csv'")
