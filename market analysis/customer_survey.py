@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 bebidas = ["Pozol", "Coca-Cola"]
-comidas = ["Gordita", "Empanada", "Taco"]
+comidas = ["Gordita", "Empanada", "Taco", "Quesadilla"]
 postres = ["Nuegado", "Turrón"]
 frecuencia_consumo = ["Diario", "Semanal", "Mensual", "Rara vez"]
 

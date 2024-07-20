@@ -1,51 +1,51 @@
 Número de Encuesta,Bebida Favorita,Comida Favorita,Postre Favorito,Frecuencia de Consumo
-1,Pozol,Gordita,Nuegado,Diario
-2,Coca-Cola,Gordita,Nuegado,Diario
-3,Pozol,Taco,Turrón,Rara vez
-4,Pozol,Taco,Nuegado,Diario
-5,Coca-Cola,Empanada,Nuegado,Rara vez
-6,Pozol,Gordita,Turrón,Semanal
-7,Coca-Cola,Empanada,Nuegado,Mensual
-8,Coca-Cola,Gordita,Nuegado,Rara vez
-9,Coca-Cola,Empanada,Turrón,Mensual
-10,Pozol,Gordita,Nuegado,Semanal
-11,Pozol,Empanada,Nuegado,Mensual
-12,Coca-Cola,Empanada,Nuegado,Semanal
-13,Pozol,Empanada,Nuegado,Diario
+1,Coca-Cola,Gordita,Nuegado,Diario
+2,Pozol,Taco,Turrón,Semanal
+3,Pozol,Quesadilla,Nuegado,Mensual
+4,Pozol,Gordita,Turrón,Semanal
+5,Pozol,Empanada,Nuegado,Mensual
+6,Coca-Cola,Quesadilla,Nuegado,Semanal
+7,Pozol,Quesadilla,Nuegado,Diario
+8,Coca-Cola,Quesadilla,Turrón,Diario
+9,Coca-Cola,Gordita,Turrón,Mensual
+10,Coca-Cola,Gordita,Nuegado,Semanal
+11,Pozol,Taco,Turrón,Diario
+12,Pozol,Empanada,Turrón,Diario
+13,Pozol,Taco,Nuegado,Rara vez
 14,Coca-Cola,Gordita,Nuegado,Diario
-15,Pozol,Gordita,Nuegado,Diario
-16,Coca-Cola,Taco,Turrón,Rara vez
-17,Pozol,Empanada,Nuegado,Rara vez
-18,Pozol,Taco,Turrón,Mensual
-19,Coca-Cola,Empanada,Turrón,Mensual
-20,Coca-Cola,Empanada,Turrón,Diario
-21,Coca-Cola,Taco,Nuegado,Rara vez
-22,Coca-Cola,Gordita,Nuegado,Diario
-23,Pozol,Gordita,Turrón,Mensual
-24,Coca-Cola,Empanada,Nuegado,Diario
-25,Pozol,Empanada,Turrón,Mensual
-26,Coca-Cola,Empanada,Nuegado,Semanal
-27,Coca-Cola,Taco,Nuegado,Semanal
-28,Coca-Cola,Taco,Turrón,Rara vez
-29,Pozol,Taco,Turrón,Rara vez
-30,Pozol,Gordita,Turrón,Diario
-31,Pozol,Gordita,Turrón,Diario
-32,Pozol,Taco,Turrón,Rara vez
-33,Coca-Cola,Gordita,Nuegado,Diario
-34,Pozol,Gordita,Nuegado,Rara vez
-35,Coca-Cola,Taco,Nuegado,Semanal
-36,Coca-Cola,Empanada,Nuegado,Diario
-37,Pozol,Taco,Nuegado,Rara vez
-38,Coca-Cola,Gordita,Turrón,Mensual
-39,Coca-Cola,Taco,Nuegado,Semanal
-40,Pozol,Empanada,Nuegado,Rara vez
-41,Coca-Cola,Empanada,Nuegado,Rara vez
-42,Coca-Cola,Taco,Turrón,Semanal
-43,Pozol,Empanada,Turrón,Diario
-44,Coca-Cola,Gordita,Turrón,Semanal
-45,Pozol,Taco,Nuegado,Diario
-46,Coca-Cola,Empanada,Turrón,Mensual
-47,Pozol,Gordita,Nuegado,Rara vez
-48,Pozol,Gordita,Turrón,Mensual
-49,Pozol,Empanada,Turrón,Rara vez
-50,Coca-Cola,Gordita,Turrón,Mensual
+15,Coca-Cola,Empanada,Turrón,Diario
+16,Pozol,Gordita,Nuegado,Diario
+17,Pozol,Empanada,Turrón,Diario
+18,Coca-Cola,Taco,Turrón,Diario
+19,Coca-Cola,Quesadilla,Turrón,Semanal
+20,Coca-Cola,Quesadilla,Turrón,Diario
+21,Coca-Cola,Empanada,Nuegado,Diario
+22,Pozol,Quesadilla,Turrón,Mensual
+23,Coca-Cola,Quesadilla,Turrón,Diario
+24,Pozol,Quesadilla,Turrón,Diario
+25,Coca-Cola,Taco,Nuegado,Rara vez
+26,Pozol,Gordita,Turrón,Rara vez
+27,Pozol,Taco,Nuegado,Diario
+28,Pozol,Taco,Nuegado,Rara vez
+29,Pozol,Quesadilla,Turrón,Diario
+30,Pozol,Empanada,Turrón,Semanal
+31,Coca-Cola,Empanada,Turrón,Mensual
+32,Coca-Cola,Taco,Nuegado,Diario
+33,Coca-Cola,Empanada,Turrón,Mensual
+34,Coca-Cola,Gordita,Nuegado,Diario
+35,Coca-Cola,Empanada,Turrón,Mensual
+36,Coca-Cola,Gordita,Nuegado,Rara vez
+37,Pozol,Gordita,Nuegado,Diario
+38,Pozol,Gordita,Turrón,Diario
+39,Pozol,Quesadilla,Nuegado,Mensual
+40,Coca-Cola,Quesadilla,Nuegado,Rara vez
+41,Pozol,Quesadilla,Nuegado,Rara vez
+42,Pozol,Empanada,Nuegado,Semanal
+43,Pozol,Gordita,Nuegado,Mensual
+44,Coca-Cola,Empanada,Nuegado,Rara vez
+45,Pozol,Empanada,Turrón,Mensual
+46,Pozol,Gordita,Nuegado,Mensual
+47,Coca-Cola,Gordita,Turrón,Semanal
+48,Pozol,Gordita,Nuegado,Semanal
+49,Pozol,Quesadilla,Nuegado,Diario
+50,Pozol,Quesadilla,Turrón,Diario

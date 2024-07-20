@@ -2,7 +2,7 @@ import pandas as pd
 
 df_encuestas = pd.read_csv('market analysis/datasets/encuestas_clientes.csv')
 
-productos = ['Pozol', 'Coca-Cola', 'Gordita', 'Empanada', 'Taco', 'Nuegado', 'Turrón']
+productos = ['Pozol', 'Coca-Cola', 'Gordita', 'Empanada', 'Taco', 'Quesadilla', 'Nuegado', 'Turrón']
 num_votos_bebida = df_encuestas['Bebida Favorita'].value_counts()
 num_votos_comida = df_encuestas['Comida Favorita'].value_counts()
 num_votos_postre = df_encuestas['Postre Favorito'].value_counts()

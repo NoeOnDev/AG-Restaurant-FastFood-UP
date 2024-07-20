@@ -3,13 +3,14 @@ from datetime import datetime, timedelta
 import random
 
 productos = [
-    {"nombre": "Pozol", "precio_produccion": 13.60, "precio_venta": 34.00},
-    {"nombre": "Coca-Cola", "precio_produccion": 8.50, "precio_venta": 25.50},
-    {"nombre": "Gordita", "precio_produccion": 17.00, "precio_venta": 42.50},
-    {"nombre": "Empanada", "precio_produccion": 20.40, "precio_venta": 51.00},
-    {"nombre": "Taco", "precio_produccion": 12.75, "precio_venta": 34.00},
-    {"nombre": "Nuegado", "precio_produccion": 8.50, "precio_venta": 25.50},
-    {"nombre": "Turrón", "precio_produccion": 11.90, "precio_venta": 34.00},
+    {"nombre": "Pozol", "precio_produccion": 7.00, "precio_venta": 15.00},
+    {"nombre": "Coca-Cola", "precio_produccion": 18.00, "precio_venta": 25.00},
+    {"nombre": "Gordita", "precio_produccion": 10.00, "precio_venta": 18.00},
+    {"nombre": "Empanada", "precio_produccion": 8.00, "precio_venta": 15.00},
+    {"nombre": "Taco", "precio_produccion": 9.00, "precio_venta": 14.00},
+    {"nombre": "Quesadilla", "precio_produccion": 12.00, "precio_venta": 22.00},
+    {"nombre": "Nuegado", "precio_produccion": 5.00, "precio_venta": 12.00},
+    {"nombre": "Turrón", "precio_produccion": 4.00, "precio_venta": 10.00},
 ]
 
 num_filas = 50
