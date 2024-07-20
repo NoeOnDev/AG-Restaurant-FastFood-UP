@@ -1,9 +1,8 @@
 import pandas as pd
 import random
 
-
 probabilidad_mutacion = 0.1
-tamano_poblacion = 10
+tamano_poblacion = 50
 num_generaciones = 100
 
 productos_dict = {
@@ -28,18 +27,20 @@ def crear_combo():
     return [bebida, comida, postre]
 
 def calcular_fitness(combo):
-    rentabilidad = sum(productos_df[productos_df['nombre'].isin(combo)]["venta"]) - sum(productos_df[productos_df['nombre'].isin(combo)]["costo"])
+    venta_total = sum(productos_df[productos_df['nombre'].isin(combo)]["venta"])
+    costo_total = sum(productos_df[productos_df['nombre'].isin(combo)]["costo"])
     satisfaccion = sum(productos_df[productos_df['nombre'].isin(combo)]["preferencia"])
-    print(f"Combo: {combo}, Rentabilidad: {rentabilidad}, Satisfacción: {satisfaccion}")
-    return rentabilidad * 0.6 + satisfaccion * 0.4
+    rentabilidad = venta_total - costo_total
+    fitness = rentabilidad * 0.6 + satisfaccion * 0.4
+    return fitness, venta_total, costo_total
 
 def seleccionar_padres(poblacion):
-    fitness_total = sum(fitness for combo, fitness in poblacion)
+    fitness_total = sum(fitness for combo, fitness, _, _ in poblacion)
     seleccionados = []
     for _ in range(2):
         pick = random.uniform(0, fitness_total)
         current = 0
-        for combo, fitness in poblacion:
+        for combo, fitness, _, _ in poblacion:
             current += fitness
             if current > pick:
                 seleccionados.append(combo)
@@ -63,9 +64,9 @@ def mutar(combo):
             combo[indice] = random.choice(["Turrón", "Nuegado"])
     return combo
 
-poblacion = [(crear_combo(), 0) for _ in range(tamano_poblacion)]
+poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
 
-poblacion = [(combo, calcular_fitness(combo)) for combo, _ in poblacion]
+poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
 
 for generacion in range(num_generaciones):
     nueva_poblacion = []
@@ -74,9 +75,13 @@ for generacion in range(num_generaciones):
         hijo1, hijo2 = cruce(padre1, padre2)
         hijo1 = mutar(hijo1)
         hijo2 = mutar(hijo2)
-        nueva_poblacion.append((hijo1, calcular_fitness(hijo1)))
-        nueva_poblacion.append((hijo2, calcular_fitness(hijo2)))
+        nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
+        nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
     poblacion = nueva_poblacion
 
+# Encontrar el mejor combo
 mejor_combo = max(poblacion, key=lambda x: x[1])
-print(f"Mejor combo: {mejor_combo[0]}, Fitness: {mejor_combo[1]}")
+print(f"Mejor combo: {mejor_combo[0]}")
+print(f"Fitness: {mejor_combo[1]}")
+print(f"Precio de venta: {mejor_combo[2]}")
+print(f"Precio de producción: {mejor_combo[3]}")
