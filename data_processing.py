@@ -1,7 +1,12 @@
+import pandas as pd
 import random
 
-# Datos de productos
-productos = {
+
+probabilidad_mutacion = 0.1
+tamano_poblacion = 10
+num_generaciones = 100
+
+productos_dict = {
     "Pozol": {"costo": 7, "venta": 15, "preferencia": 0.56},
     "Coca-Cola": {"costo": 18, "venta": 25, "preferencia": 0.44},
     "Quesadilla": {"costo": 12, "venta": 22, "preferencia": 0.3},
@@ -11,20 +16,20 @@ productos = {
     "Turrón": {"costo": 4, "venta": 10, "preferencia": 0.48},
     "Nuegado": {"costo": 5, "venta": 12, "preferencia": 0.52}
 }
+productos_df = pd.DataFrame.from_dict(productos_dict, orient='index')
 
-num_generaciones = 100
-tamano_poblacion = 50
-probabilidad_mutacion = 0.1
+productos_df.reset_index(inplace=True)
+productos_df.rename(columns={'index': 'nombre'}, inplace=True)
 
 def crear_combo():
-    bebida = random.choice(["Pozol", "Coca-Cola"])
-    comida = random.choice(["Quesadilla", "Gordita", "Taco", "Empanada"])
-    postre = random.choice(["Turrón", "Nuegado"])
+    bebida = random.choice(productos_df[productos_df['nombre'].isin(["Pozol", "Coca-Cola"])]["nombre"].tolist())
+    comida = random.choice(productos_df[productos_df['nombre'].isin(["Quesadilla", "Gordita", "Taco", "Empanada"])]["nombre"].tolist())
+    postre = random.choice(productos_df[productos_df['nombre'].isin(["Turrón", "Nuegado"])]["nombre"].tolist())
     return [bebida, comida, postre]
 
 def calcular_fitness(combo):
-    rentabilidad = sum(productos[prod]["venta"] for prod in combo) - sum(productos[prod]["costo"] for prod in combo)
-    satisfaccion = sum(productos[prod]["preferencia"] for prod in combo)
+    rentabilidad = sum(productos_df[productos_df['nombre'].isin(combo)]["venta"]) - sum(productos_df[productos_df['nombre'].isin(combo)]["costo"])
+    satisfaccion = sum(productos_df[productos_df['nombre'].isin(combo)]["preferencia"])
     print(f"Combo: {combo}, Rentabilidad: {rentabilidad}, Satisfacción: {satisfaccion}")
     return rentabilidad * 0.6 + satisfaccion * 0.4
 
