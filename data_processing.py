@@ -96,11 +96,29 @@ def seleccionar_padres(poblacion):
                 break
     return seleccionados
 
-# Cruce de dos padres para generar hijos
+# Cruce de dos padres para generar hijos con múltiples puntos de cruza
 def cruce(padre1, padre2):
-    punto_cruce = random.randint(1, len(padre1) - 1)
-    hijo1 = padre1[:punto_cruce] + padre2[punto_cruce:]
-    hijo2 = padre2[:punto_cruce] + padre1[punto_cruce:]
+    num_puntos_cruce = random.randint(1, len(padre1) - 1)
+    puntos_cruce = sorted(random.sample(range(1, len(padre1)), num_puntos_cruce))
+    
+    hijo1, hijo2 = [], []
+    origen = 0
+    for i, punto in enumerate(puntos_cruce):
+        if i % 2 == 0:
+            hijo1.extend(padre1[origen:punto])
+            hijo2.extend(padre2[origen:punto])
+        else:
+            hijo1.extend(padre2[origen:punto])
+            hijo2.extend(padre1[origen:punto])
+        origen = punto
+    
+    if len(puntos_cruce) % 2 == 0:
+        hijo1.extend(padre1[origen:])
+        hijo2.extend(padre2[origen:])
+    else:
+        hijo1.extend(padre2[origen:])
+        hijo2.extend(padre1[origen:])
+        
     return hijo1, hijo2
 
 # Mutar un combo con una probabilidad de mutación global y por gen
