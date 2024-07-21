@@ -47,11 +47,11 @@ productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_inde
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
 # Parámetros del algoritmo genético
-TAMANO_POBLACION = 6
-TAMANO_MAXIMO_POBLACION = 20
-PROBABILIDAD_MUTACION = 0.1
-PROBABILIDAD_MUTACION_GEN = 0.3
-NUM_GENERACIONES = 20
+TAMANO_POBLACION = 10
+TAMANO_MAXIMO_POBLACION = 30
+PROBABILIDAD_MUTACION = 0.7
+PROBABILIDAD_MUTACION_GEN = 0.01
+NUM_GENERACIONES = 50
 BEBIDAS = ["Pozol", "Coca-Cola"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
 POSTRES = ["Turrón", "Nuegado"]

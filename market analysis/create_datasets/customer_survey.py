@@ -1,9 +1,9 @@
 import pandas as pd
 import random
 
-bebidas = ["Pozol", "Coca-Cola"]
+bebidas = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
 comidas = ["Gordita", "Empanada", "Taco", "Quesadilla"]
-postres = ["Nuegado", "Turrón"]
+postres = ["Nuegado", "Turrón", "Turulete", "Cocada"]
 frecuencia_consumo = ["Diario", "Semanal", "Mensual", "Rara vez"]
 
 num_encuestas = 1000
