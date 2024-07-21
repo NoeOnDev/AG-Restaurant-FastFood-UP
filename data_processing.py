@@ -52,9 +52,9 @@ TAMANO_MAXIMO_POBLACION = 30
 PROBABILIDAD_MUTACION = 0.7
 PROBABILIDAD_MUTACION_GEN = 0.01
 NUM_GENERACIONES = 50
-BEBIDAS = ["Pozol", "Coca-Cola"]
+BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
-POSTRES = ["Turrón", "Nuegado"]
+POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada"]
 
 # Crear un combo aleatorio
 def crear_combo():
