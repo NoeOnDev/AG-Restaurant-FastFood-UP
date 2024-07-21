@@ -5,52 +5,53 @@ precios_productos_df = pd.read_csv('market analysis/datasets/precios_productos.c
 encuestas_clientes_df = pd.read_csv('market analysis/datasets/encuestas_clientes.csv')
 historial_ventas_df = pd.read_csv('market analysis/datasets/historial_ventas_comida_rapida.csv')
 
-preferencia_bebidas = encuestas_clientes_df['Bebida Favorita'].value_counts(normalize=True) * 100
-preferencia_comidas = encuestas_clientes_df['Comida Favorita'].value_counts(normalize=True) * 100
-preferencia_postres = encuestas_clientes_df['Postre Favorito'].value_counts(normalize=True) * 100
+def calcular_preferencias(df, columna):
+    return (df[columna].value_counts(normalize=True) * 100).to_dict()
 
-preferencia_bebidas_dict = (preferencia_bebidas / 100).to_dict()
-preferencia_comidas_dict = (preferencia_comidas / 100).to_dict()
-preferencia_postres_dict = (preferencia_postres / 100).to_dict()
+preferencia_bebidas_dict = calcular_preferencias(encuestas_clientes_df, 'Bebida Favorita')
+preferencia_comidas_dict = calcular_preferencias(encuestas_clientes_df, 'Comida Favorita')
+preferencia_postres_dict = calcular_preferencias(encuestas_clientes_df, 'Postre Favorito')
 
-productos_dict = {}
+def crear_productos_dict(precios_df, *preferencias_dicts):
+    productos = {}
+    for _, row in precios_df.iterrows():
+        producto = row['producto']
+        preferencia = 0
+        for pref_dict in preferencias_dicts:
+            preferencia = pref_dict.get(producto, preferencia)
+        productos[producto] = {
+            "costo": row['costo'],
+            "venta": row['venta'],
+            "preferencia": preferencia / 100
+        }
+    return productos
 
-for index, row in precios_productos_df.iterrows():
-    producto = row['producto']
-    costo = row['costo']
-    venta = row['venta']
-    
-    preferencia = preferencia_bebidas_dict.get(producto, 
-                    preferencia_comidas_dict.get(producto, 
-                    preferencia_postres_dict.get(producto, 0)))
-    
-    productos_dict[producto] = {"costo": costo, "venta": venta, "preferencia": preferencia}
+productos_dict = crear_productos_dict(precios_productos_df, preferencia_bebidas_dict, preferencia_comidas_dict, preferencia_postres_dict)
 
-total_ventas_por_producto = {}
+def calcular_total_ventas(historial_df):
+    ventas_por_producto = {}
+    for _, row in historial_df.iterrows():
+        producto = row['Nombre del Producto']
+        precio_total_venta = row['Precio Total de la Venta (MXN)']
+        ventas_por_producto[producto] = ventas_por_producto.get(producto, 0) + precio_total_venta
+    return ventas_por_producto
 
-for index, row in historial_ventas_df.iterrows():
-    producto = row['Nombre del Producto']
-    precio_total_venta = row['Precio Total de la Venta (MXN)']
-    
-    if producto in total_ventas_por_producto:
-        total_ventas_por_producto[producto] += precio_total_venta
-    else:
-        total_ventas_por_producto[producto] = precio_total_venta
+total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 
-productos_df = pd.DataFrame.from_dict(productos_dict, orient='index')
-productos_df.reset_index(inplace=True)
-productos_df.rename(columns={'index': 'nombre'}, inplace=True)
-
+productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
-tamano_poblacion = 10
-probabilidad_mutacion = 0.7
-num_generaciones = 200
+TAMANO_POBLACION = 10
+PROBABILIDAD_MUTACION = 0.7
+NUM_GENERACIONES = 200
+BEBIDAS = ["Pozol", "Coca-Cola"]
+COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
+POSTRES = ["Turrón", "Nuegado"]
 
 def crear_combo():
-    bebida = random.choice(productos_df[productos_df['nombre'].isin(["Pozol", "Coca-Cola"])]["nombre"].tolist())
-    comida = random.choice(productos_df[productos_df['nombre'].isin(["Quesadilla", "Gordita", "Taco", "Empanada"])]["nombre"].tolist())
-    postre = random.choice(productos_df[productos_df['nombre'].isin(["Turrón", "Nuegado"])]["nombre"].tolist())
+    bebida = random.choice(BEBIDAS)
+    comida = random.choice(COMIDAS)
+    postre = random.choice(POSTRES)
     return [bebida, comida, postre]
 
 def calcular_descuento(combo):
@@ -71,7 +72,7 @@ def calcular_fitness(combo):
     return fitness, venta_combo, costo_total
 
 def seleccionar_padres(poblacion):
-    fitness_total = sum(fitness for combo, fitness, _, _ in poblacion)
+    fitness_total = sum(fitness for _, fitness, _, _ in poblacion)
     seleccionados = []
     for _ in range(2):
         pick = random.uniform(0, fitness_total)
@@ -90,32 +91,37 @@ def cruce(padre1, padre2):
     return hijo1, hijo2
 
 def mutar(combo):
-    if random.random() < probabilidad_mutacion:
+    if random.random() < PROBABILIDAD_MUTACION:
         indice = random.randint(0, len(combo) - 1)
         if indice == 0:
-            combo[indice] = random.choice(["Pozol", "Coca-Cola"])
+            combo[indice] = random.choice(BEBIDAS)
         elif indice == 1:
-            combo[indice] = random.choice(["Quesadilla", "Gordita", "Taco", "Empanada"])
+            combo[indice] = random.choice(COMIDAS)
         elif indice == 2:
-            combo[indice] = random.choice(["Turrón", "Nuegado"])
+            combo[indice] = random.choice(POSTRES)
     return combo
 
-poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
+# Algoritmo genético
+def algoritmo_genetico(tamano_poblacion, num_generaciones):
+    poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
+    poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
 
-poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
+    for _ in range(num_generaciones):
+        nueva_poblacion = []
+        for _ in range(tamano_poblacion // 2):
+            padre1, padre2 = seleccionar_padres(poblacion)
+            hijo1, hijo2 = cruce(padre1, padre2)
+            hijo1 = mutar(hijo1)
+            hijo2 = mutar(hijo2)
+            nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
+            nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
+        poblacion = nueva_poblacion
 
-for generacion in range(num_generaciones):
-    nueva_poblacion = []
-    for _ in range(tamano_poblacion // 2):
-        padre1, padre2 = seleccionar_padres(poblacion)
-        hijo1, hijo2 = cruce(padre1, padre2)
-        hijo1 = mutar(hijo1)
-        hijo2 = mutar(hijo2)
-        nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
-        nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
-    poblacion = nueva_poblacion
+    mejor_combo = max(poblacion, key=lambda x: x[1])
+    return mejor_combo
 
-mejor_combo = max(poblacion, key=lambda x: x[1])
+# Ejecutar el algoritmo
+mejor_combo = algoritmo_genetico(TAMANO_POBLACION, NUM_GENERACIONES)
 print(f"Mejor combo: {mejor_combo[0]}")
 print(f"Fitness: {mejor_combo[1]}")
 print(f"Precio de venta: {mejor_combo[2]}")
