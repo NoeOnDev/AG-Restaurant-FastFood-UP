@@ -42,6 +42,7 @@ productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_inde
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
 TAMANO_POBLACION = 10
+TAMANO_MAXIMO_POBLACION = 100
 PROBABILIDAD_MUTACION = 0.7
 NUM_GENERACIONES = 200
 BEBIDAS = ["Pozol", "Coca-Cola"]
@@ -101,8 +102,16 @@ def mutar(combo):
             combo[indice] = random.choice(POSTRES)
     return combo
 
-# Algoritmo genético
-def algoritmo_genetico(tamano_poblacion, num_generaciones):
+def poda(poblacion, tamano_maximo_poblacion):
+    poblacion.sort(key=lambda x: x[1], reverse=True)
+    mejor_individuo = poblacion[0]
+    while len(poblacion) > tamano_maximo_poblacion:
+        indice_eliminar = random.randint(1, len(poblacion) - 1)
+        poblacion.pop(indice_eliminar)
+    poblacion.append(mejor_individuo)
+    return poblacion
+
+def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion):
     poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
     poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
 
@@ -115,13 +124,13 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones):
             hijo2 = mutar(hijo2)
             nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
             nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
-        poblacion = nueva_poblacion
+        poblacion += nueva_poblacion
+        poblacion = poda(poblacion, tamano_maximo_poblacion)
 
     mejor_combo = max(poblacion, key=lambda x: x[1])
     return mejor_combo
 
-# Ejecutar el algoritmo
-mejor_combo = algoritmo_genetico(TAMANO_POBLACION, NUM_GENERACIONES)
+mejor_combo = algoritmo_genetico(TAMANO_POBLACION, NUM_GENERACIONES, TAMANO_MAXIMO_POBLACION)
 print(f"Mejor combo: {mejor_combo[0]}")
 print(f"Fitness: {mejor_combo[1]}")
 print(f"Precio de venta: {mejor_combo[2]}")
