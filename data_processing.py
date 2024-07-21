@@ -41,10 +41,10 @@ total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
-TAMANO_POBLACION = 10
-TAMANO_MAXIMO_POBLACION = 100
-PROBABILIDAD_MUTACION = 0.7
-NUM_GENERACIONES = 200
+TAMANO_POBLACION = 6
+TAMANO_MAXIMO_POBLACION = 20
+PROBABILIDAD_MUTACION = 0.001
+NUM_GENERACIONES = 25
 BEBIDAS = ["Pozol", "Coca-Cola"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
 POSTRES = ["Turrón", "Nuegado"]
@@ -69,7 +69,7 @@ def calcular_fitness(combo):
     venta_combo = venta_individual_total * factor_descuento
     satisfaccion = sum(productos_df[productos_df['nombre'].isin(combo)]["preferencia"])
     rentabilidad = venta_combo - costo_total
-    fitness = rentabilidad * 0.6 + satisfaccion * 0.4
+    fitness = rentabilidad * 0.5 + satisfaccion * 0.5
     return fitness, venta_combo, costo_total
 
 def seleccionar_padres(poblacion):
