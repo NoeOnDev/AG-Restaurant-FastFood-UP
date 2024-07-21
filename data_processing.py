@@ -48,10 +48,10 @@ historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index',
 
 # Parámetros del algoritmo genético
 TAMANO_POBLACION = 10
-TAMANO_MAXIMO_POBLACION = 30
+TAMANO_MAXIMO_POBLACION = 50
 PROBABILIDAD_MUTACION = 0.7
 PROBABILIDAD_MUTACION_GEN = 0.01
-NUM_GENERACIONES = 50
+NUM_GENERACIONES = 100
 BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
 POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada"]
@@ -82,8 +82,17 @@ def calcular_fitness(combo):
     fitness = rentabilidad * 0.5 + satisfaccion * 0.5
     return fitness, venta_combo, costo_total
 
-# Seleccionar padres basados en el fitness
+# Transformar los fitness para que el peor individuo tenga un fitness de cero
+def transformar_fitness(poblacion):
+    min_fitness = min(fitness for _, fitness, _, _ in poblacion)
+    if min_fitness < 0:
+        return [(combo, fitness - min_fitness, venta, costo) for combo, fitness, venta, costo in poblacion]
+    else:
+        return poblacion
+
+# Selección por ruleta
 def seleccionar_padres(poblacion):
+    poblacion = transformar_fitness(poblacion)
     fitness_total = sum(fitness for _, fitness, _, _ in poblacion)
     seleccionados = []
     for _ in range(2):
