@@ -1,6 +1,5 @@
 import pandas as pd
 import random
-import matplotlib.pyplot as plt
 
 # Cargar los datos
 precios_productos_df = pd.read_csv('market analysis/datasets/precios_productos.csv')
@@ -50,7 +49,7 @@ historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index',
 # Parámetros del algoritmo genético
 TAMANO_POBLACION = 10
 TAMANO_MAXIMO_POBLACION = 50
-PROBABILIDAD_MUTACION = 0.4
+PROBABILIDAD_MUTACION = 0.7
 PROBABILIDAD_MUTACION_GEN = 0.01
 NUM_GENERACIONES = 100
 BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
@@ -159,10 +158,6 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
     poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
     poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
 
-    fitness_max = []
-    fitness_avg = []
-    fitness_min = []
-
     for _ in range(num_generaciones):
         nueva_poblacion = []
         for _ in range(tamano_poblacion // 2):
@@ -173,34 +168,14 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
             nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
             nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
         poblacion += nueva_poblacion
-        
-        # Registrar los datos antes de la poda
-        fitness_valores = [fitness for _, fitness, _, _ in poblacion]
-        fitness_max.append(max(fitness_valores))
-        fitness_avg.append(sum(fitness_valores) / len(fitness_valores))
-        fitness_min.append(min(fitness_valores))
-        
         poblacion = poda(poblacion, tamano_maximo_poblacion)
 
     mejor_combo = max(poblacion, key=lambda x: x[1])
-    
-    # Graficar los datos
-    plt.figure(figsize=(10, 6))
-    plt.plot(fitness_max, label='Mejor Fitness')
-    plt.plot(fitness_avg, label='Fitness Promedio')
-    plt.plot(fitness_min, label='Peor Fitness')
-    plt.xlabel('Generaciones')
-    plt.ylabel('Fitness')
-    plt.title('Evolución del Fitness a lo largo de las Generaciones')
-    plt.legend()
-    plt.grid(True)
-    plt.show()
-    
     return mejor_combo
 
 # Ejecutar el algoritmo genético
 mejor_combo = algoritmo_genetico(TAMANO_POBLACION, NUM_GENERACIONES, TAMANO_MAXIMO_POBLACION)
-print("Mejor combo encontrado:", mejor_combo[0])
-print("Fitness:", mejor_combo[1])
-print("Precio de venta del combo:", mejor_combo[2])
-print("Costo total del combo:", mejor_combo[3])
+print(f"Mejor combo: {mejor_combo[0]}")
+print(f"Fitness: {mejor_combo[1]}")
+print(f"Precio de venta: {mejor_combo[2]}")
+print(f"Precio de producción: {mejor_combo[3]}")
