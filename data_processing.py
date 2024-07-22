@@ -52,7 +52,6 @@ def crear_combo():
     postre = random.choice(POSTRES)
     return [bebida, comida, postre]
 
-# Calcular el descuento basado en el historial de ventas
 def calcular_descuento(combo):
     total_ventas = sum(historial_df.loc[combo]["ventas"])
     promedio_ventas = total_ventas / len(combo)
@@ -60,7 +59,6 @@ def calcular_descuento(combo):
     factor_descuento = 1 - (promedio_ventas / max_ventas) * 0.3
     return factor_descuento
 
-# Calcular el fitness de un combo
 def calcular_fitness(combo):
     venta_individual_total = sum(productos_df[productos_df['nombre'].isin(combo)]["venta"])
     costo_total = sum(productos_df[productos_df['nombre'].isin(combo)]["costo"])
@@ -71,7 +69,6 @@ def calcular_fitness(combo):
     fitness = rentabilidad * 0.5 + satisfaccion * 0.5
     return fitness, venta_combo, costo_total
 
-# Transformar los fitness para que el peor individuo tenga un fitness de cero
 def transformar_fitness(poblacion):
     min_fitness = min(fitness for _, fitness, _, _ in poblacion)
     if min_fitness < 0:
@@ -79,7 +76,6 @@ def transformar_fitness(poblacion):
     else:
         return poblacion
 
-# Selección por ruleta
 def seleccionar_padres(poblacion):
     poblacion = transformar_fitness(poblacion)
     fitness_total = sum(fitness for _, fitness, _, _ in poblacion)
@@ -94,7 +90,6 @@ def seleccionar_padres(poblacion):
                 break
     return seleccionados
 
-# Cruce de dos padres para generar hijos con múltiples puntos de cruza
 def cruce(padre1, padre2):
     num_puntos_cruce = random.randint(1, len(padre1) - 1)
     puntos_cruce = sorted(random.sample(range(1, len(padre1)), num_puntos_cruce))
@@ -119,7 +114,6 @@ def cruce(padre1, padre2):
         
     return hijo1, hijo2
 
-# Mutar un combo con una probabilidad de mutación global y por gen
 def mutar(combo, probabilidad_mutacion, probabilidad_mutacion_gen):
     if random.random() < probabilidad_mutacion:
         for i in range(len(combo)):
@@ -132,7 +126,6 @@ def mutar(combo, probabilidad_mutacion, probabilidad_mutacion_gen):
                     combo[i] = random.choice(POSTRES)
     return combo
 
-# Podar la población para mantener el tamaño máximo
 def poda(poblacion, tamano_maximo_poblacion):
     poblacion.sort(key=lambda x: x[1], reverse=True)
     mejor_individuo = poblacion[0]
