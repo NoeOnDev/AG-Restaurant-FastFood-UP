@@ -42,11 +42,6 @@ total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
-TAMANO_POBLACION = 5
-TAMANO_MAXIMO_POBLACION = 30
-PROBABILIDAD_MUTACION = 0.8
-PROBABILIDAD_MUTACION_GEN = 0.02
-NUM_GENERACIONES = 100
 BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
 POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada"]
@@ -185,15 +180,3 @@ def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.ylabel('Fitness')
     plt.legend()
     plt.show()
-
-mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
-    TAMANO_POBLACION, NUM_GENERACIONES, TAMANO_MAXIMO_POBLACION,
-    PROBABILIDAD_MUTACION, PROBABILIDAD_MUTACION_GEN
-)
-
-graficar_resultados(fitness_max, fitness_avg, fitness_min)
-
-print(f"Mejor Combo: {mejor_combo[0]}")
-print(f"Fitness: {mejor_combo[1]}")
-print(f"Venta Combo: {mejor_combo[2]}")
-print(f"Costo Total: {mejor_combo[3]}")

@@ -1,6 +1,7 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QMessageBox
 import sys
 import qtawesome as qta
+from data_processing import algoritmo_genetico, graficar_resultados
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -33,6 +34,7 @@ class MainWindow(QMainWindow):
 
         button = QPushButton("Ejecutar", self)
         button.setFixedWidth(100)
+        button.clicked.connect(self.run_algorithm)
 
         button_layout = QHBoxLayout()
         button_layout.addStretch()
@@ -105,6 +107,48 @@ class MainWindow(QMainWindow):
                 background-color: #555555;
             }
         """)
+        
+    def run_algorithm(self):
+        try:
+            for input_field in self.inputs:
+                if input_field.text() == "":
+                    raise ValueError("Todos los campos deben estar llenos.")
+            
+            tamano_poblacion = int(self.inputs[0].text())
+            tamano_maximo_poblacion = int(self.inputs[1].text())
+            probabilidad_mutacion = float(self.inputs[2].text())
+            probabilidad_mutacion_gen = float(self.inputs[3].text())
+            num_generaciones = int(self.inputs[4].text())
+
+            if tamano_poblacion <= 0 or tamano_maximo_poblacion <= 0 or num_generaciones <= 0:
+                raise ValueError("La población inicial, la población máxima y el número de generaciones deben ser enteros positivos.")
+            if not (0 < probabilidad_mutacion < 1):
+                raise ValueError("La probabilidad de mutación debe estar entre 0 y 1 (excluyendo 0 y 1).")
+            if not (0 < probabilidad_mutacion_gen < 1):
+                raise ValueError("La probabilidad de mutación por gen debe estar entre 0 y 1 (excluyendo 0 y 1).")
+            
+            mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
+                tamano_poblacion, num_generaciones, tamano_maximo_poblacion,
+                probabilidad_mutacion, probabilidad_mutacion_gen
+            )
+
+            graficar_resultados(fitness_max, fitness_avg, fitness_min)
+
+            print(f"Mejor Combo: {mejor_combo[0]}")
+            print(f"Fitness: {mejor_combo[1]}")
+            print(f"Venta Combo: {mejor_combo[2]}")
+            print(f"Costo Total: {mejor_combo[3]}")
+
+        except ValueError as e:
+            self.show_error_message(str(e))
+
+    def show_error_message(self, message):
+        msg_box = QMessageBox()
+        msg_box.setIcon(QMessageBox.Critical)
+        msg_box.setText("Error")
+        msg_box.setInformativeText(message)
+        msg_box.setWindowTitle("Error")
+        msg_box.exec_()
 
 app = QApplication(sys.argv)
 window = MainWindow()
