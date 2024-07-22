@@ -2,12 +2,10 @@ import pandas as pd
 import random
 import matplotlib.pyplot as plt
 
-# Cargar los datos
 precios_productos_df = pd.read_csv('market analysis/datasets/precios_productos.csv')
 encuestas_clientes_df = pd.read_csv('market analysis/datasets/encuestas_clientes.csv')
 historial_ventas_df = pd.read_csv('market analysis/datasets/historial_ventas_comida_rapida.csv')
 
-# Calcular las preferencias de los clientes
 def calcular_preferencias(df, columna):
     return (df[columna].value_counts(normalize=True) * 100).to_dict()
 
@@ -15,7 +13,6 @@ preferencia_bebidas_dict = calcular_preferencias(encuestas_clientes_df, 'Bebida 
 preferencia_comidas_dict = calcular_preferencias(encuestas_clientes_df, 'Comida Favorita')
 preferencia_postres_dict = calcular_preferencias(encuestas_clientes_df, 'Postre Favorito')
 
-# Crear un diccionario de productos con sus preferencias y precios
 def crear_productos_dict(precios_df, *preferencias_dicts):
     productos = {}
     for _, row in precios_df.iterrows():
@@ -32,7 +29,6 @@ def crear_productos_dict(precios_df, *preferencias_dicts):
 
 productos_dict = crear_productos_dict(precios_productos_df, preferencia_bebidas_dict, preferencia_comidas_dict, preferencia_postres_dict)
 
-# Calcular las ventas totales por producto
 def calcular_total_ventas(historial_df):
     ventas_por_producto = {}
     for _, row in historial_df.iterrows():
@@ -43,21 +39,18 @@ def calcular_total_ventas(historial_df):
 
 total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 
-# Convertir los diccionarios en DataFrames para facilitar el acceso a los datos
 productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
-# Parámetros del algoritmo genético
-TAMANO_POBLACION = 10
-TAMANO_MAXIMO_POBLACION = 50
-PROBABILIDAD_MUTACION = 0.6
+TAMANO_POBLACION = 5
+TAMANO_MAXIMO_POBLACION = 30
+PROBABILIDAD_MUTACION = 0.8
 PROBABILIDAD_MUTACION_GEN = 0.02
 NUM_GENERACIONES = 100
 BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
 COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
 POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada"]
 
-# Crear un combo aleatorio
 def crear_combo():
     bebida = random.choice(BEBIDAS)
     comida = random.choice(COMIDAS)
@@ -132,10 +125,10 @@ def cruce(padre1, padre2):
     return hijo1, hijo2
 
 # Mutar un combo con una probabilidad de mutación global y por gen
-def mutar(combo):
-    if random.random() < PROBABILIDAD_MUTACION:
+def mutar(combo, probabilidad_mutacion, probabilidad_mutacion_gen):
+    if random.random() < probabilidad_mutacion:
         for i in range(len(combo)):
-            if random.random() < PROBABILIDAD_MUTACION_GEN:
+            if random.random() < probabilidad_mutacion_gen:
                 if i == 0:
                     combo[i] = random.choice(BEBIDAS)
                 elif i == 1:
@@ -155,8 +148,7 @@ def poda(poblacion, tamano_maximo_poblacion):
         poblacion.append(mejor_individuo)
     return poblacion
 
-# Implementar el algoritmo genético
-def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion):
+def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion, probabilidad_mutacion, probabilidad_mutacion_gen):
     poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
     poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
 
@@ -169,8 +161,8 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
         for _ in range(tamano_poblacion // 2):
             padre1, padre2 = seleccionar_padres(poblacion)
             hijo1, hijo2 = cruce(padre1, padre2)
-            hijo1 = mutar(hijo1)
-            hijo2 = mutar(hijo2)
+            hijo1 = mutar(hijo1, probabilidad_mutacion, probabilidad_mutacion_gen)
+            hijo2 = mutar(hijo2, probabilidad_mutacion, probabilidad_mutacion_gen)
             nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
             nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
         
@@ -185,7 +177,6 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
     mejor_combo = max(poblacion, key=lambda x: x[1])
     return mejor_combo, fitness_max, fitness_avg, fitness_min
 
-# Función para graficar los resultados
 def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.plot(fitness_max, label='Max Fitness')
     plt.plot(fitness_avg, label='Avg Fitness')
@@ -195,13 +186,13 @@ def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.legend()
     plt.show()
 
-# Ejecutar el algoritmo genético
-mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(TAMANO_POBLACION, NUM_GENERACIONES, TAMANO_MAXIMO_POBLACION)
+mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
+    TAMANO_POBLACION, NUM_GENERACIONES, TAMANO_MAXIMO_POBLACION,
+    PROBABILIDAD_MUTACION, PROBABILIDAD_MUTACION_GEN
+)
 
-# Graficar los resultados
 graficar_resultados(fitness_max, fitness_avg, fitness_min)
 
-# Imprimir el mejor combo
 print(f"Mejor Combo: {mejor_combo[0]}")
 print(f"Fitness: {mejor_combo[1]}")
 print(f"Venta Combo: {mejor_combo[2]}")
