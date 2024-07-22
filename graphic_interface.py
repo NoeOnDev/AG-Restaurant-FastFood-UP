@@ -78,7 +78,7 @@ class MainWindow(QMainWindow):
             }
             QPushButton {
                 border: 1px solid black;
-                border-radius: 10px;
+                border-radius: 20px;
                 padding: 5px;
             }
             QPushButton:hover {
@@ -98,7 +98,7 @@ class MainWindow(QMainWindow):
             }
             QPushButton {
                 border: 1px solid white;
-                border-radius: 10px;
+                border-radius: 20px;
                 padding: 5px;
             }
             QPushButton:hover {
