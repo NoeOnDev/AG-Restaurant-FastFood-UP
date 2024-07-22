@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout
-from PyQt5.QtGui import QIcon
 import sys
+import qtawesome as qta
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
         main_layout.addLayout(button_layout)
 
         self.mode_button = QPushButton(self)
-        self.mode_button.setIcon(QIcon("path/to/icon.png"))
+        self.mode_button.setIcon(qta.icon('fa5s.sun', color='black'))
         self.mode_button.setFixedSize(40, 40)
         self.mode_button.clicked.connect(self.toggle_mode)
 
@@ -60,8 +60,10 @@ class MainWindow(QMainWindow):
     def toggle_mode(self):
         if self.light_mode:
             self.set_dark_mode()
+            self.mode_button.setIcon(qta.icon('fa5s.moon', color='white'))
         else:
             self.set_light_mode()
+            self.mode_button.setIcon(qta.icon('fa5s.sun', color='black'))
         self.light_mode = not self.light_mode
 
     def set_light_mode(self):
@@ -76,6 +78,11 @@ class MainWindow(QMainWindow):
             }
             QPushButton {
                 border: 1px solid black;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            QPushButton:hover {
+                background-color: lightgray;
             }
         """)
 
@@ -91,6 +98,11 @@ class MainWindow(QMainWindow):
             }
             QPushButton {
                 border: 1px solid white;
+                border-radius: 10px;
+                padding: 5px;
+            }
+            QPushButton:hover {
+                background-color: #555555;
             }
         """)
 
