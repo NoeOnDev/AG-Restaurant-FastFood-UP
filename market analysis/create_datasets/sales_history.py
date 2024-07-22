@@ -3,18 +3,24 @@ from datetime import datetime, timedelta
 import random
 
 productos = [
-    {"nombre": "Pozol", "precio_produccion": 7.00, "precio_venta": 15.00},
-    {"nombre": "Coca-Cola", "precio_produccion": 18.00, "precio_venta": 25.00},
-    {"nombre": "Tascalate", "precio_produccion": 8.00, "precio_venta": 14.00},
-    {"nombre": "Agua de chía", "precio_produccion": 11.00, "precio_venta": 25.00},
-    {"nombre": "Gordita", "precio_produccion": 10.00, "precio_venta": 18.00},
-    {"nombre": "Empanada", "precio_produccion": 8.00, "precio_venta": 15.00},
-    {"nombre": "Taco", "precio_produccion": 9.00, "precio_venta": 14.00},
-    {"nombre": "Quesadilla", "precio_produccion": 12.00, "precio_venta": 22.00},
-    {"nombre": "Nuegado", "precio_produccion": 5.00, "precio_venta": 12.00},
-    {"nombre": "Turrón", "precio_produccion": 4.00, "precio_venta": 10.00},
-    {"nombre": "Turulete", "precio_produccion": 3.00, "precio_venta": 10.00},
-    {"nombre": "Cocada", "precio_produccion": 4.00, "precio_venta": 8.00},
+    {"nombre": "Pozol", "precio_produccion": 7, "precio_venta": 15},
+    {"nombre": "Coca-Cola", "precio_produccion": 18, "precio_venta": 25},
+    {"nombre": "Tascalate", "precio_produccion": 8, "precio_venta": 14},
+    {"nombre": "Agua de chía", "precio_produccion": 11, "precio_venta": 25},
+    {"nombre": "Agua de horchata", "precio_produccion": 10, "precio_venta": 20},
+    {"nombre": "Agua de jamaica", "precio_produccion": 9, "precio_venta": 18},
+    {"nombre": "Quesadilla", "precio_produccion": 12, "precio_venta": 22},
+    {"nombre": "Gordita", "precio_produccion": 10, "precio_venta": 18},
+    {"nombre": "Taco", "precio_produccion": 9, "precio_venta": 14},
+    {"nombre": "Empanada", "precio_produccion": 8, "precio_venta": 15},
+    {"nombre": "Tamal", "precio_produccion": 10, "precio_venta": 20},
+    {"nombre": "Tostada", "precio_produccion": 7, "precio_venta": 12},
+    {"nombre": "Turrón", "precio_produccion": 4, "precio_venta": 10},
+    {"nombre": "Nuegado", "precio_produccion": 5, "precio_venta": 12},
+    {"nombre": "Turulete", "precio_produccion": 3, "precio_venta": 10},
+    {"nombre": "Cocada", "precio_produccion": 4, "precio_venta": 8},
+    {"nombre": "Plátano Asado", "precio_produccion": 4, "precio_venta": 9},
+    {"nombre": "Bunuelo", "precio_produccion": 5, "precio_venta": 10},
 ]
 
 num_filas = 10000

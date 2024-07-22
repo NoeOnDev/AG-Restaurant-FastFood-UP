@@ -1,9 +1,10 @@
 import pandas as pd
 import random
 
-bebidas = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
-comidas = ["Gordita", "Empanada", "Taco", "Quesadilla"]
-postres = ["Nuegado", "Turrón", "Turulete", "Cocada"]
+bebidas = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía", "Agua de horchata", "Agua de jamaica"]
+comidas = ["Gordita", "Empanada", "Taco", "Quesadilla", "Tamal", "Tostada"]
+postres = ["Nuegado", "Turrón", "Turulete", "Cocada", "Plátano Asado", "Bunuelo"]
+
 frecuencia_consumo = ["Diario", "Semanal", "Mensual", "Rara vez"]
 
 num_encuestas = 1000
@@ -32,4 +33,3 @@ df_encuestas = pd.DataFrame(encuestas, columns=[
 ])
 
 df_encuestas.to_csv('market analysis/datasets/encuestas_clientes.csv', index=False)
-df_encuestas.head()

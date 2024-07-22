@@ -42,9 +42,9 @@ total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
-BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía"]
-COMIDAS = ["Quesadilla", "Gordita", "Taco", "Empanada"]
-POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada"]
+BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía", "Agua de horchata", "Agua de jamaica"]
+COMIDAS = ["Gordita", "Empanada", "Taco", "Quesadilla", "Tamal", "Tostada"]
+POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada", "Plátano Asado", "Bunuelo"]
 
 def crear_combo():
     bebida = random.choice(BEBIDAS)
