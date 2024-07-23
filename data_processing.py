@@ -172,14 +172,3 @@ def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.ylabel('Fitness')
     plt.legend()
     plt.show()
-
-mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
-    tamano_poblacion=50, 
-    num_generaciones=100, 
-    tamano_maximo_poblacion=100, 
-    probabilidad_mutacion=0.1, 
-    probabilidad_mutacion_gen=0.2
-)
-
-print("Mejor Combo:", mejor_combo)
-graficar_resultados(fitness_max, fitness_avg, fitness_min)
