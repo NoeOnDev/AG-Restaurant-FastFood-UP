@@ -65,7 +65,7 @@ def calcular_fitness(combo):
     venta_combo = venta_individual_total * factor_descuento
     satisfaccion = sum(productos_dict[producto]['preferencia'] for producto in combo)
     rentabilidad = venta_combo - costo_total
-    fitness = (rentabilidad * 0.2) + (satisfaccion * 0.8)
+    fitness = (rentabilidad * 0.3) + (satisfaccion * 0.7)
     return fitness, venta_combo, costo_total
 
 def transformar_fitness(poblacion):
