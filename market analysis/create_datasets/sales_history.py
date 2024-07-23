@@ -23,7 +23,7 @@ productos = [
     {"nombre": "Bunuelo", "precio_produccion": 5, "precio_venta": 11},
 ]
 
-num_filas = 9998
+num_filas = 10000
 
 fecha_inicio = datetime(2024, 1, 1)
 

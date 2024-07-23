@@ -1,782 +1,2001 @@
 Número de Encuesta,Bebida Favorita,Comida Favorita,Postre Favorito,Frecuencia de Consumo
-1,Coca-Cola,Taco,Bunuelo,Semanal
-2,Agua de chía,Tostada,Turrón,Mensual
-3,Agua de jamaica,Gordita,Cocada,Mensual
-4,Pozol,Tamal,Turulete,Semanal
-5,Tascalate,Empanada,Plátano Asado,Rara vez
-6,Tascalate,Quesadilla,Nuegado,Diario
-7,Agua de chía,Gordita,Cocada,Rara vez
-8,Pozol,Empanada,Nuegado,Rara vez
-9,Pozol,Empanada,Turrón,Mensual
-10,Coca-Cola,Taco,Plátano Asado,Mensual
-11,Coca-Cola,Taco,Bunuelo,Rara vez
-12,Agua de horchata,Quesadilla,Bunuelo,Rara vez
-13,Agua de jamaica,Taco,Cocada,Semanal
-14,Coca-Cola,Tostada,Cocada,Diario
-15,Pozol,Gordita,Turrón,Semanal
-16,Agua de horchata,Quesadilla,Turrón,Mensual
-17,Coca-Cola,Quesadilla,Plátano Asado,Mensual
-18,Coca-Cola,Taco,Turulete,Mensual
-19,Agua de chía,Quesadilla,Nuegado,Diario
-20,Tascalate,Empanada,Plátano Asado,Diario
-21,Agua de jamaica,Empanada,Bunuelo,Semanal
-22,Coca-Cola,Taco,Turrón,Semanal
-23,Agua de horchata,Gordita,Cocada,Mensual
-24,Tascalate,Taco,Nuegado,Diario
-25,Coca-Cola,Tostada,Turulete,Semanal
-26,Coca-Cola,Gordita,Plátano Asado,Rara vez
-27,Coca-Cola,Empanada,Cocada,Rara vez
-28,Agua de jamaica,Taco,Nuegado,Rara vez
-29,Agua de chía,Gordita,Plátano Asado,Diario
-30,Agua de chía,Taco,Nuegado,Rara vez
-31,Agua de jamaica,Empanada,Bunuelo,Mensual
-32,Pozol,Tostada,Turulete,Mensual
-33,Tascalate,Tostada,Turulete,Semanal
-34,Agua de chía,Taco,Bunuelo,Rara vez
-35,Agua de chía,Taco,Plátano Asado,Mensual
-36,Tascalate,Taco,Nuegado,Rara vez
-37,Agua de horchata,Tamal,Bunuelo,Diario
-38,Pozol,Tamal,Plátano Asado,Rara vez
-39,Tascalate,Tamal,Plátano Asado,Rara vez
-40,Coca-Cola,Tamal,Bunuelo,Rara vez
-41,Pozol,Tamal,Cocada,Semanal
-42,Coca-Cola,Gordita,Bunuelo,Mensual
-43,Pozol,Quesadilla,Turulete,Diario
-44,Tascalate,Tostada,Turrón,Mensual
-45,Agua de jamaica,Tostada,Plátano Asado,Diario
-46,Coca-Cola,Empanada,Turrón,Diario
-47,Pozol,Tostada,Cocada,Diario
-48,Agua de jamaica,Empanada,Bunuelo,Rara vez
-49,Coca-Cola,Tamal,Turrón,Diario
-50,Agua de chía,Tostada,Bunuelo,Semanal
-51,Pozol,Tostada,Turrón,Diario
-52,Tascalate,Quesadilla,Turrón,Mensual
-53,Tascalate,Gordita,Turulete,Semanal
-54,Agua de chía,Gordita,Bunuelo,Diario
-55,Tascalate,Quesadilla,Plátano Asado,Diario
-56,Agua de jamaica,Gordita,Bunuelo,Diario
-57,Agua de horchata,Taco,Cocada,Rara vez
-58,Pozol,Tostada,Plátano Asado,Semanal
-59,Coca-Cola,Quesadilla,Cocada,Diario
-60,Pozol,Quesadilla,Nuegado,Mensual
-61,Pozol,Tostada,Turrón,Mensual
-62,Pozol,Taco,Bunuelo,Diario
-63,Pozol,Taco,Turulete,Mensual
-64,Tascalate,Taco,Bunuelo,Rara vez
-65,Agua de chía,Empanada,Nuegado,Semanal
-66,Pozol,Taco,Nuegado,Semanal
-67,Coca-Cola,Gordita,Plátano Asado,Diario
-68,Tascalate,Gordita,Turrón,Diario
-69,Pozol,Taco,Nuegado,Semanal
-70,Agua de horchata,Quesadilla,Turrón,Diario
-71,Coca-Cola,Quesadilla,Turulete,Mensual
-72,Tascalate,Gordita,Nuegado,Diario
-73,Pozol,Tamal,Turulete,Rara vez
-74,Agua de chía,Empanada,Turrón,Mensual
-75,Agua de chía,Quesadilla,Nuegado,Mensual
-76,Agua de horchata,Gordita,Cocada,Diario
-77,Agua de jamaica,Tostada,Bunuelo,Diario
-78,Agua de chía,Tostada,Turrón,Mensual
-79,Coca-Cola,Gordita,Bunuelo,Mensual
-80,Agua de jamaica,Empanada,Bunuelo,Diario
-81,Tascalate,Empanada,Nuegado,Rara vez
-82,Tascalate,Gordita,Nuegado,Rara vez
-83,Agua de horchata,Quesadilla,Cocada,Mensual
-84,Coca-Cola,Tostada,Nuegado,Semanal
-85,Agua de horchata,Taco,Turrón,Diario
-86,Agua de horchata,Gordita,Turrón,Rara vez
-87,Coca-Cola,Empanada,Cocada,Semanal
-88,Tascalate,Taco,Cocada,Diario
-89,Coca-Cola,Tostada,Turulete,Rara vez
-90,Pozol,Tamal,Bunuelo,Rara vez
-91,Pozol,Tamal,Nuegado,Semanal
-92,Agua de chía,Gordita,Cocada,Rara vez
-93,Pozol,Taco,Bunuelo,Rara vez
-94,Pozol,Tamal,Plátano Asado,Mensual
-95,Agua de chía,Taco,Plátano Asado,Rara vez
-96,Pozol,Quesadilla,Plátano Asado,Rara vez
-97,Coca-Cola,Empanada,Cocada,Rara vez
-98,Tascalate,Taco,Nuegado,Semanal
-99,Agua de horchata,Tamal,Turrón,Diario
-100,Agua de chía,Taco,Plátano Asado,Semanal
-101,Agua de chía,Gordita,Nuegado,Diario
-102,Coca-Cola,Quesadilla,Cocada,Mensual
-103,Tascalate,Empanada,Bunuelo,Mensual
-104,Agua de jamaica,Quesadilla,Turulete,Rara vez
-105,Coca-Cola,Quesadilla,Cocada,Mensual
-106,Agua de jamaica,Quesadilla,Turulete,Semanal
-107,Agua de horchata,Quesadilla,Plátano Asado,Diario
-108,Agua de horchata,Tamal,Bunuelo,Rara vez
-109,Agua de horchata,Tostada,Turrón,Mensual
-110,Tascalate,Taco,Turulete,Rara vez
-111,Agua de horchata,Taco,Plátano Asado,Mensual
-112,Coca-Cola,Empanada,Bunuelo,Rara vez
-113,Agua de horchata,Quesadilla,Turulete,Rara vez
-114,Agua de horchata,Tostada,Turulete,Mensual
-115,Coca-Cola,Tamal,Turrón,Diario
-116,Coca-Cola,Quesadilla,Bunuelo,Diario
-117,Coca-Cola,Gordita,Cocada,Diario
-118,Tascalate,Tostada,Nuegado,Rara vez
-119,Pozol,Quesadilla,Bunuelo,Semanal
-120,Pozol,Gordita,Nuegado,Diario
-121,Agua de chía,Taco,Turrón,Semanal
-122,Coca-Cola,Quesadilla,Bunuelo,Diario
-123,Agua de chía,Quesadilla,Turrón,Mensual
-124,Agua de horchata,Empanada,Plátano Asado,Semanal
-125,Coca-Cola,Empanada,Cocada,Mensual
-126,Agua de horchata,Tostada,Bunuelo,Diario
-127,Tascalate,Tostada,Turrón,Semanal
-128,Pozol,Tostada,Plátano Asado,Diario
-129,Tascalate,Tostada,Turulete,Diario
-130,Agua de horchata,Quesadilla,Cocada,Rara vez
-131,Agua de jamaica,Quesadilla,Bunuelo,Mensual
-132,Agua de chía,Taco,Cocada,Semanal
-133,Pozol,Taco,Turulete,Mensual
-134,Agua de horchata,Taco,Turulete,Mensual
-135,Agua de horchata,Quesadilla,Plátano Asado,Semanal
-136,Coca-Cola,Taco,Plátano Asado,Diario
-137,Agua de horchata,Empanada,Turulete,Mensual
-138,Coca-Cola,Gordita,Turrón,Semanal
-139,Pozol,Empanada,Turrón,Diario
-140,Pozol,Quesadilla,Turrón,Diario
-141,Agua de chía,Quesadilla,Turrón,Diario
-142,Tascalate,Taco,Turrón,Mensual
-143,Agua de chía,Taco,Turrón,Diario
-144,Agua de chía,Tamal,Bunuelo,Diario
-145,Coca-Cola,Empanada,Cocada,Semanal
-146,Tascalate,Tamal,Nuegado,Rara vez
-147,Pozol,Quesadilla,Bunuelo,Rara vez
-148,Agua de horchata,Quesadilla,Cocada,Rara vez
-149,Tascalate,Empanada,Turrón,Mensual
-150,Agua de jamaica,Tamal,Turulete,Diario
-151,Tascalate,Gordita,Cocada,Rara vez
-152,Agua de horchata,Tostada,Bunuelo,Semanal
-153,Coca-Cola,Tostada,Cocada,Rara vez
-154,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
-155,Agua de jamaica,Empanada,Bunuelo,Semanal
-156,Agua de jamaica,Empanada,Turrón,Diario
-157,Agua de chía,Quesadilla,Nuegado,Semanal
-158,Agua de jamaica,Quesadilla,Cocada,Rara vez
-159,Coca-Cola,Gordita,Turrón,Diario
-160,Pozol,Quesadilla,Cocada,Mensual
-161,Agua de chía,Empanada,Bunuelo,Mensual
-162,Agua de horchata,Taco,Cocada,Semanal
-163,Tascalate,Quesadilla,Bunuelo,Mensual
-164,Agua de chía,Taco,Plátano Asado,Rara vez
-165,Pozol,Empanada,Bunuelo,Diario
-166,Agua de jamaica,Taco,Cocada,Diario
-167,Agua de jamaica,Empanada,Turrón,Rara vez
-168,Agua de horchata,Taco,Nuegado,Rara vez
-169,Agua de horchata,Tamal,Plátano Asado,Diario
-170,Agua de jamaica,Quesadilla,Turrón,Semanal
-171,Agua de jamaica,Tostada,Turrón,Rara vez
-172,Tascalate,Tamal,Turrón,Semanal
-173,Agua de horchata,Tamal,Plátano Asado,Mensual
-174,Agua de chía,Tamal,Nuegado,Semanal
-175,Coca-Cola,Taco,Nuegado,Rara vez
-176,Coca-Cola,Tamal,Bunuelo,Mensual
-177,Agua de chía,Tamal,Nuegado,Semanal
-178,Agua de jamaica,Quesadilla,Turrón,Diario
-179,Pozol,Gordita,Bunuelo,Diario
-180,Tascalate,Tamal,Cocada,Diario
-181,Agua de chía,Tostada,Turulete,Diario
-182,Coca-Cola,Tostada,Cocada,Rara vez
-183,Agua de horchata,Empanada,Turulete,Semanal
-184,Agua de chía,Tamal,Turrón,Rara vez
-185,Agua de chía,Gordita,Bunuelo,Diario
-186,Agua de horchata,Gordita,Turrón,Semanal
-187,Agua de horchata,Tostada,Turrón,Mensual
-188,Agua de horchata,Taco,Turulete,Rara vez
-189,Agua de chía,Tostada,Nuegado,Mensual
-190,Agua de chía,Quesadilla,Cocada,Semanal
-191,Agua de chía,Tostada,Cocada,Semanal
-192,Pozol,Empanada,Plátano Asado,Semanal
-193,Agua de chía,Tostada,Turulete,Diario
-194,Agua de jamaica,Tamal,Bunuelo,Mensual
-195,Tascalate,Empanada,Bunuelo,Mensual
-196,Pozol,Gordita,Turulete,Diario
-197,Agua de horchata,Tamal,Nuegado,Rara vez
-198,Agua de horchata,Empanada,Turulete,Mensual
-199,Tascalate,Quesadilla,Plátano Asado,Semanal
-200,Agua de horchata,Quesadilla,Cocada,Mensual
-201,Agua de chía,Quesadilla,Nuegado,Mensual
-202,Agua de jamaica,Gordita,Turrón,Mensual
-203,Agua de jamaica,Empanada,Turulete,Diario
-204,Agua de horchata,Tostada,Cocada,Rara vez
-205,Agua de chía,Tamal,Nuegado,Rara vez
-206,Agua de chía,Tamal,Plátano Asado,Semanal
-207,Agua de horchata,Empanada,Nuegado,Diario
-208,Pozol,Tostada,Turulete,Mensual
-209,Agua de jamaica,Quesadilla,Nuegado,Diario
-210,Agua de chía,Empanada,Cocada,Mensual
-211,Tascalate,Taco,Bunuelo,Rara vez
-212,Agua de chía,Taco,Cocada,Semanal
-213,Agua de jamaica,Quesadilla,Turulete,Mensual
-214,Agua de horchata,Quesadilla,Turulete,Mensual
-215,Coca-Cola,Quesadilla,Nuegado,Semanal
-216,Agua de chía,Quesadilla,Cocada,Rara vez
-217,Agua de jamaica,Taco,Plátano Asado,Rara vez
-218,Coca-Cola,Empanada,Plátano Asado,Mensual
-219,Tascalate,Taco,Turrón,Rara vez
-220,Coca-Cola,Gordita,Turrón,Diario
-221,Agua de jamaica,Taco,Plátano Asado,Diario
-222,Coca-Cola,Gordita,Turulete,Mensual
-223,Tascalate,Tostada,Nuegado,Diario
-224,Agua de horchata,Tamal,Bunuelo,Semanal
-225,Agua de chía,Empanada,Turulete,Mensual
-226,Coca-Cola,Tamal,Bunuelo,Diario
-227,Agua de jamaica,Taco,Nuegado,Rara vez
-228,Coca-Cola,Empanada,Plátano Asado,Semanal
-229,Tascalate,Quesadilla,Cocada,Rara vez
-230,Coca-Cola,Tamal,Turrón,Rara vez
-231,Agua de chía,Taco,Plátano Asado,Semanal
-232,Agua de horchata,Tostada,Turrón,Semanal
-233,Agua de horchata,Tamal,Turrón,Mensual
-234,Agua de horchata,Quesadilla,Turulete,Mensual
-235,Agua de chía,Taco,Cocada,Diario
-236,Pozol,Tostada,Plátano Asado,Mensual
-237,Agua de jamaica,Taco,Plátano Asado,Diario
-238,Agua de jamaica,Taco,Plátano Asado,Diario
-239,Pozol,Gordita,Bunuelo,Rara vez
-240,Coca-Cola,Tamal,Turrón,Rara vez
-241,Agua de jamaica,Empanada,Turulete,Semanal
-242,Agua de jamaica,Tamal,Turrón,Semanal
-243,Agua de horchata,Tamal,Cocada,Diario
-244,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
-245,Agua de horchata,Empanada,Plátano Asado,Rara vez
-246,Tascalate,Tamal,Nuegado,Rara vez
-247,Agua de chía,Tostada,Turrón,Mensual
-248,Agua de jamaica,Gordita,Cocada,Semanal
-249,Agua de chía,Empanada,Cocada,Diario
-250,Agua de chía,Tamal,Plátano Asado,Semanal
-251,Agua de jamaica,Tostada,Turrón,Rara vez
-252,Agua de jamaica,Tamal,Cocada,Rara vez
-253,Agua de horchata,Taco,Turulete,Semanal
-254,Agua de horchata,Quesadilla,Turrón,Semanal
-255,Agua de jamaica,Taco,Bunuelo,Mensual
-256,Tascalate,Empanada,Turulete,Rara vez
-257,Agua de jamaica,Tamal,Turulete,Mensual
-258,Tascalate,Tostada,Turrón,Diario
-259,Tascalate,Gordita,Nuegado,Mensual
-260,Agua de horchata,Tostada,Turulete,Diario
-261,Tascalate,Tostada,Plátano Asado,Mensual
-262,Tascalate,Empanada,Bunuelo,Diario
-263,Pozol,Empanada,Plátano Asado,Diario
-264,Coca-Cola,Taco,Nuegado,Diario
-265,Agua de horchata,Gordita,Cocada,Mensual
-266,Tascalate,Tostada,Nuegado,Semanal
-267,Agua de horchata,Gordita,Cocada,Mensual
-268,Agua de chía,Taco,Plátano Asado,Rara vez
-269,Agua de chía,Tostada,Turrón,Rara vez
-270,Agua de horchata,Quesadilla,Plátano Asado,Mensual
-271,Agua de horchata,Taco,Turulete,Diario
-272,Pozol,Empanada,Turulete,Semanal
-273,Pozol,Gordita,Cocada,Diario
-274,Agua de chía,Taco,Cocada,Mensual
-275,Coca-Cola,Taco,Bunuelo,Semanal
-276,Agua de jamaica,Tostada,Bunuelo,Diario
-277,Pozol,Tostada,Cocada,Rara vez
-278,Tascalate,Gordita,Cocada,Mensual
-279,Coca-Cola,Tostada,Plátano Asado,Diario
-280,Agua de jamaica,Tamal,Cocada,Rara vez
-281,Coca-Cola,Empanada,Turulete,Semanal
-282,Pozol,Tamal,Turulete,Mensual
-283,Agua de jamaica,Taco,Cocada,Diario
-284,Tascalate,Gordita,Turulete,Mensual
-285,Coca-Cola,Empanada,Turulete,Mensual
-286,Tascalate,Quesadilla,Nuegado,Rara vez
-287,Coca-Cola,Tamal,Cocada,Mensual
-288,Agua de horchata,Quesadilla,Nuegado,Rara vez
-289,Coca-Cola,Quesadilla,Nuegado,Diario
-290,Coca-Cola,Tamal,Plátano Asado,Mensual
-291,Agua de jamaica,Taco,Cocada,Mensual
-292,Coca-Cola,Quesadilla,Bunuelo,Mensual
-293,Agua de jamaica,Empanada,Turrón,Rara vez
-294,Coca-Cola,Quesadilla,Nuegado,Mensual
-295,Agua de jamaica,Quesadilla,Nuegado,Rara vez
-296,Pozol,Quesadilla,Plátano Asado,Rara vez
-297,Coca-Cola,Quesadilla,Turrón,Mensual
-298,Agua de jamaica,Tostada,Plátano Asado,Mensual
-299,Tascalate,Tamal,Bunuelo,Diario
-300,Pozol,Gordita,Turulete,Diario
-301,Pozol,Gordita,Bunuelo,Mensual
-302,Agua de horchata,Gordita,Nuegado,Semanal
-303,Agua de jamaica,Quesadilla,Cocada,Mensual
-304,Agua de jamaica,Tostada,Turrón,Diario
-305,Agua de horchata,Empanada,Plátano Asado,Rara vez
-306,Agua de chía,Tostada,Turrón,Mensual
-307,Agua de chía,Tostada,Cocada,Semanal
-308,Agua de chía,Gordita,Turulete,Diario
-309,Pozol,Quesadilla,Bunuelo,Rara vez
-310,Agua de horchata,Empanada,Cocada,Mensual
-311,Agua de jamaica,Taco,Plátano Asado,Mensual
-312,Agua de jamaica,Empanada,Plátano Asado,Mensual
-313,Tascalate,Tamal,Turulete,Semanal
-314,Tascalate,Tostada,Turulete,Semanal
-315,Agua de jamaica,Tostada,Bunuelo,Semanal
-316,Coca-Cola,Quesadilla,Turrón,Rara vez
-317,Agua de jamaica,Quesadilla,Plátano Asado,Semanal
-318,Pozol,Gordita,Turulete,Rara vez
-319,Agua de horchata,Tamal,Nuegado,Diario
-320,Agua de horchata,Empanada,Nuegado,Mensual
-321,Tascalate,Gordita,Plátano Asado,Semanal
-322,Coca-Cola,Taco,Bunuelo,Rara vez
-323,Tascalate,Tostada,Bunuelo,Mensual
-324,Tascalate,Gordita,Plátano Asado,Semanal
-325,Agua de jamaica,Tamal,Bunuelo,Mensual
-326,Agua de horchata,Tostada,Cocada,Mensual
-327,Pozol,Tamal,Plátano Asado,Diario
-328,Pozol,Taco,Turulete,Diario
-329,Agua de chía,Empanada,Cocada,Rara vez
-330,Coca-Cola,Taco,Plátano Asado,Mensual
-331,Agua de chía,Tostada,Turulete,Semanal
-332,Tascalate,Empanada,Cocada,Mensual
-333,Pozol,Taco,Turulete,Mensual
-334,Agua de horchata,Gordita,Bunuelo,Mensual
-335,Agua de jamaica,Quesadilla,Bunuelo,Rara vez
-336,Agua de chía,Gordita,Plátano Asado,Mensual
-337,Agua de chía,Gordita,Turulete,Mensual
-338,Pozol,Taco,Turrón,Diario
-339,Coca-Cola,Empanada,Turulete,Rara vez
-340,Agua de jamaica,Gordita,Plátano Asado,Diario
-341,Tascalate,Quesadilla,Nuegado,Rara vez
-342,Agua de chía,Quesadilla,Turrón,Rara vez
-343,Pozol,Quesadilla,Turrón,Rara vez
-344,Agua de chía,Taco,Plátano Asado,Rara vez
-345,Coca-Cola,Taco,Turrón,Diario
-346,Agua de horchata,Tamal,Bunuelo,Semanal
-347,Coca-Cola,Empanada,Cocada,Rara vez
-348,Agua de chía,Tostada,Turrón,Semanal
-349,Agua de jamaica,Quesadilla,Nuegado,Rara vez
-350,Coca-Cola,Tamal,Turrón,Rara vez
-351,Agua de jamaica,Empanada,Turrón,Mensual
-352,Agua de chía,Tamal,Nuegado,Diario
-353,Coca-Cola,Tamal,Turrón,Diario
-354,Agua de chía,Taco,Bunuelo,Diario
-355,Coca-Cola,Taco,Cocada,Diario
-356,Agua de chía,Taco,Cocada,Diario
-357,Tascalate,Gordita,Turulete,Semanal
-358,Agua de chía,Quesadilla,Plátano Asado,Mensual
-359,Agua de chía,Tostada,Turrón,Semanal
-360,Tascalate,Taco,Turulete,Diario
-361,Agua de jamaica,Taco,Plátano Asado,Mensual
-362,Agua de horchata,Gordita,Bunuelo,Mensual
-363,Tascalate,Tamal,Turrón,Semanal
-364,Pozol,Tamal,Turrón,Rara vez
-365,Coca-Cola,Empanada,Plátano Asado,Semanal
-366,Agua de horchata,Taco,Turrón,Semanal
-367,Agua de jamaica,Gordita,Turrón,Rara vez
-368,Agua de horchata,Tamal,Nuegado,Rara vez
-369,Agua de horchata,Gordita,Plátano Asado,Rara vez
-370,Coca-Cola,Gordita,Nuegado,Semanal
-371,Agua de jamaica,Tamal,Turrón,Diario
-372,Agua de jamaica,Quesadilla,Cocada,Mensual
-373,Coca-Cola,Gordita,Cocada,Diario
-374,Agua de chía,Empanada,Turrón,Diario
-375,Agua de horchata,Quesadilla,Turrón,Mensual
-376,Pozol,Tostada,Cocada,Mensual
-377,Tascalate,Empanada,Nuegado,Mensual
-378,Tascalate,Tamal,Cocada,Semanal
-379,Tascalate,Taco,Turulete,Rara vez
-380,Coca-Cola,Quesadilla,Nuegado,Mensual
-381,Agua de jamaica,Tostada,Turulete,Rara vez
-382,Agua de chía,Quesadilla,Nuegado,Diario
-383,Coca-Cola,Quesadilla,Nuegado,Diario
-384,Agua de jamaica,Tostada,Turulete,Semanal
-385,Agua de jamaica,Empanada,Turrón,Mensual
-386,Agua de chía,Tostada,Bunuelo,Mensual
-387,Coca-Cola,Tostada,Nuegado,Semanal
-388,Agua de horchata,Quesadilla,Turulete,Diario
-389,Tascalate,Quesadilla,Bunuelo,Semanal
-390,Tascalate,Tostada,Nuegado,Rara vez
-391,Coca-Cola,Taco,Turrón,Diario
-392,Agua de horchata,Empanada,Bunuelo,Semanal
-393,Agua de chía,Tostada,Cocada,Mensual
-394,Agua de horchata,Gordita,Cocada,Diario
-395,Agua de horchata,Taco,Bunuelo,Rara vez
-396,Tascalate,Quesadilla,Turrón,Rara vez
-397,Tascalate,Quesadilla,Bunuelo,Rara vez
-398,Tascalate,Gordita,Bunuelo,Diario
-399,Agua de jamaica,Gordita,Nuegado,Rara vez
-400,Agua de chía,Tostada,Turulete,Semanal
-401,Pozol,Empanada,Nuegado,Semanal
-402,Agua de jamaica,Tostada,Cocada,Diario
-403,Agua de chía,Quesadilla,Bunuelo,Diario
-404,Tascalate,Tamal,Plátano Asado,Mensual
-405,Pozol,Empanada,Nuegado,Rara vez
-406,Agua de chía,Empanada,Cocada,Diario
-407,Coca-Cola,Quesadilla,Nuegado,Diario
-408,Agua de jamaica,Gordita,Cocada,Rara vez
-409,Pozol,Gordita,Cocada,Diario
-410,Pozol,Tamal,Bunuelo,Diario
-411,Agua de horchata,Tamal,Turulete,Rara vez
-412,Agua de chía,Quesadilla,Plátano Asado,Semanal
-413,Pozol,Quesadilla,Cocada,Mensual
-414,Coca-Cola,Empanada,Cocada,Rara vez
-415,Agua de horchata,Quesadilla,Turulete,Diario
-416,Agua de chía,Empanada,Nuegado,Semanal
-417,Agua de horchata,Taco,Nuegado,Mensual
-418,Agua de jamaica,Tostada,Cocada,Mensual
-419,Agua de horchata,Taco,Cocada,Mensual
-420,Coca-Cola,Taco,Plátano Asado,Mensual
-421,Tascalate,Taco,Bunuelo,Diario
-422,Agua de horchata,Tostada,Turulete,Rara vez
-423,Agua de chía,Quesadilla,Turrón,Semanal
-424,Agua de jamaica,Taco,Bunuelo,Semanal
-425,Agua de horchata,Empanada,Turulete,Diario
-426,Tascalate,Tostada,Turrón,Semanal
-427,Tascalate,Taco,Plátano Asado,Semanal
-428,Coca-Cola,Tostada,Bunuelo,Mensual
-429,Agua de chía,Empanada,Plátano Asado,Diario
-430,Agua de chía,Gordita,Nuegado,Rara vez
-431,Pozol,Tostada,Nuegado,Rara vez
-432,Agua de chía,Tostada,Nuegado,Semanal
-433,Tascalate,Tostada,Turrón,Diario
-434,Agua de jamaica,Empanada,Bunuelo,Semanal
-435,Coca-Cola,Gordita,Nuegado,Diario
-436,Pozol,Quesadilla,Turulete,Diario
-437,Agua de chía,Empanada,Bunuelo,Mensual
-438,Tascalate,Tostada,Turrón,Diario
-439,Pozol,Tostada,Nuegado,Diario
-440,Tascalate,Tostada,Turulete,Mensual
-441,Agua de jamaica,Taco,Turrón,Mensual
-442,Pozol,Empanada,Plátano Asado,Rara vez
-443,Agua de jamaica,Taco,Plátano Asado,Diario
-444,Agua de horchata,Tamal,Nuegado,Mensual
-445,Coca-Cola,Quesadilla,Cocada,Rara vez
-446,Pozol,Tostada,Plátano Asado,Diario
-447,Pozol,Tamal,Nuegado,Rara vez
-448,Agua de chía,Tostada,Plátano Asado,Rara vez
-449,Coca-Cola,Tamal,Cocada,Rara vez
-450,Agua de horchata,Empanada,Cocada,Diario
-451,Pozol,Quesadilla,Turrón,Diario
-452,Agua de jamaica,Taco,Bunuelo,Semanal
-453,Agua de horchata,Quesadilla,Bunuelo,Diario
-454,Coca-Cola,Tostada,Turulete,Rara vez
-455,Agua de chía,Taco,Plátano Asado,Rara vez
-456,Coca-Cola,Tostada,Plátano Asado,Mensual
-457,Pozol,Empanada,Plátano Asado,Semanal
-458,Agua de chía,Tamal,Cocada,Diario
-459,Agua de jamaica,Tamal,Nuegado,Diario
-460,Coca-Cola,Taco,Plátano Asado,Semanal
-461,Agua de horchata,Tostada,Turulete,Mensual
-462,Agua de horchata,Gordita,Plátano Asado,Mensual
-463,Agua de horchata,Empanada,Plátano Asado,Rara vez
-464,Tascalate,Taco,Turulete,Diario
-465,Coca-Cola,Taco,Nuegado,Mensual
-466,Pozol,Taco,Nuegado,Rara vez
-467,Agua de chía,Tostada,Plátano Asado,Rara vez
-468,Agua de chía,Tamal,Turrón,Diario
-469,Coca-Cola,Gordita,Nuegado,Rara vez
-470,Tascalate,Quesadilla,Turulete,Mensual
-471,Coca-Cola,Gordita,Nuegado,Mensual
-472,Agua de chía,Gordita,Turrón,Mensual
-473,Agua de chía,Taco,Turrón,Semanal
-474,Agua de chía,Taco,Plátano Asado,Rara vez
-475,Agua de chía,Empanada,Cocada,Mensual
-476,Agua de horchata,Tostada,Nuegado,Semanal
-477,Pozol,Gordita,Cocada,Diario
-478,Coca-Cola,Tamal,Plátano Asado,Mensual
-479,Agua de jamaica,Tamal,Turrón,Diario
-480,Agua de horchata,Taco,Cocada,Rara vez
-481,Coca-Cola,Quesadilla,Plátano Asado,Semanal
-482,Coca-Cola,Taco,Bunuelo,Rara vez
-483,Agua de jamaica,Gordita,Cocada,Semanal
-484,Coca-Cola,Taco,Cocada,Diario
-485,Agua de chía,Empanada,Plátano Asado,Diario
-486,Tascalate,Tamal,Turrón,Diario
-487,Pozol,Quesadilla,Turulete,Rara vez
-488,Agua de jamaica,Gordita,Turrón,Semanal
-489,Agua de jamaica,Tamal,Turulete,Rara vez
-490,Tascalate,Tamal,Turrón,Rara vez
-491,Tascalate,Gordita,Nuegado,Mensual
-492,Pozol,Tamal,Plátano Asado,Semanal
-493,Coca-Cola,Taco,Turrón,Semanal
-494,Pozol,Quesadilla,Turrón,Mensual
-495,Agua de horchata,Empanada,Cocada,Mensual
-496,Pozol,Taco,Bunuelo,Mensual
-497,Pozol,Quesadilla,Turrón,Semanal
-498,Agua de chía,Quesadilla,Nuegado,Diario
-499,Agua de chía,Empanada,Bunuelo,Diario
-500,Coca-Cola,Empanada,Bunuelo,Diario
-501,Agua de horchata,Quesadilla,Cocada,Mensual
-502,Agua de chía,Tamal,Turrón,Rara vez
-503,Coca-Cola,Taco,Plátano Asado,Diario
-504,Agua de jamaica,Empanada,Nuegado,Diario
-505,Tascalate,Gordita,Turrón,Rara vez
-506,Agua de jamaica,Tamal,Turulete,Rara vez
-507,Tascalate,Empanada,Turulete,Diario
-508,Agua de chía,Gordita,Nuegado,Mensual
-509,Coca-Cola,Taco,Turrón,Mensual
-510,Pozol,Taco,Plátano Asado,Diario
-511,Agua de chía,Tamal,Bunuelo,Mensual
-512,Agua de horchata,Taco,Nuegado,Semanal
-513,Pozol,Gordita,Cocada,Diario
-514,Pozol,Tostada,Turulete,Rara vez
-515,Tascalate,Gordita,Nuegado,Diario
-516,Tascalate,Empanada,Nuegado,Rara vez
-517,Pozol,Empanada,Cocada,Rara vez
-518,Agua de chía,Taco,Turulete,Rara vez
-519,Agua de jamaica,Gordita,Nuegado,Semanal
-520,Tascalate,Tamal,Turrón,Semanal
-521,Agua de horchata,Tamal,Cocada,Mensual
-522,Agua de chía,Empanada,Turulete,Semanal
-523,Agua de chía,Taco,Turulete,Mensual
-524,Agua de horchata,Tostada,Plátano Asado,Mensual
-525,Coca-Cola,Empanada,Cocada,Diario
-526,Coca-Cola,Gordita,Cocada,Rara vez
-527,Agua de horchata,Gordita,Bunuelo,Mensual
-528,Agua de chía,Taco,Cocada,Mensual
-529,Tascalate,Gordita,Nuegado,Semanal
-530,Coca-Cola,Tamal,Cocada,Semanal
-531,Tascalate,Empanada,Nuegado,Mensual
-532,Agua de jamaica,Empanada,Turulete,Semanal
-533,Agua de jamaica,Taco,Nuegado,Semanal
-534,Pozol,Taco,Plátano Asado,Diario
-535,Pozol,Taco,Turulete,Mensual
-536,Coca-Cola,Empanada,Plátano Asado,Rara vez
-537,Pozol,Quesadilla,Nuegado,Rara vez
-538,Coca-Cola,Empanada,Nuegado,Semanal
-539,Agua de chía,Tamal,Nuegado,Rara vez
-540,Agua de jamaica,Gordita,Plátano Asado,Semanal
-541,Coca-Cola,Empanada,Cocada,Mensual
-542,Agua de jamaica,Empanada,Cocada,Rara vez
-543,Agua de jamaica,Empanada,Cocada,Semanal
-544,Tascalate,Tamal,Cocada,Mensual
-545,Agua de horchata,Taco,Bunuelo,Mensual
-546,Coca-Cola,Taco,Turrón,Rara vez
-547,Agua de horchata,Tamal,Cocada,Diario
-548,Agua de jamaica,Tamal,Nuegado,Mensual
-549,Coca-Cola,Gordita,Bunuelo,Mensual
-550,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
-551,Agua de chía,Taco,Cocada,Diario
-552,Coca-Cola,Taco,Bunuelo,Diario
-553,Coca-Cola,Taco,Turrón,Diario
-554,Agua de horchata,Quesadilla,Bunuelo,Mensual
-555,Tascalate,Empanada,Bunuelo,Semanal
-556,Agua de chía,Gordita,Plátano Asado,Mensual
-557,Tascalate,Tostada,Turrón,Rara vez
-558,Pozol,Taco,Turulete,Rara vez
-559,Coca-Cola,Empanada,Turulete,Diario
-560,Pozol,Tamal,Turrón,Semanal
-561,Agua de chía,Tamal,Cocada,Rara vez
-562,Pozol,Tamal,Nuegado,Rara vez
-563,Coca-Cola,Taco,Turrón,Mensual
-564,Pozol,Quesadilla,Plátano Asado,Diario
-565,Pozol,Tamal,Nuegado,Mensual
-566,Agua de horchata,Empanada,Turrón,Rara vez
-567,Agua de chía,Tostada,Cocada,Diario
-568,Pozol,Gordita,Bunuelo,Rara vez
-569,Pozol,Empanada,Turulete,Mensual
-570,Agua de chía,Quesadilla,Cocada,Mensual
-571,Agua de chía,Quesadilla,Cocada,Diario
-572,Coca-Cola,Empanada,Turrón,Semanal
-573,Pozol,Empanada,Turulete,Diario
-574,Tascalate,Taco,Turrón,Mensual
-575,Pozol,Taco,Bunuelo,Diario
-576,Tascalate,Empanada,Turrón,Rara vez
-577,Coca-Cola,Quesadilla,Nuegado,Mensual
-578,Tascalate,Gordita,Turrón,Diario
-579,Agua de jamaica,Tostada,Bunuelo,Semanal
-580,Agua de jamaica,Empanada,Bunuelo,Diario
-581,Agua de jamaica,Tostada,Bunuelo,Mensual
-582,Pozol,Tostada,Bunuelo,Semanal
-583,Agua de jamaica,Empanada,Nuegado,Mensual
-584,Pozol,Taco,Cocada,Mensual
-585,Pozol,Quesadilla,Turulete,Rara vez
-586,Agua de chía,Gordita,Cocada,Rara vez
-587,Pozol,Gordita,Turulete,Diario
-588,Agua de chía,Taco,Turrón,Mensual
-589,Agua de jamaica,Tostada,Turrón,Rara vez
-590,Tascalate,Tamal,Cocada,Rara vez
-591,Agua de horchata,Gordita,Turrón,Rara vez
-592,Coca-Cola,Empanada,Nuegado,Diario
-593,Agua de horchata,Tamal,Turrón,Diario
-594,Agua de jamaica,Gordita,Nuegado,Diario
-595,Tascalate,Empanada,Cocada,Rara vez
-596,Pozol,Tostada,Nuegado,Mensual
-597,Agua de horchata,Empanada,Turulete,Diario
-598,Coca-Cola,Taco,Bunuelo,Semanal
-599,Agua de chía,Taco,Turulete,Diario
-600,Coca-Cola,Empanada,Nuegado,Mensual
-601,Agua de chía,Tostada,Turulete,Mensual
-602,Pozol,Empanada,Bunuelo,Mensual
-603,Coca-Cola,Tamal,Cocada,Diario
-604,Pozol,Tamal,Turulete,Diario
-605,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
-606,Tascalate,Tostada,Turrón,Diario
-607,Pozol,Gordita,Bunuelo,Semanal
-608,Agua de horchata,Gordita,Cocada,Rara vez
-609,Agua de jamaica,Empanada,Bunuelo,Semanal
-610,Pozol,Empanada,Cocada,Mensual
-611,Agua de jamaica,Tostada,Plátano Asado,Mensual
-612,Agua de jamaica,Quesadilla,Bunuelo,Mensual
-613,Coca-Cola,Quesadilla,Turrón,Rara vez
-614,Coca-Cola,Tostada,Cocada,Mensual
-615,Coca-Cola,Empanada,Turulete,Rara vez
-616,Agua de jamaica,Taco,Turulete,Diario
-617,Agua de chía,Tostada,Plátano Asado,Mensual
-618,Agua de jamaica,Gordita,Plátano Asado,Mensual
-619,Agua de horchata,Quesadilla,Turrón,Diario
-620,Agua de jamaica,Gordita,Bunuelo,Semanal
-621,Coca-Cola,Tamal,Nuegado,Diario
-622,Coca-Cola,Gordita,Plátano Asado,Mensual
-623,Agua de jamaica,Gordita,Turulete,Rara vez
-624,Tascalate,Empanada,Cocada,Rara vez
-625,Pozol,Taco,Nuegado,Semanal
-626,Coca-Cola,Taco,Bunuelo,Rara vez
-627,Coca-Cola,Empanada,Bunuelo,Rara vez
-628,Coca-Cola,Empanada,Nuegado,Diario
-629,Pozol,Tostada,Cocada,Rara vez
-630,Agua de chía,Empanada,Plátano Asado,Rara vez
-631,Agua de horchata,Tostada,Plátano Asado,Rara vez
-632,Agua de horchata,Gordita,Plátano Asado,Semanal
-633,Agua de chía,Empanada,Bunuelo,Mensual
-634,Agua de chía,Empanada,Cocada,Semanal
-635,Coca-Cola,Gordita,Turulete,Semanal
-636,Coca-Cola,Tostada,Turulete,Diario
-637,Tascalate,Tostada,Plátano Asado,Rara vez
-638,Pozol,Taco,Plátano Asado,Diario
-639,Coca-Cola,Tostada,Turulete,Rara vez
-640,Tascalate,Gordita,Turulete,Diario
-641,Tascalate,Gordita,Bunuelo,Diario
-642,Agua de chía,Tamal,Cocada,Rara vez
-643,Agua de horchata,Empanada,Cocada,Semanal
-644,Pozol,Tamal,Cocada,Diario
-645,Tascalate,Gordita,Nuegado,Diario
-646,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
-647,Agua de horchata,Tamal,Nuegado,Mensual
-648,Agua de horchata,Tamal,Turulete,Mensual
-649,Tascalate,Tostada,Nuegado,Rara vez
-650,Coca-Cola,Quesadilla,Nuegado,Semanal
-651,Agua de chía,Quesadilla,Turulete,Diario
-652,Agua de horchata,Taco,Turulete,Semanal
-653,Coca-Cola,Quesadilla,Plátano Asado,Diario
-654,Agua de chía,Taco,Plátano Asado,Semanal
-655,Pozol,Tostada,Plátano Asado,Diario
-656,Agua de chía,Gordita,Bunuelo,Diario
-657,Coca-Cola,Taco,Turrón,Rara vez
-658,Coca-Cola,Quesadilla,Turulete,Rara vez
-659,Agua de jamaica,Tamal,Cocada,Mensual
-660,Agua de jamaica,Empanada,Nuegado,Mensual
-661,Agua de chía,Tostada,Turrón,Diario
-662,Agua de horchata,Quesadilla,Plátano Asado,Mensual
-663,Agua de chía,Empanada,Bunuelo,Mensual
-664,Coca-Cola,Quesadilla,Turulete,Rara vez
-665,Agua de horchata,Empanada,Cocada,Diario
-666,Tascalate,Taco,Cocada,Rara vez
-667,Agua de chía,Quesadilla,Turrón,Rara vez
-668,Pozol,Tostada,Nuegado,Rara vez
-669,Agua de chía,Quesadilla,Turulete,Semanal
-670,Agua de jamaica,Taco,Turrón,Rara vez
-671,Agua de chía,Taco,Nuegado,Rara vez
-672,Tascalate,Tostada,Turulete,Rara vez
-673,Agua de jamaica,Empanada,Bunuelo,Mensual
-674,Tascalate,Gordita,Bunuelo,Semanal
-675,Agua de chía,Quesadilla,Turrón,Rara vez
-676,Agua de jamaica,Empanada,Plátano Asado,Rara vez
-677,Pozol,Empanada,Plátano Asado,Mensual
-678,Agua de horchata,Tostada,Cocada,Diario
-679,Coca-Cola,Quesadilla,Plátano Asado,Semanal
-680,Agua de jamaica,Quesadilla,Turulete,Mensual
-681,Agua de chía,Tamal,Bunuelo,Mensual
-682,Pozol,Gordita,Nuegado,Semanal
-683,Coca-Cola,Tostada,Bunuelo,Mensual
-684,Agua de jamaica,Quesadilla,Nuegado,Diario
-685,Tascalate,Quesadilla,Bunuelo,Diario
-686,Coca-Cola,Tostada,Turrón,Diario
-687,Pozol,Empanada,Bunuelo,Mensual
-688,Coca-Cola,Taco,Cocada,Semanal
-689,Tascalate,Gordita,Bunuelo,Diario
-690,Agua de horchata,Gordita,Turrón,Semanal
-691,Agua de horchata,Taco,Turulete,Mensual
-692,Pozol,Gordita,Nuegado,Diario
-693,Coca-Cola,Quesadilla,Nuegado,Diario
-694,Agua de jamaica,Quesadilla,Turrón,Diario
-695,Agua de horchata,Tostada,Turulete,Diario
-696,Coca-Cola,Quesadilla,Plátano Asado,Semanal
-697,Agua de jamaica,Tostada,Turulete,Mensual
-698,Tascalate,Tostada,Bunuelo,Mensual
-699,Pozol,Gordita,Turulete,Mensual
-700,Pozol,Empanada,Turulete,Rara vez
-701,Agua de jamaica,Taco,Plátano Asado,Mensual
-702,Agua de jamaica,Tostada,Nuegado,Diario
-703,Agua de chía,Gordita,Turulete,Semanal
-704,Agua de chía,Tamal,Turulete,Mensual
-705,Tascalate,Tamal,Turrón,Diario
-706,Agua de chía,Tamal,Plátano Asado,Semanal
-707,Agua de jamaica,Empanada,Cocada,Rara vez
-708,Coca-Cola,Quesadilla,Cocada,Diario
-709,Agua de chía,Tostada,Turulete,Mensual
-710,Pozol,Taco,Turrón,Semanal
-711,Agua de jamaica,Quesadilla,Nuegado,Semanal
-712,Agua de chía,Quesadilla,Bunuelo,Semanal
-713,Agua de chía,Tostada,Turrón,Semanal
-714,Pozol,Taco,Turulete,Rara vez
-715,Agua de chía,Taco,Plátano Asado,Semanal
-716,Agua de jamaica,Quesadilla,Turrón,Diario
-717,Agua de jamaica,Tamal,Nuegado,Rara vez
-718,Coca-Cola,Tamal,Cocada,Semanal
-719,Coca-Cola,Quesadilla,Turulete,Semanal
-720,Coca-Cola,Quesadilla,Cocada,Mensual
-721,Agua de horchata,Taco,Turrón,Rara vez
-722,Tascalate,Quesadilla,Turulete,Rara vez
-723,Agua de chía,Quesadilla,Cocada,Semanal
-724,Agua de jamaica,Empanada,Nuegado,Diario
-725,Agua de jamaica,Tamal,Turulete,Semanal
-726,Agua de chía,Empanada,Plátano Asado,Diario
-727,Pozol,Quesadilla,Nuegado,Semanal
-728,Agua de horchata,Taco,Cocada,Diario
-729,Agua de chía,Taco,Bunuelo,Semanal
-730,Coca-Cola,Taco,Plátano Asado,Semanal
-731,Pozol,Gordita,Nuegado,Semanal
-732,Agua de horchata,Empanada,Turulete,Rara vez
-733,Agua de chía,Tostada,Cocada,Diario
-734,Coca-Cola,Gordita,Bunuelo,Semanal
-735,Agua de horchata,Empanada,Bunuelo,Rara vez
-736,Agua de jamaica,Taco,Turrón,Mensual
-737,Agua de chía,Tostada,Nuegado,Mensual
-738,Agua de chía,Tamal,Turrón,Rara vez
-739,Agua de jamaica,Tamal,Turrón,Mensual
-740,Tascalate,Quesadilla,Nuegado,Semanal
-741,Tascalate,Gordita,Turulete,Rara vez
-742,Pozol,Quesadilla,Turrón,Diario
-743,Agua de chía,Tamal,Plátano Asado,Diario
-744,Agua de chía,Empanada,Plátano Asado,Mensual
-745,Agua de chía,Tamal,Turulete,Diario
-746,Agua de jamaica,Taco,Turrón,Rara vez
-747,Agua de chía,Gordita,Turrón,Rara vez
-748,Coca-Cola,Gordita,Nuegado,Diario
-749,Pozol,Taco,Turrón,Mensual
-750,Tascalate,Taco,Turrón,Diario
-751,Coca-Cola,Tamal,Turrón,Diario
-752,Pozol,Tostada,Bunuelo,Semanal
-753,Agua de chía,Taco,Turulete,Mensual
-754,Agua de chía,Taco,Cocada,Semanal
-755,Agua de horchata,Tostada,Bunuelo,Semanal
-756,Pozol,Tamal,Cocada,Rara vez
-757,Agua de chía,Quesadilla,Plátano Asado,Diario
-758,Tascalate,Gordita,Bunuelo,Mensual
-759,Coca-Cola,Tostada,Turrón,Mensual
-760,Agua de jamaica,Taco,Cocada,Diario
-761,Agua de horchata,Empanada,Turrón,Mensual
-762,Tascalate,Tostada,Plátano Asado,Rara vez
-763,Agua de jamaica,Tostada,Bunuelo,Semanal
-764,Agua de horchata,Empanada,Cocada,Mensual
-765,Tascalate,Quesadilla,Nuegado,Semanal
-766,Agua de horchata,Empanada,Nuegado,Mensual
-767,Agua de horchata,Tamal,Bunuelo,Diario
-768,Agua de horchata,Gordita,Bunuelo,Mensual
-769,Agua de chía,Quesadilla,Bunuelo,Rara vez
-770,Pozol,Tamal,Nuegado,Rara vez
-771,Tascalate,Empanada,Plátano Asado,Semanal
-772,Agua de jamaica,Gordita,Cocada,Mensual
-773,Agua de jamaica,Tostada,Bunuelo,Diario
-774,Tascalate,Gordita,Turrón,Diario
-775,Agua de horchata,Tamal,Bunuelo,Rara vez
-776,Coca-Cola,Tostada,Cocada,Diario
-777,Agua de chía,Tostada,Bunuelo,Semanal
-778,Agua de chía,Quesadilla,Cocada,Rara vez
-779,Agua de chía,Tostada,Bunuelo,Mensual
-780,Agua de chía,Tostada,Turrón,Semanal
-781,Agua de chía,Empanada,Bunuelo,Rara vez
+1,Agua de horchata,Taco,Turrón,Semanal
+2,Agua de horchata,Taco,Plátano Asado,Rara vez
+3,Agua de horchata,Tamal,Bunuelo,Rara vez
+4,Agua de horchata,Empanada,Turulete,Semanal
+5,Pozol,Empanada,Nuegado,Mensual
+6,Coca-Cola,Quesadilla,Plátano Asado,Semanal
+7,Tascalate,Quesadilla,Turulete,Mensual
+8,Tascalate,Gordita,Bunuelo,Diario
+9,Coca-Cola,Empanada,Plátano Asado,Rara vez
+10,Agua de jamaica,Empanada,Plátano Asado,Semanal
+11,Agua de jamaica,Taco,Cocada,Diario
+12,Tascalate,Tamal,Cocada,Semanal
+13,Agua de chía,Tamal,Nuegado,Rara vez
+14,Agua de chía,Gordita,Turulete,Rara vez
+15,Tascalate,Empanada,Turrón,Mensual
+16,Agua de horchata,Tostada,Cocada,Rara vez
+17,Agua de chía,Taco,Turulete,Rara vez
+18,Pozol,Empanada,Plátano Asado,Mensual
+19,Agua de chía,Empanada,Nuegado,Semanal
+20,Agua de horchata,Quesadilla,Plátano Asado,Diario
+21,Agua de horchata,Quesadilla,Bunuelo,Mensual
+22,Coca-Cola,Tostada,Plátano Asado,Rara vez
+23,Coca-Cola,Quesadilla,Nuegado,Diario
+24,Agua de chía,Taco,Cocada,Diario
+25,Pozol,Empanada,Nuegado,Semanal
+26,Tascalate,Gordita,Cocada,Diario
+27,Coca-Cola,Tostada,Nuegado,Rara vez
+28,Agua de chía,Taco,Plátano Asado,Diario
+29,Pozol,Tamal,Nuegado,Rara vez
+30,Tascalate,Tamal,Bunuelo,Mensual
+31,Tascalate,Taco,Nuegado,Semanal
+32,Pozol,Empanada,Nuegado,Semanal
+33,Pozol,Tostada,Turrón,Rara vez
+34,Tascalate,Empanada,Plátano Asado,Diario
+35,Agua de jamaica,Empanada,Turulete,Mensual
+36,Agua de horchata,Empanada,Plátano Asado,Diario
+37,Agua de chía,Tostada,Turulete,Semanal
+38,Tascalate,Taco,Plátano Asado,Rara vez
+39,Agua de jamaica,Taco,Turulete,Semanal
+40,Agua de chía,Taco,Turulete,Diario
+41,Pozol,Gordita,Cocada,Semanal
+42,Pozol,Quesadilla,Turrón,Semanal
+43,Agua de chía,Tostada,Cocada,Rara vez
+44,Agua de jamaica,Gordita,Turulete,Diario
+45,Agua de horchata,Gordita,Cocada,Semanal
+46,Pozol,Tostada,Nuegado,Diario
+47,Tascalate,Tostada,Plátano Asado,Rara vez
+48,Agua de jamaica,Quesadilla,Cocada,Semanal
+49,Agua de horchata,Empanada,Cocada,Diario
+50,Pozol,Empanada,Cocada,Mensual
+51,Agua de horchata,Quesadilla,Nuegado,Mensual
+52,Pozol,Quesadilla,Cocada,Semanal
+53,Agua de horchata,Tostada,Nuegado,Mensual
+54,Coca-Cola,Taco,Turrón,Semanal
+55,Agua de chía,Tostada,Cocada,Rara vez
+56,Coca-Cola,Tamal,Cocada,Semanal
+57,Pozol,Tostada,Plátano Asado,Semanal
+58,Tascalate,Quesadilla,Bunuelo,Mensual
+59,Agua de horchata,Gordita,Turulete,Diario
+60,Agua de jamaica,Tostada,Plátano Asado,Semanal
+61,Agua de jamaica,Quesadilla,Nuegado,Mensual
+62,Coca-Cola,Tostada,Turrón,Mensual
+63,Agua de horchata,Taco,Nuegado,Mensual
+64,Agua de chía,Quesadilla,Turrón,Semanal
+65,Agua de chía,Tostada,Plátano Asado,Diario
+66,Agua de jamaica,Empanada,Plátano Asado,Semanal
+67,Agua de horchata,Tamal,Bunuelo,Mensual
+68,Agua de chía,Quesadilla,Plátano Asado,Diario
+69,Pozol,Tostada,Cocada,Semanal
+70,Tascalate,Empanada,Turrón,Rara vez
+71,Agua de horchata,Tamal,Bunuelo,Rara vez
+72,Coca-Cola,Taco,Bunuelo,Rara vez
+73,Agua de jamaica,Quesadilla,Bunuelo,Rara vez
+74,Coca-Cola,Tostada,Nuegado,Rara vez
+75,Coca-Cola,Empanada,Turrón,Rara vez
+76,Agua de horchata,Taco,Turrón,Mensual
+77,Agua de chía,Quesadilla,Cocada,Mensual
+78,Agua de jamaica,Gordita,Turrón,Mensual
+79,Pozol,Gordita,Plátano Asado,Diario
+80,Agua de horchata,Quesadilla,Cocada,Semanal
+81,Agua de chía,Quesadilla,Cocada,Diario
+82,Tascalate,Quesadilla,Plátano Asado,Semanal
+83,Agua de horchata,Gordita,Cocada,Mensual
+84,Agua de jamaica,Gordita,Bunuelo,Rara vez
+85,Pozol,Gordita,Bunuelo,Rara vez
+86,Tascalate,Gordita,Nuegado,Diario
+87,Tascalate,Tostada,Turrón,Diario
+88,Coca-Cola,Tostada,Turulete,Rara vez
+89,Pozol,Gordita,Plátano Asado,Rara vez
+90,Coca-Cola,Taco,Cocada,Semanal
+91,Tascalate,Tamal,Nuegado,Semanal
+92,Agua de jamaica,Taco,Plátano Asado,Diario
+93,Tascalate,Tostada,Turrón,Mensual
+94,Agua de chía,Tamal,Turrón,Semanal
+95,Agua de chía,Gordita,Nuegado,Rara vez
+96,Coca-Cola,Tamal,Plátano Asado,Semanal
+97,Coca-Cola,Gordita,Turulete,Semanal
+98,Coca-Cola,Quesadilla,Bunuelo,Mensual
+99,Coca-Cola,Tostada,Turulete,Semanal
+100,Tascalate,Gordita,Cocada,Semanal
+101,Agua de horchata,Tamal,Bunuelo,Diario
+102,Agua de horchata,Tostada,Turulete,Diario
+103,Pozol,Gordita,Turulete,Mensual
+104,Tascalate,Quesadilla,Turrón,Diario
+105,Agua de horchata,Tostada,Plátano Asado,Rara vez
+106,Pozol,Taco,Turrón,Rara vez
+107,Pozol,Taco,Turrón,Diario
+108,Pozol,Tostada,Cocada,Rara vez
+109,Agua de chía,Tostada,Nuegado,Rara vez
+110,Agua de horchata,Gordita,Bunuelo,Diario
+111,Agua de chía,Gordita,Cocada,Diario
+112,Agua de horchata,Taco,Nuegado,Semanal
+113,Tascalate,Empanada,Nuegado,Mensual
+114,Pozol,Tamal,Plátano Asado,Semanal
+115,Coca-Cola,Taco,Plátano Asado,Mensual
+116,Pozol,Gordita,Cocada,Diario
+117,Agua de chía,Empanada,Nuegado,Mensual
+118,Agua de horchata,Gordita,Cocada,Rara vez
+119,Coca-Cola,Gordita,Turulete,Mensual
+120,Tascalate,Taco,Turrón,Semanal
+121,Agua de horchata,Empanada,Plátano Asado,Semanal
+122,Agua de jamaica,Quesadilla,Bunuelo,Diario
+123,Tascalate,Quesadilla,Turulete,Mensual
+124,Pozol,Gordita,Plátano Asado,Rara vez
+125,Tascalate,Empanada,Bunuelo,Mensual
+126,Agua de chía,Gordita,Cocada,Mensual
+127,Agua de jamaica,Tostada,Nuegado,Rara vez
+128,Coca-Cola,Tostada,Turrón,Rara vez
+129,Agua de jamaica,Empanada,Nuegado,Rara vez
+130,Agua de horchata,Tamal,Nuegado,Rara vez
+131,Agua de horchata,Quesadilla,Nuegado,Rara vez
+132,Pozol,Gordita,Bunuelo,Semanal
+133,Agua de chía,Taco,Turulete,Semanal
+134,Pozol,Tostada,Turulete,Semanal
+135,Agua de horchata,Gordita,Plátano Asado,Rara vez
+136,Tascalate,Tamal,Turulete,Rara vez
+137,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
+138,Tascalate,Taco,Bunuelo,Semanal
+139,Pozol,Tamal,Bunuelo,Diario
+140,Coca-Cola,Quesadilla,Cocada,Semanal
+141,Agua de chía,Taco,Cocada,Diario
+142,Agua de chía,Taco,Bunuelo,Diario
+143,Pozol,Tostada,Nuegado,Rara vez
+144,Agua de jamaica,Quesadilla,Nuegado,Mensual
+145,Agua de horchata,Quesadilla,Nuegado,Mensual
+146,Tascalate,Tostada,Plátano Asado,Semanal
+147,Agua de jamaica,Tamal,Plátano Asado,Diario
+148,Agua de jamaica,Tamal,Nuegado,Mensual
+149,Pozol,Empanada,Nuegado,Semanal
+150,Agua de chía,Quesadilla,Nuegado,Rara vez
+151,Pozol,Taco,Plátano Asado,Rara vez
+152,Agua de jamaica,Tamal,Plátano Asado,Semanal
+153,Tascalate,Tostada,Plátano Asado,Diario
+154,Agua de jamaica,Quesadilla,Bunuelo,Mensual
+155,Pozol,Empanada,Turrón,Semanal
+156,Agua de chía,Tamal,Cocada,Diario
+157,Tascalate,Tostada,Turrón,Mensual
+158,Pozol,Gordita,Turrón,Semanal
+159,Agua de chía,Tostada,Nuegado,Rara vez
+160,Pozol,Tamal,Nuegado,Semanal
+161,Agua de horchata,Tostada,Turrón,Mensual
+162,Coca-Cola,Tamal,Nuegado,Diario
+163,Pozol,Gordita,Plátano Asado,Semanal
+164,Tascalate,Gordita,Cocada,Mensual
+165,Agua de jamaica,Empanada,Turrón,Mensual
+166,Pozol,Gordita,Bunuelo,Semanal
+167,Agua de horchata,Empanada,Cocada,Mensual
+168,Agua de chía,Tamal,Nuegado,Mensual
+169,Tascalate,Quesadilla,Plátano Asado,Rara vez
+170,Agua de horchata,Quesadilla,Nuegado,Mensual
+171,Agua de chía,Empanada,Turrón,Semanal
+172,Agua de horchata,Empanada,Plátano Asado,Semanal
+173,Coca-Cola,Tamal,Nuegado,Rara vez
+174,Pozol,Quesadilla,Plátano Asado,Mensual
+175,Tascalate,Taco,Turulete,Rara vez
+176,Tascalate,Taco,Nuegado,Mensual
+177,Agua de jamaica,Tamal,Turulete,Rara vez
+178,Coca-Cola,Tostada,Cocada,Diario
+179,Agua de horchata,Taco,Turrón,Diario
+180,Pozol,Tamal,Bunuelo,Diario
+181,Coca-Cola,Gordita,Cocada,Mensual
+182,Agua de horchata,Gordita,Turulete,Semanal
+183,Coca-Cola,Tamal,Turrón,Semanal
+184,Pozol,Taco,Turrón,Diario
+185,Tascalate,Empanada,Cocada,Semanal
+186,Pozol,Quesadilla,Bunuelo,Mensual
+187,Coca-Cola,Tostada,Cocada,Diario
+188,Pozol,Tamal,Turulete,Rara vez
+189,Agua de chía,Taco,Plátano Asado,Diario
+190,Agua de jamaica,Tostada,Cocada,Semanal
+191,Agua de chía,Taco,Cocada,Semanal
+192,Pozol,Tamal,Bunuelo,Rara vez
+193,Tascalate,Tostada,Bunuelo,Semanal
+194,Pozol,Taco,Bunuelo,Rara vez
+195,Pozol,Gordita,Cocada,Rara vez
+196,Tascalate,Gordita,Turrón,Mensual
+197,Agua de chía,Quesadilla,Turrón,Diario
+198,Agua de chía,Tostada,Bunuelo,Mensual
+199,Agua de jamaica,Gordita,Cocada,Diario
+200,Tascalate,Tostada,Plátano Asado,Semanal
+201,Agua de jamaica,Taco,Bunuelo,Mensual
+202,Agua de horchata,Taco,Cocada,Diario
+203,Agua de horchata,Tostada,Bunuelo,Rara vez
+204,Tascalate,Gordita,Plátano Asado,Mensual
+205,Agua de chía,Taco,Turrón,Rara vez
+206,Agua de jamaica,Taco,Turrón,Semanal
+207,Pozol,Empanada,Cocada,Diario
+208,Pozol,Empanada,Plátano Asado,Rara vez
+209,Agua de chía,Quesadilla,Bunuelo,Semanal
+210,Agua de horchata,Taco,Turulete,Semanal
+211,Agua de jamaica,Gordita,Turulete,Mensual
+212,Agua de jamaica,Tamal,Cocada,Mensual
+213,Coca-Cola,Tamal,Nuegado,Diario
+214,Coca-Cola,Tostada,Nuegado,Rara vez
+215,Coca-Cola,Gordita,Bunuelo,Mensual
+216,Coca-Cola,Gordita,Plátano Asado,Mensual
+217,Agua de chía,Quesadilla,Turulete,Rara vez
+218,Coca-Cola,Tamal,Cocada,Mensual
+219,Agua de jamaica,Tamal,Plátano Asado,Rara vez
+220,Agua de chía,Empanada,Turulete,Semanal
+221,Pozol,Quesadilla,Nuegado,Semanal
+222,Agua de jamaica,Taco,Turrón,Rara vez
+223,Pozol,Quesadilla,Cocada,Mensual
+224,Tascalate,Tamal,Turrón,Diario
+225,Agua de jamaica,Taco,Nuegado,Diario
+226,Agua de horchata,Quesadilla,Turulete,Mensual
+227,Agua de jamaica,Empanada,Nuegado,Rara vez
+228,Pozol,Empanada,Plátano Asado,Mensual
+229,Agua de jamaica,Empanada,Plátano Asado,Mensual
+230,Agua de jamaica,Empanada,Turulete,Mensual
+231,Agua de horchata,Empanada,Turulete,Rara vez
+232,Pozol,Tostada,Bunuelo,Diario
+233,Agua de chía,Tamal,Bunuelo,Rara vez
+234,Agua de chía,Tamal,Turulete,Semanal
+235,Coca-Cola,Tostada,Turrón,Rara vez
+236,Pozol,Tostada,Turulete,Mensual
+237,Agua de horchata,Quesadilla,Turrón,Semanal
+238,Agua de jamaica,Gordita,Turrón,Rara vez
+239,Tascalate,Empanada,Turrón,Mensual
+240,Agua de chía,Quesadilla,Nuegado,Semanal
+241,Pozol,Taco,Turulete,Rara vez
+242,Pozol,Taco,Bunuelo,Diario
+243,Agua de jamaica,Tostada,Cocada,Diario
+244,Coca-Cola,Tamal,Plátano Asado,Diario
+245,Agua de horchata,Tostada,Plátano Asado,Diario
+246,Agua de horchata,Tamal,Turulete,Mensual
+247,Agua de horchata,Empanada,Turrón,Mensual
+248,Agua de jamaica,Gordita,Plátano Asado,Rara vez
+249,Agua de horchata,Gordita,Nuegado,Diario
+250,Pozol,Empanada,Turrón,Semanal
+251,Tascalate,Quesadilla,Plátano Asado,Semanal
+252,Coca-Cola,Empanada,Turrón,Mensual
+253,Pozol,Quesadilla,Bunuelo,Rara vez
+254,Agua de jamaica,Taco,Cocada,Mensual
+255,Pozol,Tostada,Turrón,Diario
+256,Coca-Cola,Empanada,Plátano Asado,Mensual
+257,Tascalate,Gordita,Turrón,Rara vez
+258,Agua de chía,Empanada,Cocada,Diario
+259,Pozol,Tamal,Nuegado,Diario
+260,Agua de horchata,Quesadilla,Cocada,Mensual
+261,Agua de chía,Empanada,Turrón,Mensual
+262,Pozol,Gordita,Bunuelo,Diario
+263,Coca-Cola,Tostada,Turulete,Semanal
+264,Agua de horchata,Quesadilla,Turrón,Diario
+265,Agua de jamaica,Taco,Turrón,Diario
+266,Agua de jamaica,Quesadilla,Bunuelo,Diario
+267,Coca-Cola,Quesadilla,Cocada,Semanal
+268,Tascalate,Tamal,Turrón,Mensual
+269,Agua de horchata,Gordita,Turulete,Mensual
+270,Tascalate,Tamal,Bunuelo,Semanal
+271,Agua de chía,Tamal,Turrón,Semanal
+272,Pozol,Tamal,Turulete,Semanal
+273,Agua de chía,Tamal,Turrón,Semanal
+274,Agua de horchata,Quesadilla,Cocada,Semanal
+275,Agua de horchata,Tostada,Plátano Asado,Diario
+276,Tascalate,Taco,Plátano Asado,Mensual
+277,Pozol,Taco,Nuegado,Diario
+278,Agua de horchata,Taco,Bunuelo,Diario
+279,Agua de jamaica,Gordita,Nuegado,Rara vez
+280,Agua de jamaica,Tamal,Nuegado,Diario
+281,Tascalate,Gordita,Nuegado,Diario
+282,Agua de jamaica,Taco,Turrón,Diario
+283,Agua de chía,Tostada,Bunuelo,Diario
+284,Agua de jamaica,Gordita,Plátano Asado,Rara vez
+285,Agua de jamaica,Taco,Turrón,Diario
+286,Tascalate,Tostada,Cocada,Semanal
+287,Agua de jamaica,Quesadilla,Turrón,Semanal
+288,Coca-Cola,Empanada,Bunuelo,Semanal
+289,Coca-Cola,Quesadilla,Turrón,Mensual
+290,Agua de jamaica,Taco,Bunuelo,Mensual
+291,Agua de chía,Quesadilla,Bunuelo,Diario
+292,Agua de jamaica,Taco,Bunuelo,Diario
+293,Coca-Cola,Tostada,Nuegado,Mensual
+294,Tascalate,Tamal,Plátano Asado,Rara vez
+295,Pozol,Tostada,Turrón,Semanal
+296,Agua de horchata,Quesadilla,Plátano Asado,Diario
+297,Agua de jamaica,Taco,Nuegado,Rara vez
+298,Agua de chía,Quesadilla,Nuegado,Diario
+299,Agua de horchata,Tamal,Nuegado,Mensual
+300,Agua de horchata,Quesadilla,Bunuelo,Semanal
+301,Agua de jamaica,Gordita,Plátano Asado,Rara vez
+302,Agua de jamaica,Empanada,Plátano Asado,Diario
+303,Tascalate,Tamal,Turulete,Semanal
+304,Agua de jamaica,Taco,Turrón,Semanal
+305,Agua de horchata,Quesadilla,Plátano Asado,Mensual
+306,Coca-Cola,Empanada,Turulete,Mensual
+307,Agua de jamaica,Taco,Cocada,Diario
+308,Tascalate,Empanada,Turrón,Semanal
+309,Agua de chía,Tamal,Plátano Asado,Rara vez
+310,Agua de chía,Gordita,Turulete,Rara vez
+311,Agua de jamaica,Quesadilla,Turulete,Mensual
+312,Agua de chía,Empanada,Turulete,Mensual
+313,Tascalate,Taco,Turrón,Diario
+314,Pozol,Taco,Bunuelo,Semanal
+315,Coca-Cola,Empanada,Bunuelo,Mensual
+316,Agua de chía,Empanada,Bunuelo,Mensual
+317,Agua de horchata,Empanada,Bunuelo,Rara vez
+318,Pozol,Tamal,Plátano Asado,Rara vez
+319,Coca-Cola,Gordita,Cocada,Diario
+320,Tascalate,Empanada,Bunuelo,Mensual
+321,Agua de horchata,Gordita,Nuegado,Rara vez
+322,Pozol,Quesadilla,Bunuelo,Semanal
+323,Tascalate,Empanada,Turulete,Rara vez
+324,Pozol,Taco,Plátano Asado,Rara vez
+325,Agua de jamaica,Empanada,Bunuelo,Semanal
+326,Agua de horchata,Taco,Nuegado,Rara vez
+327,Tascalate,Gordita,Nuegado,Mensual
+328,Agua de jamaica,Empanada,Plátano Asado,Semanal
+329,Coca-Cola,Tamal,Turulete,Mensual
+330,Agua de horchata,Gordita,Plátano Asado,Diario
+331,Agua de chía,Tostada,Cocada,Rara vez
+332,Agua de horchata,Gordita,Turulete,Diario
+333,Coca-Cola,Gordita,Turrón,Rara vez
+334,Agua de jamaica,Empanada,Bunuelo,Semanal
+335,Pozol,Quesadilla,Bunuelo,Rara vez
+336,Agua de chía,Tamal,Turulete,Semanal
+337,Agua de chía,Tamal,Turrón,Diario
+338,Coca-Cola,Quesadilla,Turulete,Diario
+339,Pozol,Tamal,Nuegado,Rara vez
+340,Coca-Cola,Empanada,Nuegado,Semanal
+341,Agua de jamaica,Gordita,Nuegado,Semanal
+342,Agua de jamaica,Gordita,Plátano Asado,Diario
+343,Tascalate,Tostada,Cocada,Rara vez
+344,Pozol,Tamal,Plátano Asado,Semanal
+345,Agua de chía,Empanada,Turulete,Semanal
+346,Agua de chía,Quesadilla,Plátano Asado,Mensual
+347,Agua de horchata,Tamal,Turrón,Mensual
+348,Coca-Cola,Tamal,Bunuelo,Diario
+349,Pozol,Taco,Bunuelo,Diario
+350,Agua de horchata,Quesadilla,Bunuelo,Diario
+351,Agua de chía,Tamal,Cocada,Semanal
+352,Agua de chía,Taco,Plátano Asado,Diario
+353,Agua de jamaica,Tostada,Plátano Asado,Diario
+354,Agua de horchata,Tostada,Turrón,Diario
+355,Coca-Cola,Gordita,Cocada,Semanal
+356,Pozol,Tostada,Bunuelo,Semanal
+357,Coca-Cola,Gordita,Turrón,Diario
+358,Agua de jamaica,Empanada,Cocada,Mensual
+359,Agua de jamaica,Quesadilla,Plátano Asado,Semanal
+360,Coca-Cola,Tostada,Bunuelo,Mensual
+361,Agua de horchata,Taco,Nuegado,Rara vez
+362,Coca-Cola,Tamal,Nuegado,Mensual
+363,Tascalate,Taco,Turrón,Rara vez
+364,Pozol,Taco,Cocada,Semanal
+365,Agua de horchata,Quesadilla,Turrón,Semanal
+366,Agua de jamaica,Quesadilla,Turrón,Diario
+367,Tascalate,Tamal,Turulete,Diario
+368,Coca-Cola,Tostada,Cocada,Rara vez
+369,Coca-Cola,Tamal,Turulete,Semanal
+370,Tascalate,Taco,Bunuelo,Mensual
+371,Agua de horchata,Tostada,Cocada,Semanal
+372,Agua de jamaica,Taco,Cocada,Mensual
+373,Agua de chía,Gordita,Cocada,Mensual
+374,Agua de jamaica,Tostada,Turulete,Rara vez
+375,Tascalate,Tostada,Bunuelo,Diario
+376,Coca-Cola,Quesadilla,Turulete,Rara vez
+377,Agua de jamaica,Quesadilla,Bunuelo,Semanal
+378,Pozol,Quesadilla,Nuegado,Mensual
+379,Tascalate,Empanada,Turrón,Semanal
+380,Coca-Cola,Taco,Turrón,Semanal
+381,Tascalate,Quesadilla,Plátano Asado,Semanal
+382,Coca-Cola,Taco,Plátano Asado,Diario
+383,Agua de jamaica,Tamal,Nuegado,Diario
+384,Coca-Cola,Gordita,Cocada,Diario
+385,Agua de jamaica,Quesadilla,Turrón,Semanal
+386,Agua de chía,Empanada,Bunuelo,Rara vez
+387,Agua de horchata,Quesadilla,Cocada,Mensual
+388,Agua de jamaica,Empanada,Plátano Asado,Diario
+389,Pozol,Empanada,Cocada,Rara vez
+390,Tascalate,Tostada,Cocada,Diario
+391,Tascalate,Quesadilla,Cocada,Semanal
+392,Tascalate,Tostada,Turulete,Mensual
+393,Pozol,Gordita,Bunuelo,Rara vez
+394,Pozol,Tamal,Plátano Asado,Rara vez
+395,Agua de jamaica,Tamal,Plátano Asado,Mensual
+396,Agua de jamaica,Tamal,Plátano Asado,Rara vez
+397,Agua de chía,Tostada,Bunuelo,Diario
+398,Tascalate,Taco,Turrón,Rara vez
+399,Tascalate,Tostada,Turrón,Rara vez
+400,Tascalate,Taco,Nuegado,Diario
+401,Coca-Cola,Quesadilla,Nuegado,Mensual
+402,Coca-Cola,Taco,Bunuelo,Semanal
+403,Coca-Cola,Tostada,Plátano Asado,Diario
+404,Agua de chía,Taco,Cocada,Diario
+405,Agua de chía,Quesadilla,Turulete,Mensual
+406,Agua de horchata,Empanada,Turrón,Semanal
+407,Agua de horchata,Taco,Nuegado,Semanal
+408,Agua de chía,Gordita,Turulete,Rara vez
+409,Coca-Cola,Quesadilla,Bunuelo,Mensual
+410,Agua de jamaica,Taco,Nuegado,Mensual
+411,Tascalate,Quesadilla,Cocada,Diario
+412,Agua de horchata,Quesadilla,Plátano Asado,Mensual
+413,Agua de horchata,Gordita,Turrón,Semanal
+414,Tascalate,Tamal,Plátano Asado,Semanal
+415,Agua de jamaica,Quesadilla,Bunuelo,Mensual
+416,Agua de jamaica,Tostada,Bunuelo,Semanal
+417,Tascalate,Gordita,Bunuelo,Diario
+418,Coca-Cola,Gordita,Turrón,Semanal
+419,Agua de jamaica,Tamal,Turrón,Mensual
+420,Tascalate,Empanada,Turrón,Semanal
+421,Agua de chía,Tostada,Cocada,Semanal
+422,Coca-Cola,Gordita,Turulete,Rara vez
+423,Coca-Cola,Gordita,Bunuelo,Rara vez
+424,Agua de horchata,Quesadilla,Cocada,Mensual
+425,Agua de horchata,Tamal,Turulete,Mensual
+426,Pozol,Gordita,Turulete,Rara vez
+427,Pozol,Quesadilla,Nuegado,Rara vez
+428,Pozol,Gordita,Turulete,Semanal
+429,Agua de chía,Taco,Cocada,Semanal
+430,Tascalate,Taco,Nuegado,Mensual
+431,Agua de jamaica,Gordita,Nuegado,Semanal
+432,Agua de jamaica,Quesadilla,Cocada,Semanal
+433,Agua de jamaica,Quesadilla,Turulete,Rara vez
+434,Agua de jamaica,Tostada,Cocada,Rara vez
+435,Pozol,Empanada,Cocada,Diario
+436,Agua de jamaica,Taco,Turrón,Semanal
+437,Agua de chía,Taco,Nuegado,Rara vez
+438,Agua de chía,Tamal,Cocada,Mensual
+439,Agua de horchata,Quesadilla,Bunuelo,Semanal
+440,Tascalate,Quesadilla,Bunuelo,Diario
+441,Agua de horchata,Gordita,Turulete,Mensual
+442,Agua de chía,Empanada,Nuegado,Mensual
+443,Pozol,Tamal,Turrón,Semanal
+444,Agua de horchata,Gordita,Nuegado,Semanal
+445,Coca-Cola,Gordita,Plátano Asado,Mensual
+446,Agua de horchata,Taco,Turulete,Mensual
+447,Pozol,Taco,Bunuelo,Semanal
+448,Pozol,Quesadilla,Turrón,Rara vez
+449,Agua de chía,Taco,Nuegado,Mensual
+450,Agua de chía,Quesadilla,Bunuelo,Rara vez
+451,Agua de chía,Quesadilla,Turrón,Diario
+452,Coca-Cola,Empanada,Turulete,Mensual
+453,Tascalate,Tamal,Turrón,Rara vez
+454,Agua de jamaica,Tostada,Nuegado,Rara vez
+455,Agua de jamaica,Empanada,Turrón,Rara vez
+456,Pozol,Tostada,Plátano Asado,Semanal
+457,Tascalate,Empanada,Cocada,Diario
+458,Coca-Cola,Taco,Cocada,Diario
+459,Tascalate,Gordita,Cocada,Rara vez
+460,Agua de horchata,Empanada,Nuegado,Rara vez
+461,Pozol,Empanada,Turulete,Rara vez
+462,Agua de horchata,Empanada,Plátano Asado,Rara vez
+463,Agua de chía,Tostada,Turrón,Semanal
+464,Pozol,Tamal,Nuegado,Rara vez
+465,Agua de horchata,Empanada,Nuegado,Diario
+466,Agua de horchata,Taco,Cocada,Semanal
+467,Coca-Cola,Empanada,Turrón,Mensual
+468,Agua de horchata,Tamal,Nuegado,Semanal
+469,Tascalate,Quesadilla,Cocada,Semanal
+470,Pozol,Quesadilla,Turulete,Rara vez
+471,Agua de horchata,Quesadilla,Nuegado,Mensual
+472,Agua de chía,Empanada,Turrón,Diario
+473,Agua de jamaica,Quesadilla,Turrón,Rara vez
+474,Agua de horchata,Gordita,Turulete,Mensual
+475,Tascalate,Gordita,Cocada,Diario
+476,Coca-Cola,Gordita,Turrón,Rara vez
+477,Agua de chía,Tamal,Cocada,Diario
+478,Agua de chía,Tamal,Cocada,Rara vez
+479,Coca-Cola,Quesadilla,Turrón,Diario
+480,Tascalate,Quesadilla,Plátano Asado,Rara vez
+481,Tascalate,Quesadilla,Cocada,Diario
+482,Tascalate,Taco,Turulete,Rara vez
+483,Pozol,Tamal,Plátano Asado,Semanal
+484,Tascalate,Empanada,Plátano Asado,Rara vez
+485,Agua de chía,Empanada,Turrón,Semanal
+486,Agua de jamaica,Tostada,Plátano Asado,Diario
+487,Coca-Cola,Taco,Bunuelo,Diario
+488,Coca-Cola,Taco,Cocada,Rara vez
+489,Tascalate,Taco,Cocada,Rara vez
+490,Pozol,Gordita,Turrón,Rara vez
+491,Agua de horchata,Tostada,Nuegado,Diario
+492,Agua de chía,Quesadilla,Bunuelo,Rara vez
+493,Tascalate,Gordita,Cocada,Diario
+494,Agua de chía,Empanada,Turulete,Diario
+495,Tascalate,Taco,Plátano Asado,Rara vez
+496,Coca-Cola,Gordita,Bunuelo,Diario
+497,Agua de chía,Quesadilla,Nuegado,Semanal
+498,Agua de jamaica,Tostada,Turulete,Rara vez
+499,Pozol,Gordita,Nuegado,Semanal
+500,Tascalate,Tamal,Cocada,Semanal
+501,Agua de horchata,Empanada,Bunuelo,Mensual
+502,Agua de horchata,Taco,Turulete,Mensual
+503,Agua de jamaica,Gordita,Plátano Asado,Semanal
+504,Agua de horchata,Empanada,Turrón,Rara vez
+505,Tascalate,Quesadilla,Bunuelo,Rara vez
+506,Pozol,Tostada,Turulete,Semanal
+507,Coca-Cola,Tostada,Turrón,Rara vez
+508,Pozol,Empanada,Turulete,Diario
+509,Agua de horchata,Tamal,Turulete,Mensual
+510,Agua de horchata,Quesadilla,Nuegado,Mensual
+511,Pozol,Tostada,Cocada,Rara vez
+512,Coca-Cola,Quesadilla,Nuegado,Mensual
+513,Tascalate,Taco,Plátano Asado,Semanal
+514,Agua de horchata,Quesadilla,Turulete,Mensual
+515,Tascalate,Quesadilla,Cocada,Mensual
+516,Agua de horchata,Tostada,Nuegado,Diario
+517,Agua de jamaica,Taco,Turrón,Diario
+518,Agua de horchata,Gordita,Bunuelo,Rara vez
+519,Coca-Cola,Quesadilla,Plátano Asado,Semanal
+520,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
+521,Agua de chía,Tostada,Turrón,Rara vez
+522,Pozol,Quesadilla,Nuegado,Diario
+523,Tascalate,Quesadilla,Turulete,Rara vez
+524,Agua de chía,Quesadilla,Plátano Asado,Diario
+525,Pozol,Gordita,Turulete,Mensual
+526,Tascalate,Taco,Bunuelo,Diario
+527,Agua de chía,Tamal,Nuegado,Diario
+528,Tascalate,Tostada,Cocada,Diario
+529,Tascalate,Taco,Turulete,Rara vez
+530,Coca-Cola,Empanada,Cocada,Mensual
+531,Tascalate,Tostada,Cocada,Diario
+532,Agua de horchata,Tamal,Cocada,Semanal
+533,Tascalate,Gordita,Nuegado,Rara vez
+534,Tascalate,Quesadilla,Nuegado,Rara vez
+535,Agua de chía,Tamal,Bunuelo,Rara vez
+536,Agua de jamaica,Empanada,Turrón,Semanal
+537,Coca-Cola,Tamal,Bunuelo,Rara vez
+538,Agua de horchata,Tamal,Bunuelo,Semanal
+539,Tascalate,Empanada,Bunuelo,Rara vez
+540,Tascalate,Quesadilla,Turulete,Rara vez
+541,Pozol,Gordita,Cocada,Mensual
+542,Coca-Cola,Taco,Turulete,Mensual
+543,Pozol,Quesadilla,Turrón,Rara vez
+544,Coca-Cola,Gordita,Nuegado,Semanal
+545,Agua de horchata,Empanada,Turrón,Rara vez
+546,Agua de jamaica,Gordita,Bunuelo,Mensual
+547,Agua de chía,Tostada,Cocada,Mensual
+548,Agua de chía,Empanada,Nuegado,Semanal
+549,Coca-Cola,Empanada,Plátano Asado,Diario
+550,Tascalate,Quesadilla,Turrón,Mensual
+551,Tascalate,Gordita,Plátano Asado,Semanal
+552,Agua de horchata,Quesadilla,Bunuelo,Semanal
+553,Pozol,Empanada,Cocada,Diario
+554,Coca-Cola,Tostada,Plátano Asado,Semanal
+555,Agua de horchata,Tostada,Nuegado,Diario
+556,Agua de jamaica,Gordita,Plátano Asado,Diario
+557,Agua de jamaica,Taco,Cocada,Semanal
+558,Agua de horchata,Empanada,Cocada,Mensual
+559,Coca-Cola,Tostada,Bunuelo,Semanal
+560,Agua de horchata,Tamal,Bunuelo,Semanal
+561,Agua de jamaica,Empanada,Turrón,Mensual
+562,Pozol,Taco,Plátano Asado,Semanal
+563,Agua de horchata,Empanada,Turulete,Rara vez
+564,Pozol,Taco,Nuegado,Semanal
+565,Agua de jamaica,Empanada,Turrón,Semanal
+566,Agua de horchata,Gordita,Nuegado,Semanal
+567,Tascalate,Taco,Nuegado,Mensual
+568,Agua de horchata,Tamal,Turrón,Mensual
+569,Tascalate,Taco,Turulete,Rara vez
+570,Agua de horchata,Quesadilla,Cocada,Semanal
+571,Coca-Cola,Tamal,Turrón,Rara vez
+572,Agua de chía,Tostada,Turrón,Diario
+573,Tascalate,Taco,Cocada,Diario
+574,Pozol,Quesadilla,Turulete,Mensual
+575,Agua de horchata,Taco,Cocada,Mensual
+576,Tascalate,Quesadilla,Cocada,Rara vez
+577,Agua de jamaica,Empanada,Bunuelo,Rara vez
+578,Agua de horchata,Quesadilla,Turulete,Mensual
+579,Agua de chía,Taco,Turrón,Mensual
+580,Agua de jamaica,Quesadilla,Turulete,Diario
+581,Agua de jamaica,Tostada,Turrón,Semanal
+582,Pozol,Tostada,Turrón,Semanal
+583,Agua de chía,Tamal,Nuegado,Diario
+584,Tascalate,Tostada,Nuegado,Mensual
+585,Pozol,Taco,Turulete,Semanal
+586,Agua de horchata,Tostada,Bunuelo,Semanal
+587,Pozol,Empanada,Nuegado,Mensual
+588,Agua de jamaica,Empanada,Nuegado,Diario
+589,Agua de jamaica,Empanada,Cocada,Rara vez
+590,Agua de horchata,Empanada,Cocada,Semanal
+591,Coca-Cola,Empanada,Turulete,Rara vez
+592,Coca-Cola,Taco,Nuegado,Mensual
+593,Agua de jamaica,Taco,Turrón,Mensual
+594,Tascalate,Quesadilla,Turulete,Semanal
+595,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
+596,Agua de horchata,Tostada,Turulete,Mensual
+597,Agua de jamaica,Tamal,Plátano Asado,Mensual
+598,Pozol,Tostada,Nuegado,Diario
+599,Agua de chía,Taco,Plátano Asado,Semanal
+600,Agua de chía,Quesadilla,Bunuelo,Rara vez
+601,Pozol,Gordita,Bunuelo,Diario
+602,Agua de horchata,Tostada,Turrón,Diario
+603,Tascalate,Tostada,Cocada,Diario
+604,Agua de chía,Taco,Bunuelo,Mensual
+605,Coca-Cola,Tostada,Turrón,Rara vez
+606,Agua de chía,Quesadilla,Turrón,Semanal
+607,Pozol,Quesadilla,Bunuelo,Semanal
+608,Tascalate,Quesadilla,Bunuelo,Mensual
+609,Agua de chía,Empanada,Cocada,Rara vez
+610,Tascalate,Quesadilla,Nuegado,Rara vez
+611,Coca-Cola,Taco,Cocada,Rara vez
+612,Pozol,Empanada,Turrón,Semanal
+613,Coca-Cola,Taco,Cocada,Mensual
+614,Agua de jamaica,Taco,Cocada,Rara vez
+615,Agua de chía,Tostada,Turulete,Semanal
+616,Agua de jamaica,Gordita,Plátano Asado,Diario
+617,Tascalate,Empanada,Nuegado,Semanal
+618,Agua de horchata,Tamal,Nuegado,Semanal
+619,Tascalate,Quesadilla,Bunuelo,Rara vez
+620,Coca-Cola,Tamal,Plátano Asado,Mensual
+621,Coca-Cola,Tamal,Cocada,Mensual
+622,Pozol,Tamal,Cocada,Rara vez
+623,Agua de jamaica,Taco,Bunuelo,Semanal
+624,Coca-Cola,Tostada,Turrón,Rara vez
+625,Tascalate,Gordita,Cocada,Mensual
+626,Agua de chía,Taco,Turulete,Diario
+627,Pozol,Tostada,Bunuelo,Diario
+628,Agua de chía,Taco,Bunuelo,Mensual
+629,Agua de chía,Taco,Cocada,Rara vez
+630,Agua de jamaica,Tostada,Turulete,Semanal
+631,Pozol,Quesadilla,Nuegado,Rara vez
+632,Tascalate,Empanada,Turulete,Rara vez
+633,Pozol,Taco,Turrón,Diario
+634,Agua de horchata,Empanada,Cocada,Mensual
+635,Tascalate,Tostada,Turulete,Rara vez
+636,Agua de horchata,Tamal,Cocada,Diario
+637,Tascalate,Tamal,Turrón,Mensual
+638,Agua de chía,Tamal,Turulete,Semanal
+639,Agua de horchata,Empanada,Cocada,Diario
+640,Agua de chía,Tamal,Bunuelo,Diario
+641,Coca-Cola,Tamal,Nuegado,Rara vez
+642,Agua de chía,Taco,Nuegado,Diario
+643,Agua de chía,Tamal,Bunuelo,Semanal
+644,Tascalate,Taco,Cocada,Mensual
+645,Agua de jamaica,Quesadilla,Plátano Asado,Mensual
+646,Coca-Cola,Taco,Turrón,Semanal
+647,Agua de jamaica,Quesadilla,Nuegado,Mensual
+648,Agua de horchata,Tostada,Plátano Asado,Rara vez
+649,Agua de jamaica,Empanada,Cocada,Diario
+650,Coca-Cola,Quesadilla,Nuegado,Mensual
+651,Pozol,Empanada,Nuegado,Mensual
+652,Pozol,Taco,Nuegado,Rara vez
+653,Agua de horchata,Taco,Bunuelo,Semanal
+654,Pozol,Tostada,Turulete,Semanal
+655,Agua de jamaica,Gordita,Turulete,Mensual
+656,Pozol,Tostada,Cocada,Semanal
+657,Agua de jamaica,Tamal,Turulete,Diario
+658,Coca-Cola,Gordita,Nuegado,Diario
+659,Agua de horchata,Taco,Nuegado,Semanal
+660,Agua de jamaica,Tostada,Nuegado,Mensual
+661,Agua de horchata,Quesadilla,Plátano Asado,Mensual
+662,Agua de chía,Tamal,Bunuelo,Semanal
+663,Agua de chía,Gordita,Turrón,Mensual
+664,Agua de jamaica,Gordita,Turrón,Mensual
+665,Agua de chía,Tamal,Turulete,Mensual
+666,Tascalate,Quesadilla,Turrón,Diario
+667,Agua de horchata,Tamal,Turulete,Semanal
+668,Agua de horchata,Empanada,Turrón,Diario
+669,Tascalate,Taco,Turulete,Diario
+670,Coca-Cola,Quesadilla,Nuegado,Mensual
+671,Tascalate,Quesadilla,Turulete,Diario
+672,Agua de jamaica,Tostada,Cocada,Rara vez
+673,Tascalate,Taco,Plátano Asado,Rara vez
+674,Pozol,Quesadilla,Plátano Asado,Diario
+675,Agua de horchata,Quesadilla,Turulete,Mensual
+676,Agua de jamaica,Gordita,Cocada,Rara vez
+677,Agua de jamaica,Tostada,Plátano Asado,Mensual
+678,Coca-Cola,Quesadilla,Turrón,Diario
+679,Coca-Cola,Quesadilla,Turulete,Rara vez
+680,Pozol,Tostada,Plátano Asado,Mensual
+681,Pozol,Quesadilla,Turulete,Rara vez
+682,Agua de jamaica,Tostada,Turrón,Semanal
+683,Agua de horchata,Quesadilla,Plátano Asado,Semanal
+684,Agua de chía,Gordita,Bunuelo,Rara vez
+685,Agua de chía,Gordita,Plátano Asado,Mensual
+686,Agua de jamaica,Gordita,Bunuelo,Mensual
+687,Agua de jamaica,Taco,Plátano Asado,Diario
+688,Agua de chía,Tamal,Turulete,Mensual
+689,Agua de jamaica,Tostada,Cocada,Mensual
+690,Pozol,Gordita,Bunuelo,Mensual
+691,Coca-Cola,Taco,Cocada,Semanal
+692,Agua de chía,Taco,Turrón,Rara vez
+693,Pozol,Tamal,Bunuelo,Rara vez
+694,Pozol,Taco,Bunuelo,Diario
+695,Agua de horchata,Tamal,Turrón,Mensual
+696,Agua de jamaica,Gordita,Plátano Asado,Diario
+697,Agua de horchata,Tamal,Plátano Asado,Mensual
+698,Tascalate,Tostada,Bunuelo,Rara vez
+699,Tascalate,Quesadilla,Plátano Asado,Diario
+700,Agua de jamaica,Tamal,Bunuelo,Rara vez
+701,Agua de horchata,Tamal,Turrón,Mensual
+702,Agua de horchata,Empanada,Cocada,Mensual
+703,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
+704,Coca-Cola,Quesadilla,Cocada,Rara vez
+705,Agua de chía,Tostada,Bunuelo,Rara vez
+706,Agua de jamaica,Taco,Turulete,Diario
+707,Tascalate,Gordita,Plátano Asado,Rara vez
+708,Tascalate,Taco,Cocada,Mensual
+709,Coca-Cola,Taco,Plátano Asado,Diario
+710,Agua de jamaica,Tamal,Bunuelo,Mensual
+711,Agua de horchata,Tostada,Bunuelo,Rara vez
+712,Tascalate,Empanada,Plátano Asado,Mensual
+713,Tascalate,Tostada,Bunuelo,Semanal
+714,Agua de horchata,Tamal,Plátano Asado,Semanal
+715,Tascalate,Empanada,Bunuelo,Rara vez
+716,Coca-Cola,Tamal,Turulete,Mensual
+717,Coca-Cola,Taco,Nuegado,Rara vez
+718,Agua de chía,Empanada,Turrón,Semanal
+719,Pozol,Taco,Nuegado,Semanal
+720,Agua de chía,Taco,Plátano Asado,Semanal
+721,Tascalate,Empanada,Cocada,Mensual
+722,Agua de jamaica,Taco,Bunuelo,Mensual
+723,Pozol,Gordita,Turrón,Semanal
+724,Tascalate,Tamal,Nuegado,Mensual
+725,Pozol,Tamal,Turrón,Rara vez
+726,Agua de jamaica,Empanada,Cocada,Mensual
+727,Agua de jamaica,Empanada,Plátano Asado,Diario
+728,Coca-Cola,Tostada,Nuegado,Rara vez
+729,Agua de jamaica,Tamal,Plátano Asado,Diario
+730,Coca-Cola,Tostada,Plátano Asado,Semanal
+731,Agua de chía,Tamal,Nuegado,Mensual
+732,Agua de jamaica,Taco,Turulete,Semanal
+733,Agua de horchata,Tostada,Turrón,Rara vez
+734,Coca-Cola,Gordita,Turrón,Rara vez
+735,Coca-Cola,Gordita,Turulete,Semanal
+736,Agua de chía,Taco,Turulete,Rara vez
+737,Agua de horchata,Empanada,Plátano Asado,Mensual
+738,Agua de jamaica,Empanada,Bunuelo,Semanal
+739,Pozol,Tostada,Nuegado,Rara vez
+740,Coca-Cola,Taco,Turulete,Semanal
+741,Tascalate,Tostada,Bunuelo,Mensual
+742,Pozol,Taco,Turulete,Diario
+743,Agua de horchata,Empanada,Plátano Asado,Semanal
+744,Tascalate,Quesadilla,Bunuelo,Diario
+745,Agua de horchata,Tostada,Cocada,Semanal
+746,Agua de chía,Empanada,Cocada,Diario
+747,Agua de horchata,Taco,Bunuelo,Semanal
+748,Agua de chía,Gordita,Plátano Asado,Mensual
+749,Pozol,Tamal,Plátano Asado,Mensual
+750,Agua de horchata,Tostada,Cocada,Rara vez
+751,Coca-Cola,Empanada,Plátano Asado,Rara vez
+752,Coca-Cola,Tamal,Cocada,Rara vez
+753,Agua de chía,Tamal,Cocada,Rara vez
+754,Pozol,Tamal,Plátano Asado,Diario
+755,Agua de jamaica,Empanada,Cocada,Semanal
+756,Coca-Cola,Empanada,Cocada,Semanal
+757,Pozol,Tamal,Turulete,Semanal
+758,Coca-Cola,Quesadilla,Turrón,Semanal
+759,Agua de horchata,Tostada,Cocada,Rara vez
+760,Agua de horchata,Tostada,Nuegado,Diario
+761,Agua de jamaica,Taco,Plátano Asado,Diario
+762,Agua de jamaica,Quesadilla,Turulete,Semanal
+763,Pozol,Empanada,Cocada,Mensual
+764,Tascalate,Gordita,Cocada,Diario
+765,Agua de chía,Tamal,Turrón,Rara vez
+766,Agua de jamaica,Taco,Turrón,Rara vez
+767,Agua de jamaica,Empanada,Plátano Asado,Diario
+768,Agua de chía,Tamal,Bunuelo,Mensual
+769,Agua de horchata,Quesadilla,Bunuelo,Rara vez
+770,Pozol,Empanada,Turulete,Diario
+771,Agua de chía,Gordita,Plátano Asado,Semanal
+772,Pozol,Tamal,Cocada,Mensual
+773,Agua de jamaica,Quesadilla,Plátano Asado,Semanal
+774,Coca-Cola,Quesadilla,Turrón,Rara vez
+775,Coca-Cola,Tostada,Turulete,Mensual
+776,Agua de jamaica,Quesadilla,Bunuelo,Mensual
+777,Tascalate,Tamal,Bunuelo,Semanal
+778,Coca-Cola,Tostada,Turulete,Mensual
+779,Coca-Cola,Gordita,Cocada,Mensual
+780,Tascalate,Gordita,Turulete,Mensual
+781,Coca-Cola,Taco,Bunuelo,Semanal
+782,Agua de jamaica,Tostada,Nuegado,Mensual
+783,Agua de chía,Tostada,Cocada,Rara vez
+784,Agua de jamaica,Empanada,Bunuelo,Diario
+785,Tascalate,Empanada,Plátano Asado,Diario
+786,Agua de horchata,Quesadilla,Turrón,Diario
+787,Coca-Cola,Tamal,Cocada,Rara vez
+788,Tascalate,Tostada,Turrón,Mensual
+789,Agua de horchata,Taco,Turulete,Mensual
+790,Agua de chía,Tamal,Plátano Asado,Diario
+791,Agua de jamaica,Empanada,Cocada,Diario
+792,Agua de jamaica,Tostada,Plátano Asado,Semanal
+793,Agua de jamaica,Taco,Cocada,Mensual
+794,Agua de jamaica,Tamal,Turulete,Diario
+795,Agua de jamaica,Gordita,Turrón,Mensual
+796,Agua de jamaica,Quesadilla,Plátano Asado,Mensual
+797,Agua de horchata,Quesadilla,Turulete,Semanal
+798,Pozol,Gordita,Nuegado,Mensual
+799,Coca-Cola,Quesadilla,Turulete,Diario
+800,Agua de jamaica,Quesadilla,Turrón,Semanal
+801,Pozol,Gordita,Nuegado,Rara vez
+802,Pozol,Quesadilla,Plátano Asado,Rara vez
+803,Agua de chía,Tamal,Nuegado,Semanal
+804,Pozol,Taco,Nuegado,Rara vez
+805,Agua de horchata,Tostada,Plátano Asado,Rara vez
+806,Tascalate,Taco,Turrón,Rara vez
+807,Tascalate,Taco,Turrón,Semanal
+808,Agua de chía,Taco,Cocada,Semanal
+809,Coca-Cola,Gordita,Bunuelo,Rara vez
+810,Pozol,Taco,Bunuelo,Mensual
+811,Tascalate,Taco,Turrón,Semanal
+812,Agua de chía,Tostada,Plátano Asado,Mensual
+813,Tascalate,Taco,Bunuelo,Mensual
+814,Coca-Cola,Tostada,Cocada,Semanal
+815,Agua de horchata,Taco,Turrón,Mensual
+816,Pozol,Empanada,Plátano Asado,Diario
+817,Pozol,Quesadilla,Nuegado,Semanal
+818,Pozol,Taco,Nuegado,Rara vez
+819,Agua de chía,Gordita,Turrón,Rara vez
+820,Agua de horchata,Gordita,Bunuelo,Semanal
+821,Agua de jamaica,Tostada,Turulete,Diario
+822,Agua de jamaica,Taco,Bunuelo,Rara vez
+823,Agua de horchata,Quesadilla,Nuegado,Semanal
+824,Tascalate,Quesadilla,Plátano Asado,Mensual
+825,Pozol,Taco,Cocada,Rara vez
+826,Agua de jamaica,Empanada,Nuegado,Rara vez
+827,Agua de horchata,Empanada,Bunuelo,Diario
+828,Tascalate,Taco,Bunuelo,Mensual
+829,Coca-Cola,Quesadilla,Plátano Asado,Semanal
+830,Agua de jamaica,Taco,Turrón,Diario
+831,Tascalate,Empanada,Turrón,Semanal
+832,Agua de chía,Tostada,Plátano Asado,Rara vez
+833,Tascalate,Empanada,Turrón,Rara vez
+834,Agua de jamaica,Empanada,Cocada,Diario
+835,Agua de horchata,Gordita,Nuegado,Semanal
+836,Agua de jamaica,Tamal,Cocada,Diario
+837,Pozol,Gordita,Cocada,Semanal
+838,Agua de horchata,Tostada,Bunuelo,Rara vez
+839,Tascalate,Tamal,Bunuelo,Mensual
+840,Agua de chía,Empanada,Bunuelo,Semanal
+841,Pozol,Taco,Cocada,Mensual
+842,Agua de horchata,Tamal,Plátano Asado,Rara vez
+843,Tascalate,Gordita,Nuegado,Mensual
+844,Agua de chía,Gordita,Cocada,Diario
+845,Pozol,Quesadilla,Cocada,Diario
+846,Pozol,Tamal,Bunuelo,Mensual
+847,Pozol,Tostada,Plátano Asado,Mensual
+848,Tascalate,Tamal,Nuegado,Rara vez
+849,Tascalate,Empanada,Cocada,Mensual
+850,Agua de jamaica,Taco,Turrón,Diario
+851,Agua de chía,Empanada,Nuegado,Diario
+852,Tascalate,Gordita,Cocada,Diario
+853,Agua de chía,Quesadilla,Bunuelo,Mensual
+854,Tascalate,Empanada,Plátano Asado,Semanal
+855,Pozol,Tostada,Plátano Asado,Diario
+856,Coca-Cola,Tostada,Turulete,Mensual
+857,Agua de chía,Empanada,Bunuelo,Semanal
+858,Tascalate,Tostada,Nuegado,Mensual
+859,Agua de horchata,Taco,Bunuelo,Semanal
+860,Pozol,Tostada,Turulete,Rara vez
+861,Agua de jamaica,Gordita,Cocada,Semanal
+862,Coca-Cola,Gordita,Turrón,Diario
+863,Coca-Cola,Gordita,Turulete,Rara vez
+864,Agua de jamaica,Tostada,Plátano Asado,Mensual
+865,Agua de horchata,Empanada,Cocada,Diario
+866,Pozol,Tamal,Plátano Asado,Mensual
+867,Agua de jamaica,Tamal,Turulete,Rara vez
+868,Coca-Cola,Tamal,Turrón,Mensual
+869,Agua de jamaica,Quesadilla,Cocada,Mensual
+870,Agua de jamaica,Quesadilla,Bunuelo,Mensual
+871,Agua de horchata,Taco,Cocada,Diario
+872,Agua de jamaica,Gordita,Cocada,Diario
+873,Agua de horchata,Tostada,Nuegado,Rara vez
+874,Pozol,Tamal,Bunuelo,Semanal
+875,Tascalate,Tamal,Plátano Asado,Mensual
+876,Agua de jamaica,Empanada,Turrón,Rara vez
+877,Tascalate,Taco,Turrón,Semanal
+878,Pozol,Quesadilla,Bunuelo,Diario
+879,Agua de jamaica,Empanada,Cocada,Mensual
+880,Pozol,Gordita,Cocada,Diario
+881,Agua de jamaica,Tamal,Nuegado,Rara vez
+882,Agua de horchata,Empanada,Turulete,Rara vez
+883,Agua de jamaica,Taco,Cocada,Mensual
+884,Agua de chía,Tostada,Plátano Asado,Mensual
+885,Tascalate,Tostada,Bunuelo,Semanal
+886,Pozol,Gordita,Bunuelo,Rara vez
+887,Agua de chía,Tamal,Plátano Asado,Mensual
+888,Agua de jamaica,Tostada,Turrón,Diario
+889,Pozol,Quesadilla,Cocada,Diario
+890,Agua de jamaica,Taco,Nuegado,Diario
+891,Pozol,Tamal,Cocada,Mensual
+892,Agua de chía,Empanada,Bunuelo,Diario
+893,Pozol,Taco,Cocada,Rara vez
+894,Agua de chía,Gordita,Plátano Asado,Diario
+895,Tascalate,Tamal,Turrón,Mensual
+896,Agua de horchata,Quesadilla,Turrón,Semanal
+897,Pozol,Empanada,Turulete,Semanal
+898,Agua de jamaica,Tamal,Bunuelo,Rara vez
+899,Tascalate,Taco,Turulete,Rara vez
+900,Agua de horchata,Quesadilla,Turulete,Mensual
+901,Tascalate,Empanada,Bunuelo,Diario
+902,Agua de horchata,Tostada,Turrón,Diario
+903,Tascalate,Gordita,Bunuelo,Rara vez
+904,Tascalate,Gordita,Turrón,Mensual
+905,Agua de chía,Empanada,Turrón,Diario
+906,Agua de chía,Gordita,Plátano Asado,Mensual
+907,Tascalate,Taco,Turrón,Rara vez
+908,Agua de jamaica,Tostada,Turulete,Semanal
+909,Agua de chía,Tostada,Nuegado,Diario
+910,Pozol,Taco,Bunuelo,Semanal
+911,Agua de horchata,Quesadilla,Turulete,Mensual
+912,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
+913,Coca-Cola,Quesadilla,Bunuelo,Mensual
+914,Agua de horchata,Empanada,Nuegado,Mensual
+915,Coca-Cola,Gordita,Cocada,Diario
+916,Agua de jamaica,Tamal,Plátano Asado,Mensual
+917,Agua de horchata,Tamal,Bunuelo,Diario
+918,Agua de chía,Tamal,Turrón,Semanal
+919,Agua de jamaica,Taco,Turrón,Rara vez
+920,Agua de horchata,Quesadilla,Cocada,Semanal
+921,Agua de chía,Tostada,Turrón,Semanal
+922,Agua de jamaica,Tostada,Bunuelo,Mensual
+923,Coca-Cola,Tostada,Turrón,Semanal
+924,Coca-Cola,Quesadilla,Plátano Asado,Semanal
+925,Agua de jamaica,Taco,Turulete,Mensual
+926,Agua de jamaica,Taco,Turulete,Mensual
+927,Coca-Cola,Tamal,Nuegado,Rara vez
+928,Tascalate,Empanada,Nuegado,Diario
+929,Coca-Cola,Tamal,Cocada,Semanal
+930,Pozol,Taco,Turulete,Diario
+931,Agua de chía,Quesadilla,Turulete,Rara vez
+932,Coca-Cola,Empanada,Turrón,Semanal
+933,Agua de jamaica,Empanada,Plátano Asado,Semanal
+934,Tascalate,Empanada,Turulete,Semanal
+935,Pozol,Gordita,Turrón,Semanal
+936,Coca-Cola,Taco,Turrón,Diario
+937,Coca-Cola,Empanada,Nuegado,Diario
+938,Agua de horchata,Taco,Turrón,Semanal
+939,Agua de chía,Tamal,Turrón,Diario
+940,Agua de jamaica,Taco,Turulete,Diario
+941,Tascalate,Quesadilla,Plátano Asado,Mensual
+942,Tascalate,Gordita,Nuegado,Rara vez
+943,Coca-Cola,Taco,Nuegado,Rara vez
+944,Agua de horchata,Tostada,Turrón,Rara vez
+945,Agua de jamaica,Taco,Nuegado,Mensual
+946,Pozol,Gordita,Bunuelo,Mensual
+947,Agua de horchata,Taco,Turulete,Mensual
+948,Coca-Cola,Empanada,Nuegado,Diario
+949,Pozol,Empanada,Turulete,Semanal
+950,Tascalate,Tostada,Cocada,Diario
+951,Agua de horchata,Taco,Cocada,Rara vez
+952,Pozol,Tamal,Plátano Asado,Diario
+953,Pozol,Taco,Nuegado,Semanal
+954,Pozol,Gordita,Cocada,Diario
+955,Pozol,Quesadilla,Turulete,Mensual
+956,Agua de chía,Tostada,Bunuelo,Mensual
+957,Agua de chía,Tostada,Turrón,Semanal
+958,Agua de jamaica,Gordita,Cocada,Mensual
+959,Agua de jamaica,Empanada,Turulete,Rara vez
+960,Agua de jamaica,Taco,Turulete,Rara vez
+961,Agua de horchata,Quesadilla,Plátano Asado,Mensual
+962,Coca-Cola,Quesadilla,Turulete,Rara vez
+963,Coca-Cola,Tamal,Bunuelo,Diario
+964,Tascalate,Tostada,Turulete,Mensual
+965,Coca-Cola,Empanada,Cocada,Mensual
+966,Tascalate,Tostada,Turulete,Diario
+967,Coca-Cola,Gordita,Bunuelo,Semanal
+968,Tascalate,Tostada,Plátano Asado,Rara vez
+969,Agua de horchata,Gordita,Plátano Asado,Mensual
+970,Agua de jamaica,Tostada,Turrón,Semanal
+971,Tascalate,Gordita,Cocada,Diario
+972,Agua de jamaica,Gordita,Nuegado,Diario
+973,Agua de jamaica,Tamal,Plátano Asado,Semanal
+974,Agua de horchata,Gordita,Nuegado,Rara vez
+975,Agua de jamaica,Tostada,Bunuelo,Rara vez
+976,Tascalate,Tamal,Bunuelo,Mensual
+977,Agua de chía,Tamal,Bunuelo,Rara vez
+978,Tascalate,Taco,Plátano Asado,Mensual
+979,Agua de chía,Quesadilla,Nuegado,Rara vez
+980,Coca-Cola,Gordita,Plátano Asado,Rara vez
+981,Agua de jamaica,Tamal,Turulete,Diario
+982,Coca-Cola,Tostada,Cocada,Semanal
+983,Tascalate,Quesadilla,Bunuelo,Mensual
+984,Pozol,Gordita,Nuegado,Rara vez
+985,Agua de chía,Tamal,Turrón,Semanal
+986,Agua de chía,Tamal,Turulete,Mensual
+987,Pozol,Tostada,Cocada,Semanal
+988,Pozol,Quesadilla,Nuegado,Mensual
+989,Agua de chía,Taco,Cocada,Semanal
+990,Agua de jamaica,Gordita,Turrón,Mensual
+991,Pozol,Gordita,Turrón,Mensual
+992,Agua de chía,Empanada,Turulete,Diario
+993,Agua de chía,Tamal,Bunuelo,Mensual
+994,Tascalate,Tamal,Cocada,Semanal
+995,Pozol,Tamal,Nuegado,Mensual
+996,Agua de jamaica,Empanada,Bunuelo,Semanal
+997,Agua de chía,Taco,Plátano Asado,Semanal
+998,Agua de jamaica,Empanada,Plátano Asado,Diario
+999,Agua de jamaica,Taco,Cocada,Mensual
+1000,Pozol,Empanada,Turulete,Diario
+1001,Tascalate,Quesadilla,Turrón,Semanal
+1002,Agua de horchata,Empanada,Nuegado,Semanal
+1003,Agua de horchata,Tostada,Plátano Asado,Semanal
+1004,Coca-Cola,Quesadilla,Bunuelo,Diario
+1005,Tascalate,Tamal,Turrón,Semanal
+1006,Agua de chía,Tostada,Turrón,Rara vez
+1007,Agua de chía,Taco,Turulete,Semanal
+1008,Pozol,Tostada,Bunuelo,Rara vez
+1009,Coca-Cola,Quesadilla,Turrón,Mensual
+1010,Coca-Cola,Taco,Cocada,Mensual
+1011,Pozol,Tostada,Turulete,Mensual
+1012,Coca-Cola,Empanada,Bunuelo,Mensual
+1013,Coca-Cola,Taco,Turrón,Rara vez
+1014,Coca-Cola,Taco,Turrón,Diario
+1015,Pozol,Gordita,Turrón,Rara vez
+1016,Coca-Cola,Tostada,Turrón,Rara vez
+1017,Tascalate,Quesadilla,Turulete,Semanal
+1018,Agua de jamaica,Tostada,Turrón,Rara vez
+1019,Agua de horchata,Quesadilla,Plátano Asado,Mensual
+1020,Tascalate,Quesadilla,Turrón,Rara vez
+1021,Agua de horchata,Tostada,Turrón,Mensual
+1022,Pozol,Gordita,Plátano Asado,Rara vez
+1023,Agua de jamaica,Empanada,Turulete,Diario
+1024,Agua de horchata,Tostada,Plátano Asado,Semanal
+1025,Agua de chía,Quesadilla,Turrón,Rara vez
+1026,Agua de jamaica,Taco,Turrón,Semanal
+1027,Agua de horchata,Tamal,Cocada,Mensual
+1028,Agua de chía,Taco,Cocada,Rara vez
+1029,Pozol,Tamal,Cocada,Mensual
+1030,Agua de chía,Tostada,Nuegado,Semanal
+1031,Agua de chía,Tostada,Turrón,Mensual
+1032,Agua de chía,Gordita,Turrón,Mensual
+1033,Agua de horchata,Empanada,Plátano Asado,Mensual
+1034,Tascalate,Tamal,Nuegado,Mensual
+1035,Agua de horchata,Taco,Turrón,Mensual
+1036,Agua de horchata,Tamal,Plátano Asado,Rara vez
+1037,Agua de jamaica,Quesadilla,Bunuelo,Diario
+1038,Agua de horchata,Tostada,Plátano Asado,Mensual
+1039,Coca-Cola,Taco,Bunuelo,Diario
+1040,Agua de horchata,Empanada,Nuegado,Diario
+1041,Agua de chía,Gordita,Turrón,Semanal
+1042,Coca-Cola,Gordita,Turulete,Semanal
+1043,Agua de jamaica,Tamal,Turulete,Rara vez
+1044,Agua de horchata,Empanada,Plátano Asado,Mensual
+1045,Agua de chía,Tamal,Cocada,Mensual
+1046,Agua de horchata,Gordita,Nuegado,Rara vez
+1047,Agua de horchata,Tamal,Plátano Asado,Mensual
+1048,Agua de chía,Quesadilla,Nuegado,Mensual
+1049,Agua de jamaica,Empanada,Nuegado,Rara vez
+1050,Agua de chía,Tostada,Cocada,Rara vez
+1051,Agua de jamaica,Quesadilla,Nuegado,Semanal
+1052,Tascalate,Gordita,Plátano Asado,Diario
+1053,Agua de chía,Tostada,Nuegado,Rara vez
+1054,Agua de horchata,Tostada,Bunuelo,Mensual
+1055,Agua de chía,Gordita,Cocada,Semanal
+1056,Tascalate,Empanada,Plátano Asado,Mensual
+1057,Tascalate,Empanada,Bunuelo,Mensual
+1058,Agua de chía,Empanada,Nuegado,Diario
+1059,Tascalate,Taco,Nuegado,Diario
+1060,Pozol,Gordita,Bunuelo,Mensual
+1061,Agua de chía,Taco,Nuegado,Rara vez
+1062,Agua de jamaica,Quesadilla,Turulete,Diario
+1063,Pozol,Quesadilla,Turrón,Rara vez
+1064,Agua de horchata,Tostada,Cocada,Mensual
+1065,Agua de jamaica,Tostada,Plátano Asado,Rara vez
+1066,Agua de chía,Empanada,Plátano Asado,Diario
+1067,Agua de horchata,Tamal,Plátano Asado,Mensual
+1068,Agua de horchata,Tamal,Turrón,Diario
+1069,Agua de jamaica,Tostada,Turrón,Semanal
+1070,Pozol,Taco,Plátano Asado,Diario
+1071,Agua de horchata,Quesadilla,Turulete,Rara vez
+1072,Agua de jamaica,Taco,Turrón,Diario
+1073,Agua de chía,Gordita,Bunuelo,Rara vez
+1074,Tascalate,Taco,Turulete,Rara vez
+1075,Agua de horchata,Empanada,Turulete,Semanal
+1076,Pozol,Empanada,Turulete,Diario
+1077,Agua de horchata,Empanada,Turulete,Semanal
+1078,Agua de horchata,Taco,Turulete,Mensual
+1079,Coca-Cola,Gordita,Cocada,Semanal
+1080,Agua de horchata,Quesadilla,Turulete,Mensual
+1081,Tascalate,Tostada,Plátano Asado,Diario
+1082,Pozol,Tamal,Bunuelo,Semanal
+1083,Tascalate,Empanada,Bunuelo,Mensual
+1084,Agua de jamaica,Gordita,Nuegado,Diario
+1085,Agua de horchata,Tamal,Bunuelo,Diario
+1086,Agua de jamaica,Taco,Nuegado,Diario
+1087,Agua de horchata,Gordita,Bunuelo,Rara vez
+1088,Agua de horchata,Tostada,Turrón,Semanal
+1089,Coca-Cola,Taco,Cocada,Rara vez
+1090,Agua de chía,Taco,Bunuelo,Semanal
+1091,Agua de horchata,Quesadilla,Turrón,Diario
+1092,Agua de chía,Tostada,Turrón,Mensual
+1093,Pozol,Gordita,Bunuelo,Mensual
+1094,Pozol,Quesadilla,Bunuelo,Rara vez
+1095,Agua de jamaica,Tostada,Turulete,Rara vez
+1096,Coca-Cola,Empanada,Plátano Asado,Diario
+1097,Agua de jamaica,Tamal,Turrón,Rara vez
+1098,Agua de horchata,Taco,Bunuelo,Diario
+1099,Agua de horchata,Quesadilla,Cocada,Semanal
+1100,Agua de jamaica,Gordita,Turulete,Semanal
+1101,Pozol,Taco,Cocada,Semanal
+1102,Tascalate,Tostada,Cocada,Rara vez
+1103,Agua de horchata,Quesadilla,Turulete,Rara vez
+1104,Agua de jamaica,Quesadilla,Plátano Asado,Diario
+1105,Coca-Cola,Tamal,Plátano Asado,Semanal
+1106,Coca-Cola,Empanada,Turrón,Mensual
+1107,Pozol,Gordita,Nuegado,Mensual
+1108,Agua de horchata,Quesadilla,Bunuelo,Diario
+1109,Agua de horchata,Taco,Plátano Asado,Mensual
+1110,Agua de chía,Empanada,Plátano Asado,Semanal
+1111,Pozol,Taco,Cocada,Diario
+1112,Agua de jamaica,Gordita,Turulete,Mensual
+1113,Agua de chía,Tostada,Plátano Asado,Rara vez
+1114,Agua de jamaica,Quesadilla,Nuegado,Semanal
+1115,Agua de chía,Tamal,Bunuelo,Mensual
+1116,Agua de chía,Tamal,Nuegado,Diario
+1117,Pozol,Taco,Turulete,Rara vez
+1118,Coca-Cola,Tostada,Plátano Asado,Diario
+1119,Pozol,Tostada,Turulete,Rara vez
+1120,Tascalate,Taco,Turulete,Rara vez
+1121,Agua de horchata,Tostada,Bunuelo,Semanal
+1122,Coca-Cola,Empanada,Nuegado,Diario
+1123,Pozol,Gordita,Turrón,Diario
+1124,Coca-Cola,Tamal,Plátano Asado,Rara vez
+1125,Agua de jamaica,Tamal,Cocada,Semanal
+1126,Agua de jamaica,Empanada,Cocada,Mensual
+1127,Agua de jamaica,Gordita,Cocada,Diario
+1128,Coca-Cola,Tamal,Nuegado,Diario
+1129,Agua de horchata,Quesadilla,Turrón,Semanal
+1130,Agua de horchata,Gordita,Bunuelo,Diario
+1131,Coca-Cola,Tostada,Turulete,Rara vez
+1132,Agua de chía,Empanada,Cocada,Diario
+1133,Tascalate,Tamal,Cocada,Diario
+1134,Agua de horchata,Tamal,Nuegado,Diario
+1135,Agua de jamaica,Quesadilla,Cocada,Mensual
+1136,Coca-Cola,Quesadilla,Nuegado,Semanal
+1137,Agua de horchata,Tamal,Bunuelo,Mensual
+1138,Pozol,Empanada,Bunuelo,Mensual
+1139,Tascalate,Empanada,Plátano Asado,Mensual
+1140,Agua de jamaica,Tamal,Bunuelo,Diario
+1141,Agua de chía,Quesadilla,Cocada,Rara vez
+1142,Tascalate,Tamal,Turulete,Semanal
+1143,Agua de jamaica,Tamal,Cocada,Diario
+1144,Coca-Cola,Empanada,Cocada,Rara vez
+1145,Pozol,Taco,Turrón,Rara vez
+1146,Coca-Cola,Taco,Turulete,Rara vez
+1147,Coca-Cola,Empanada,Cocada,Mensual
+1148,Coca-Cola,Gordita,Bunuelo,Semanal
+1149,Coca-Cola,Gordita,Turrón,Diario
+1150,Agua de jamaica,Empanada,Turulete,Diario
+1151,Agua de jamaica,Taco,Plátano Asado,Semanal
+1152,Agua de horchata,Tamal,Turrón,Mensual
+1153,Coca-Cola,Taco,Turrón,Rara vez
+1154,Agua de chía,Empanada,Cocada,Rara vez
+1155,Agua de jamaica,Tamal,Turulete,Rara vez
+1156,Agua de chía,Tamal,Plátano Asado,Semanal
+1157,Coca-Cola,Quesadilla,Bunuelo,Rara vez
+1158,Coca-Cola,Empanada,Plátano Asado,Rara vez
+1159,Agua de horchata,Empanada,Plátano Asado,Semanal
+1160,Agua de jamaica,Quesadilla,Turrón,Semanal
+1161,Agua de chía,Quesadilla,Bunuelo,Semanal
+1162,Coca-Cola,Empanada,Turulete,Mensual
+1163,Tascalate,Gordita,Nuegado,Semanal
+1164,Agua de chía,Gordita,Plátano Asado,Diario
+1165,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
+1166,Pozol,Quesadilla,Nuegado,Semanal
+1167,Agua de horchata,Gordita,Nuegado,Semanal
+1168,Tascalate,Empanada,Cocada,Rara vez
+1169,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
+1170,Agua de horchata,Taco,Turulete,Mensual
+1171,Agua de horchata,Quesadilla,Turulete,Mensual
+1172,Agua de jamaica,Empanada,Turrón,Diario
+1173,Agua de chía,Tamal,Cocada,Rara vez
+1174,Agua de chía,Quesadilla,Bunuelo,Diario
+1175,Agua de horchata,Gordita,Nuegado,Semanal
+1176,Agua de chía,Tamal,Cocada,Semanal
+1177,Tascalate,Taco,Cocada,Rara vez
+1178,Agua de horchata,Tamal,Turrón,Mensual
+1179,Agua de jamaica,Quesadilla,Turulete,Rara vez
+1180,Agua de horchata,Empanada,Turulete,Mensual
+1181,Tascalate,Tostada,Nuegado,Semanal
+1182,Agua de chía,Empanada,Cocada,Diario
+1183,Tascalate,Quesadilla,Turulete,Diario
+1184,Tascalate,Tamal,Turulete,Diario
+1185,Coca-Cola,Tamal,Bunuelo,Diario
+1186,Coca-Cola,Quesadilla,Bunuelo,Rara vez
+1187,Agua de horchata,Taco,Bunuelo,Semanal
+1188,Agua de jamaica,Quesadilla,Nuegado,Mensual
+1189,Agua de chía,Taco,Turrón,Diario
+1190,Tascalate,Tostada,Bunuelo,Rara vez
+1191,Agua de horchata,Gordita,Bunuelo,Diario
+1192,Pozol,Tostada,Turrón,Rara vez
+1193,Coca-Cola,Gordita,Plátano Asado,Diario
+1194,Tascalate,Tostada,Nuegado,Semanal
+1195,Tascalate,Empanada,Nuegado,Rara vez
+1196,Pozol,Gordita,Turulete,Semanal
+1197,Pozol,Taco,Nuegado,Mensual
+1198,Coca-Cola,Tamal,Nuegado,Diario
+1199,Pozol,Tamal,Turrón,Rara vez
+1200,Agua de jamaica,Tamal,Nuegado,Semanal
+1201,Tascalate,Taco,Bunuelo,Mensual
+1202,Coca-Cola,Taco,Turrón,Rara vez
+1203,Agua de jamaica,Tamal,Nuegado,Mensual
+1204,Agua de chía,Tamal,Plátano Asado,Diario
+1205,Agua de jamaica,Quesadilla,Turrón,Semanal
+1206,Tascalate,Gordita,Bunuelo,Mensual
+1207,Tascalate,Quesadilla,Bunuelo,Rara vez
+1208,Agua de chía,Gordita,Nuegado,Diario
+1209,Tascalate,Tamal,Cocada,Rara vez
+1210,Agua de chía,Quesadilla,Turulete,Diario
+1211,Coca-Cola,Quesadilla,Nuegado,Rara vez
+1212,Tascalate,Gordita,Cocada,Mensual
+1213,Tascalate,Taco,Turrón,Diario
+1214,Tascalate,Empanada,Turulete,Semanal
+1215,Coca-Cola,Tamal,Plátano Asado,Semanal
+1216,Pozol,Taco,Plátano Asado,Rara vez
+1217,Coca-Cola,Tamal,Plátano Asado,Diario
+1218,Pozol,Empanada,Plátano Asado,Semanal
+1219,Agua de chía,Gordita,Nuegado,Semanal
+1220,Pozol,Tostada,Nuegado,Semanal
+1221,Tascalate,Tostada,Cocada,Rara vez
+1222,Agua de chía,Tamal,Nuegado,Semanal
+1223,Coca-Cola,Tamal,Cocada,Mensual
+1224,Agua de horchata,Quesadilla,Plátano Asado,Rara vez
+1225,Agua de horchata,Gordita,Plátano Asado,Rara vez
+1226,Tascalate,Taco,Turulete,Mensual
+1227,Pozol,Tostada,Cocada,Diario
+1228,Agua de chía,Quesadilla,Turulete,Semanal
+1229,Pozol,Tamal,Bunuelo,Semanal
+1230,Pozol,Gordita,Cocada,Semanal
+1231,Tascalate,Gordita,Turrón,Semanal
+1232,Agua de horchata,Tostada,Plátano Asado,Diario
+1233,Agua de jamaica,Empanada,Bunuelo,Diario
+1234,Agua de horchata,Quesadilla,Cocada,Rara vez
+1235,Pozol,Empanada,Bunuelo,Semanal
+1236,Agua de horchata,Taco,Bunuelo,Semanal
+1237,Agua de horchata,Tostada,Plátano Asado,Semanal
+1238,Pozol,Quesadilla,Plátano Asado,Diario
+1239,Agua de horchata,Empanada,Turulete,Diario
+1240,Coca-Cola,Taco,Bunuelo,Semanal
+1241,Agua de horchata,Empanada,Turrón,Diario
+1242,Agua de chía,Taco,Turrón,Rara vez
+1243,Coca-Cola,Empanada,Plátano Asado,Semanal
+1244,Pozol,Empanada,Turrón,Diario
+1245,Agua de jamaica,Tamal,Cocada,Mensual
+1246,Agua de chía,Tamal,Turrón,Mensual
+1247,Tascalate,Gordita,Plátano Asado,Mensual
+1248,Agua de horchata,Taco,Cocada,Semanal
+1249,Pozol,Tostada,Cocada,Rara vez
+1250,Tascalate,Taco,Plátano Asado,Diario
+1251,Tascalate,Taco,Turulete,Semanal
+1252,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
+1253,Agua de jamaica,Gordita,Turrón,Rara vez
+1254,Agua de jamaica,Taco,Turrón,Rara vez
+1255,Agua de horchata,Gordita,Bunuelo,Rara vez
+1256,Coca-Cola,Quesadilla,Nuegado,Diario
+1257,Agua de chía,Empanada,Bunuelo,Mensual
+1258,Agua de jamaica,Empanada,Cocada,Diario
+1259,Agua de chía,Gordita,Turrón,Rara vez
+1260,Coca-Cola,Quesadilla,Plátano Asado,Diario
+1261,Agua de horchata,Quesadilla,Cocada,Diario
+1262,Agua de horchata,Tamal,Nuegado,Mensual
+1263,Coca-Cola,Tostada,Turrón,Rara vez
+1264,Agua de horchata,Quesadilla,Cocada,Rara vez
+1265,Agua de chía,Taco,Plátano Asado,Diario
+1266,Coca-Cola,Tamal,Turulete,Semanal
+1267,Agua de jamaica,Gordita,Nuegado,Rara vez
+1268,Agua de horchata,Quesadilla,Nuegado,Semanal
+1269,Agua de horchata,Tamal,Nuegado,Rara vez
+1270,Coca-Cola,Empanada,Turulete,Diario
+1271,Coca-Cola,Gordita,Nuegado,Semanal
+1272,Pozol,Gordita,Cocada,Mensual
+1273,Agua de horchata,Empanada,Nuegado,Mensual
+1274,Coca-Cola,Quesadilla,Turrón,Mensual
+1275,Tascalate,Empanada,Nuegado,Mensual
+1276,Agua de jamaica,Taco,Cocada,Semanal
+1277,Agua de jamaica,Taco,Bunuelo,Diario
+1278,Coca-Cola,Gordita,Bunuelo,Semanal
+1279,Coca-Cola,Quesadilla,Turulete,Diario
+1280,Pozol,Empanada,Bunuelo,Diario
+1281,Agua de chía,Tamal,Nuegado,Rara vez
+1282,Tascalate,Tamal,Turulete,Semanal
+1283,Tascalate,Quesadilla,Cocada,Semanal
+1284,Tascalate,Gordita,Plátano Asado,Diario
+1285,Agua de chía,Quesadilla,Plátano Asado,Rara vez
+1286,Coca-Cola,Empanada,Cocada,Rara vez
+1287,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
+1288,Coca-Cola,Tamal,Cocada,Rara vez
+1289,Agua de chía,Gordita,Plátano Asado,Semanal
+1290,Coca-Cola,Tostada,Cocada,Semanal
+1291,Coca-Cola,Empanada,Turulete,Mensual
+1292,Agua de chía,Tostada,Bunuelo,Diario
+1293,Coca-Cola,Tamal,Bunuelo,Mensual
+1294,Agua de jamaica,Taco,Turulete,Diario
+1295,Pozol,Tamal,Turrón,Diario
+1296,Pozol,Gordita,Bunuelo,Diario
+1297,Agua de chía,Empanada,Cocada,Rara vez
+1298,Pozol,Empanada,Cocada,Rara vez
+1299,Agua de horchata,Taco,Turrón,Rara vez
+1300,Tascalate,Tamal,Plátano Asado,Semanal
+1301,Pozol,Tostada,Cocada,Mensual
+1302,Agua de chía,Quesadilla,Bunuelo,Rara vez
+1303,Agua de chía,Quesadilla,Plátano Asado,Mensual
+1304,Agua de jamaica,Gordita,Plátano Asado,Diario
+1305,Agua de horchata,Gordita,Plátano Asado,Mensual
+1306,Pozol,Gordita,Cocada,Mensual
+1307,Agua de jamaica,Taco,Bunuelo,Semanal
+1308,Agua de jamaica,Tostada,Cocada,Diario
+1309,Coca-Cola,Tostada,Bunuelo,Semanal
+1310,Agua de chía,Empanada,Turulete,Mensual
+1311,Agua de chía,Quesadilla,Nuegado,Mensual
+1312,Agua de horchata,Tamal,Turulete,Mensual
+1313,Agua de jamaica,Gordita,Nuegado,Rara vez
+1314,Coca-Cola,Gordita,Turrón,Diario
+1315,Tascalate,Quesadilla,Bunuelo,Mensual
+1316,Agua de jamaica,Taco,Cocada,Diario
+1317,Agua de horchata,Tostada,Cocada,Rara vez
+1318,Agua de chía,Gordita,Turrón,Mensual
+1319,Agua de horchata,Tostada,Cocada,Mensual
+1320,Coca-Cola,Quesadilla,Bunuelo,Diario
+1321,Agua de chía,Empanada,Nuegado,Diario
+1322,Coca-Cola,Empanada,Plátano Asado,Mensual
+1323,Agua de jamaica,Taco,Turrón,Diario
+1324,Agua de horchata,Gordita,Bunuelo,Diario
+1325,Agua de horchata,Empanada,Cocada,Rara vez
+1326,Coca-Cola,Gordita,Turulete,Diario
+1327,Tascalate,Tostada,Plátano Asado,Semanal
+1328,Agua de horchata,Quesadilla,Plátano Asado,Diario
+1329,Coca-Cola,Gordita,Plátano Asado,Diario
+1330,Agua de jamaica,Tamal,Bunuelo,Semanal
+1331,Agua de chía,Empanada,Cocada,Rara vez
+1332,Agua de horchata,Quesadilla,Bunuelo,Diario
+1333,Coca-Cola,Empanada,Cocada,Rara vez
+1334,Pozol,Tamal,Plátano Asado,Mensual
+1335,Pozol,Taco,Nuegado,Semanal
+1336,Coca-Cola,Empanada,Plátano Asado,Rara vez
+1337,Agua de chía,Quesadilla,Cocada,Diario
+1338,Coca-Cola,Gordita,Turulete,Semanal
+1339,Tascalate,Tamal,Turrón,Rara vez
+1340,Agua de jamaica,Tostada,Plátano Asado,Rara vez
+1341,Coca-Cola,Empanada,Plátano Asado,Diario
+1342,Agua de jamaica,Empanada,Plátano Asado,Semanal
+1343,Coca-Cola,Gordita,Bunuelo,Semanal
+1344,Agua de jamaica,Tostada,Bunuelo,Diario
+1345,Coca-Cola,Quesadilla,Turulete,Semanal
+1346,Tascalate,Tostada,Turulete,Mensual
+1347,Tascalate,Quesadilla,Turulete,Rara vez
+1348,Agua de horchata,Tostada,Turulete,Mensual
+1349,Tascalate,Tamal,Turulete,Semanal
+1350,Agua de horchata,Quesadilla,Turulete,Mensual
+1351,Pozol,Quesadilla,Turrón,Semanal
+1352,Agua de horchata,Taco,Turrón,Semanal
+1353,Agua de jamaica,Gordita,Turulete,Semanal
+1354,Pozol,Tamal,Cocada,Diario
+1355,Agua de jamaica,Empanada,Bunuelo,Mensual
+1356,Coca-Cola,Tamal,Cocada,Diario
+1357,Agua de chía,Gordita,Plátano Asado,Rara vez
+1358,Pozol,Gordita,Turulete,Diario
+1359,Agua de jamaica,Quesadilla,Plátano Asado,Mensual
+1360,Agua de chía,Quesadilla,Turrón,Rara vez
+1361,Agua de chía,Tostada,Bunuelo,Mensual
+1362,Coca-Cola,Taco,Turulete,Semanal
+1363,Coca-Cola,Tamal,Cocada,Mensual
+1364,Pozol,Gordita,Plátano Asado,Rara vez
+1365,Coca-Cola,Gordita,Plátano Asado,Mensual
+1366,Tascalate,Tamal,Bunuelo,Rara vez
+1367,Pozol,Tamal,Turrón,Rara vez
+1368,Coca-Cola,Taco,Cocada,Diario
+1369,Pozol,Quesadilla,Nuegado,Semanal
+1370,Coca-Cola,Taco,Turrón,Rara vez
+1371,Tascalate,Tamal,Bunuelo,Semanal
+1372,Agua de horchata,Tamal,Cocada,Semanal
+1373,Agua de jamaica,Quesadilla,Turrón,Semanal
+1374,Agua de chía,Empanada,Turrón,Rara vez
+1375,Tascalate,Gordita,Plátano Asado,Rara vez
+1376,Coca-Cola,Tamal,Plátano Asado,Diario
+1377,Pozol,Gordita,Cocada,Mensual
+1378,Coca-Cola,Tamal,Turulete,Mensual
+1379,Tascalate,Gordita,Plátano Asado,Diario
+1380,Agua de jamaica,Empanada,Turulete,Semanal
+1381,Agua de horchata,Taco,Plátano Asado,Semanal
+1382,Agua de horchata,Empanada,Turulete,Semanal
+1383,Tascalate,Tostada,Turrón,Semanal
+1384,Agua de jamaica,Empanada,Nuegado,Semanal
+1385,Coca-Cola,Quesadilla,Turrón,Rara vez
+1386,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
+1387,Agua de chía,Tostada,Turulete,Semanal
+1388,Pozol,Gordita,Turulete,Semanal
+1389,Agua de jamaica,Empanada,Turulete,Semanal
+1390,Pozol,Tostada,Plátano Asado,Semanal
+1391,Agua de chía,Quesadilla,Bunuelo,Diario
+1392,Agua de horchata,Gordita,Cocada,Mensual
+1393,Agua de jamaica,Taco,Turrón,Semanal
+1394,Agua de horchata,Tamal,Bunuelo,Diario
+1395,Agua de horchata,Empanada,Turrón,Mensual
+1396,Agua de chía,Empanada,Turrón,Rara vez
+1397,Pozol,Empanada,Bunuelo,Diario
+1398,Agua de jamaica,Gordita,Turrón,Rara vez
+1399,Agua de jamaica,Tamal,Cocada,Rara vez
+1400,Agua de jamaica,Quesadilla,Cocada,Semanal
+1401,Agua de horchata,Tamal,Bunuelo,Rara vez
+1402,Coca-Cola,Tamal,Bunuelo,Diario
+1403,Tascalate,Tamal,Plátano Asado,Rara vez
+1404,Tascalate,Taco,Cocada,Rara vez
+1405,Coca-Cola,Tostada,Cocada,Diario
+1406,Coca-Cola,Taco,Nuegado,Rara vez
+1407,Agua de jamaica,Gordita,Turulete,Rara vez
+1408,Agua de chía,Gordita,Turulete,Rara vez
+1409,Pozol,Tamal,Nuegado,Diario
+1410,Pozol,Gordita,Cocada,Mensual
+1411,Coca-Cola,Quesadilla,Turulete,Diario
+1412,Agua de jamaica,Gordita,Turulete,Mensual
+1413,Tascalate,Empanada,Turrón,Rara vez
+1414,Coca-Cola,Empanada,Plátano Asado,Semanal
+1415,Agua de horchata,Gordita,Turrón,Diario
+1416,Coca-Cola,Quesadilla,Turrón,Semanal
+1417,Agua de horchata,Gordita,Nuegado,Mensual
+1418,Tascalate,Taco,Plátano Asado,Diario
+1419,Agua de jamaica,Taco,Cocada,Mensual
+1420,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
+1421,Pozol,Tostada,Plátano Asado,Mensual
+1422,Coca-Cola,Taco,Plátano Asado,Diario
+1423,Coca-Cola,Gordita,Turulete,Semanal
+1424,Tascalate,Tamal,Nuegado,Mensual
+1425,Agua de horchata,Quesadilla,Cocada,Semanal
+1426,Agua de horchata,Gordita,Bunuelo,Diario
+1427,Pozol,Tostada,Bunuelo,Rara vez
+1428,Coca-Cola,Taco,Plátano Asado,Diario
+1429,Agua de chía,Gordita,Turrón,Semanal
+1430,Agua de jamaica,Tostada,Turrón,Semanal
+1431,Agua de horchata,Tamal,Turrón,Mensual
+1432,Agua de horchata,Empanada,Turrón,Rara vez
+1433,Agua de jamaica,Taco,Cocada,Mensual
+1434,Agua de jamaica,Taco,Turulete,Diario
+1435,Agua de chía,Tostada,Cocada,Mensual
+1436,Agua de horchata,Empanada,Cocada,Mensual
+1437,Pozol,Tostada,Plátano Asado,Semanal
+1438,Agua de horchata,Gordita,Turrón,Semanal
+1439,Agua de chía,Tostada,Turulete,Rara vez
+1440,Pozol,Empanada,Turrón,Semanal
+1441,Tascalate,Gordita,Turrón,Rara vez
+1442,Agua de chía,Gordita,Cocada,Mensual
+1443,Coca-Cola,Gordita,Turulete,Mensual
+1444,Tascalate,Taco,Turulete,Semanal
+1445,Agua de horchata,Empanada,Bunuelo,Diario
+1446,Tascalate,Quesadilla,Turulete,Diario
+1447,Coca-Cola,Empanada,Bunuelo,Rara vez
+1448,Agua de jamaica,Taco,Plátano Asado,Mensual
+1449,Tascalate,Tamal,Plátano Asado,Semanal
+1450,Pozol,Tostada,Turrón,Diario
+1451,Agua de horchata,Quesadilla,Turulete,Diario
+1452,Agua de horchata,Empanada,Nuegado,Diario
+1453,Agua de jamaica,Taco,Plátano Asado,Semanal
+1454,Agua de horchata,Tostada,Cocada,Semanal
+1455,Pozol,Quesadilla,Turulete,Mensual
+1456,Tascalate,Tostada,Cocada,Rara vez
+1457,Pozol,Taco,Nuegado,Semanal
+1458,Agua de chía,Gordita,Turulete,Semanal
+1459,Pozol,Quesadilla,Turulete,Semanal
+1460,Agua de chía,Tostada,Nuegado,Mensual
+1461,Agua de jamaica,Taco,Plátano Asado,Rara vez
+1462,Tascalate,Quesadilla,Turrón,Rara vez
+1463,Agua de horchata,Gordita,Plátano Asado,Diario
+1464,Tascalate,Empanada,Plátano Asado,Diario
+1465,Agua de chía,Empanada,Nuegado,Diario
+1466,Tascalate,Tamal,Cocada,Diario
+1467,Agua de horchata,Tamal,Turrón,Mensual
+1468,Coca-Cola,Tostada,Plátano Asado,Semanal
+1469,Pozol,Quesadilla,Turulete,Semanal
+1470,Coca-Cola,Tamal,Turrón,Rara vez
+1471,Agua de horchata,Quesadilla,Cocada,Rara vez
+1472,Agua de horchata,Tamal,Nuegado,Diario
+1473,Pozol,Gordita,Plátano Asado,Semanal
+1474,Pozol,Tostada,Bunuelo,Semanal
+1475,Agua de chía,Quesadilla,Plátano Asado,Semanal
+1476,Agua de chía,Taco,Nuegado,Diario
+1477,Agua de jamaica,Tamal,Turrón,Mensual
+1478,Agua de horchata,Taco,Nuegado,Semanal
+1479,Agua de chía,Quesadilla,Nuegado,Semanal
+1480,Agua de chía,Tostada,Bunuelo,Rara vez
+1481,Coca-Cola,Quesadilla,Turulete,Rara vez
+1482,Pozol,Quesadilla,Plátano Asado,Rara vez
+1483,Agua de chía,Tostada,Turrón,Semanal
+1484,Agua de jamaica,Tostada,Plátano Asado,Diario
+1485,Pozol,Tostada,Bunuelo,Diario
+1486,Agua de horchata,Tostada,Plátano Asado,Diario
+1487,Coca-Cola,Gordita,Nuegado,Diario
+1488,Agua de jamaica,Tamal,Plátano Asado,Diario
+1489,Tascalate,Gordita,Turulete,Rara vez
+1490,Agua de jamaica,Tostada,Turrón,Mensual
+1491,Tascalate,Taco,Plátano Asado,Rara vez
+1492,Agua de chía,Taco,Bunuelo,Semanal
+1493,Tascalate,Tamal,Bunuelo,Mensual
+1494,Agua de chía,Quesadilla,Turrón,Mensual
+1495,Agua de jamaica,Tostada,Turulete,Semanal
+1496,Agua de chía,Tostada,Cocada,Semanal
+1497,Coca-Cola,Tamal,Cocada,Mensual
+1498,Coca-Cola,Empanada,Bunuelo,Mensual
+1499,Tascalate,Gordita,Bunuelo,Semanal
+1500,Coca-Cola,Taco,Turulete,Rara vez
+1501,Agua de horchata,Tamal,Turrón,Diario
+1502,Coca-Cola,Quesadilla,Turulete,Diario
+1503,Agua de jamaica,Empanada,Plátano Asado,Mensual
+1504,Agua de chía,Gordita,Bunuelo,Semanal
+1505,Tascalate,Tamal,Bunuelo,Mensual
+1506,Agua de jamaica,Quesadilla,Nuegado,Diario
+1507,Agua de chía,Tamal,Turrón,Rara vez
+1508,Agua de horchata,Empanada,Plátano Asado,Diario
+1509,Tascalate,Empanada,Plátano Asado,Semanal
+1510,Coca-Cola,Quesadilla,Turulete,Rara vez
+1511,Coca-Cola,Taco,Bunuelo,Semanal
+1512,Agua de horchata,Tostada,Bunuelo,Diario
+1513,Agua de jamaica,Tostada,Plátano Asado,Mensual
+1514,Tascalate,Empanada,Nuegado,Rara vez
+1515,Pozol,Gordita,Nuegado,Rara vez
+1516,Pozol,Taco,Turrón,Mensual
+1517,Agua de jamaica,Empanada,Nuegado,Semanal
+1518,Agua de chía,Tamal,Turulete,Mensual
+1519,Agua de horchata,Quesadilla,Turrón,Rara vez
+1520,Agua de horchata,Tostada,Turrón,Mensual
+1521,Agua de horchata,Tostada,Plátano Asado,Semanal
+1522,Agua de jamaica,Tamal,Turrón,Rara vez
+1523,Coca-Cola,Taco,Turulete,Semanal
+1524,Agua de horchata,Tostada,Cocada,Mensual
+1525,Tascalate,Empanada,Bunuelo,Diario
+1526,Agua de chía,Gordita,Plátano Asado,Semanal
+1527,Pozol,Quesadilla,Cocada,Mensual
+1528,Agua de jamaica,Tostada,Bunuelo,Diario
+1529,Agua de jamaica,Gordita,Nuegado,Mensual
+1530,Pozol,Tamal,Turrón,Semanal
+1531,Agua de horchata,Empanada,Turrón,Mensual
+1532,Agua de chía,Tostada,Turulete,Semanal
+1533,Coca-Cola,Gordita,Turrón,Diario
+1534,Tascalate,Quesadilla,Nuegado,Semanal
+1535,Tascalate,Tostada,Plátano Asado,Rara vez
+1536,Coca-Cola,Tostada,Turrón,Diario
+1537,Agua de chía,Taco,Nuegado,Semanal
+1538,Tascalate,Tamal,Turrón,Mensual
+1539,Agua de chía,Tostada,Turrón,Diario
+1540,Agua de jamaica,Taco,Plátano Asado,Semanal
+1541,Agua de chía,Taco,Turulete,Diario
+1542,Agua de jamaica,Tostada,Nuegado,Diario
+1543,Agua de horchata,Tamal,Turrón,Diario
+1544,Agua de horchata,Tostada,Turulete,Mensual
+1545,Tascalate,Taco,Turrón,Mensual
+1546,Agua de chía,Tostada,Turulete,Mensual
+1547,Agua de jamaica,Gordita,Nuegado,Semanal
+1548,Agua de chía,Taco,Cocada,Rara vez
+1549,Tascalate,Tamal,Plátano Asado,Rara vez
+1550,Agua de chía,Empanada,Plátano Asado,Diario
+1551,Tascalate,Gordita,Turrón,Semanal
+1552,Coca-Cola,Gordita,Nuegado,Rara vez
+1553,Agua de jamaica,Gordita,Turrón,Mensual
+1554,Tascalate,Gordita,Cocada,Semanal
+1555,Tascalate,Taco,Cocada,Rara vez
+1556,Agua de chía,Tostada,Cocada,Mensual
+1557,Agua de chía,Tamal,Cocada,Semanal
+1558,Tascalate,Tamal,Turrón,Semanal
+1559,Pozol,Quesadilla,Turulete,Semanal
+1560,Coca-Cola,Tamal,Nuegado,Semanal
+1561,Coca-Cola,Empanada,Cocada,Rara vez
+1562,Agua de chía,Empanada,Plátano Asado,Mensual
+1563,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
+1564,Coca-Cola,Tostada,Nuegado,Mensual
+1565,Tascalate,Empanada,Cocada,Diario
+1566,Agua de chía,Empanada,Cocada,Semanal
+1567,Agua de chía,Taco,Plátano Asado,Diario
+1568,Pozol,Empanada,Nuegado,Diario
+1569,Agua de jamaica,Tamal,Plátano Asado,Semanal
+1570,Agua de horchata,Empanada,Bunuelo,Rara vez
+1571,Coca-Cola,Taco,Nuegado,Rara vez
+1572,Agua de chía,Tamal,Cocada,Rara vez
+1573,Pozol,Quesadilla,Turrón,Diario
+1574,Agua de jamaica,Tostada,Turrón,Diario
+1575,Agua de horchata,Tamal,Turulete,Rara vez
+1576,Coca-Cola,Tostada,Bunuelo,Semanal
+1577,Agua de chía,Quesadilla,Nuegado,Rara vez
+1578,Tascalate,Taco,Cocada,Semanal
+1579,Agua de chía,Gordita,Cocada,Diario
+1580,Tascalate,Taco,Nuegado,Rara vez
+1581,Agua de horchata,Gordita,Bunuelo,Mensual
+1582,Coca-Cola,Tamal,Plátano Asado,Mensual
+1583,Agua de chía,Empanada,Turulete,Rara vez
+1584,Coca-Cola,Tostada,Turrón,Semanal
+1585,Pozol,Quesadilla,Plátano Asado,Diario
+1586,Coca-Cola,Taco,Cocada,Mensual
+1587,Agua de chía,Quesadilla,Turulete,Semanal
+1588,Tascalate,Quesadilla,Cocada,Mensual
+1589,Agua de chía,Empanada,Cocada,Rara vez
+1590,Agua de jamaica,Empanada,Turulete,Diario
+1591,Coca-Cola,Tostada,Nuegado,Rara vez
+1592,Agua de horchata,Gordita,Turrón,Mensual
+1593,Agua de chía,Tostada,Turrón,Diario
+1594,Agua de chía,Gordita,Turrón,Diario
+1595,Tascalate,Gordita,Turulete,Mensual
+1596,Tascalate,Tamal,Turulete,Mensual
+1597,Agua de chía,Gordita,Bunuelo,Diario
+1598,Agua de jamaica,Quesadilla,Turulete,Diario
+1599,Pozol,Empanada,Nuegado,Diario
+1600,Coca-Cola,Quesadilla,Turrón,Diario
+1601,Agua de chía,Empanada,Nuegado,Semanal
+1602,Agua de jamaica,Gordita,Cocada,Semanal
+1603,Pozol,Taco,Cocada,Semanal
+1604,Agua de chía,Quesadilla,Bunuelo,Diario
+1605,Pozol,Quesadilla,Cocada,Mensual
+1606,Coca-Cola,Taco,Bunuelo,Diario
+1607,Tascalate,Empanada,Cocada,Mensual
+1608,Tascalate,Quesadilla,Bunuelo,Diario
+1609,Agua de horchata,Tamal,Cocada,Diario
+1610,Agua de jamaica,Tamal,Nuegado,Rara vez
+1611,Pozol,Empanada,Nuegado,Semanal
+1612,Coca-Cola,Taco,Turrón,Rara vez
+1613,Coca-Cola,Tamal,Turulete,Diario
+1614,Agua de jamaica,Tamal,Bunuelo,Semanal
+1615,Agua de horchata,Tostada,Bunuelo,Mensual
+1616,Agua de jamaica,Empanada,Turrón,Rara vez
+1617,Pozol,Empanada,Cocada,Rara vez
+1618,Pozol,Tostada,Nuegado,Mensual
+1619,Tascalate,Quesadilla,Nuegado,Diario
+1620,Coca-Cola,Tamal,Turrón,Diario
+1621,Agua de chía,Empanada,Turrón,Semanal
+1622,Tascalate,Gordita,Plátano Asado,Mensual
+1623,Tascalate,Quesadilla,Plátano Asado,Diario
+1624,Agua de horchata,Quesadilla,Turulete,Mensual
+1625,Tascalate,Gordita,Turrón,Mensual
+1626,Agua de jamaica,Quesadilla,Turulete,Mensual
+1627,Coca-Cola,Quesadilla,Bunuelo,Diario
+1628,Agua de horchata,Tamal,Plátano Asado,Mensual
+1629,Tascalate,Quesadilla,Bunuelo,Semanal
+1630,Coca-Cola,Taco,Nuegado,Diario
+1631,Agua de chía,Tamal,Bunuelo,Semanal
+1632,Agua de horchata,Empanada,Cocada,Mensual
+1633,Tascalate,Tamal,Turulete,Rara vez
+1634,Pozol,Tamal,Turrón,Diario
+1635,Tascalate,Tostada,Turulete,Mensual
+1636,Agua de chía,Empanada,Bunuelo,Rara vez
+1637,Agua de horchata,Quesadilla,Turrón,Semanal
+1638,Agua de horchata,Tostada,Bunuelo,Mensual
+1639,Pozol,Gordita,Bunuelo,Rara vez
+1640,Pozol,Tamal,Nuegado,Rara vez
+1641,Tascalate,Taco,Plátano Asado,Diario
+1642,Agua de jamaica,Quesadilla,Nuegado,Mensual
+1643,Agua de chía,Tostada,Cocada,Diario
+1644,Agua de horchata,Quesadilla,Turrón,Semanal
+1645,Tascalate,Tostada,Plátano Asado,Diario
+1646,Tascalate,Tostada,Nuegado,Semanal
+1647,Agua de jamaica,Tamal,Nuegado,Mensual
+1648,Agua de jamaica,Gordita,Cocada,Rara vez
+1649,Agua de jamaica,Empanada,Bunuelo,Mensual
+1650,Pozol,Quesadilla,Nuegado,Semanal
+1651,Agua de chía,Tamal,Nuegado,Semanal
+1652,Agua de jamaica,Empanada,Cocada,Rara vez
+1653,Agua de chía,Empanada,Plátano Asado,Semanal
+1654,Agua de horchata,Quesadilla,Turulete,Diario
+1655,Coca-Cola,Gordita,Turrón,Semanal
+1656,Agua de chía,Empanada,Cocada,Diario
+1657,Tascalate,Quesadilla,Cocada,Semanal
+1658,Agua de jamaica,Empanada,Nuegado,Diario
+1659,Agua de jamaica,Empanada,Turrón,Rara vez
+1660,Agua de horchata,Quesadilla,Bunuelo,Semanal
+1661,Pozol,Empanada,Plátano Asado,Rara vez
+1662,Agua de jamaica,Tamal,Nuegado,Semanal
+1663,Agua de chía,Taco,Turulete,Rara vez
+1664,Pozol,Tamal,Nuegado,Rara vez
+1665,Coca-Cola,Tostada,Turrón,Diario
+1666,Agua de chía,Gordita,Bunuelo,Diario
+1667,Agua de chía,Gordita,Turulete,Rara vez
+1668,Agua de jamaica,Gordita,Cocada,Rara vez
+1669,Agua de horchata,Empanada,Cocada,Semanal
+1670,Pozol,Taco,Nuegado,Rara vez
+1671,Pozol,Taco,Cocada,Rara vez
+1672,Agua de horchata,Taco,Cocada,Semanal
+1673,Coca-Cola,Gordita,Bunuelo,Mensual
+1674,Tascalate,Empanada,Turrón,Diario
+1675,Agua de horchata,Tamal,Plátano Asado,Rara vez
+1676,Tascalate,Taco,Bunuelo,Semanal
+1677,Agua de horchata,Quesadilla,Turrón,Semanal
+1678,Coca-Cola,Tamal,Nuegado,Rara vez
+1679,Pozol,Empanada,Plátano Asado,Semanal
+1680,Agua de jamaica,Taco,Turrón,Semanal
+1681,Agua de jamaica,Empanada,Bunuelo,Semanal
+1682,Agua de horchata,Tostada,Nuegado,Mensual
+1683,Agua de jamaica,Gordita,Bunuelo,Semanal
+1684,Agua de horchata,Taco,Plátano Asado,Semanal
+1685,Tascalate,Tamal,Cocada,Rara vez
+1686,Agua de chía,Empanada,Turrón,Diario
+1687,Tascalate,Quesadilla,Turrón,Rara vez
+1688,Agua de chía,Gordita,Turulete,Diario
+1689,Agua de chía,Empanada,Turrón,Diario
+1690,Tascalate,Tamal,Turrón,Rara vez
+1691,Agua de horchata,Tostada,Nuegado,Semanal
+1692,Agua de chía,Tamal,Bunuelo,Diario
+1693,Tascalate,Empanada,Turulete,Rara vez
+1694,Agua de horchata,Taco,Bunuelo,Semanal
+1695,Tascalate,Quesadilla,Turrón,Mensual
+1696,Agua de jamaica,Empanada,Bunuelo,Diario
+1697,Agua de chía,Taco,Plátano Asado,Semanal
+1698,Agua de jamaica,Tostada,Nuegado,Semanal
+1699,Agua de horchata,Empanada,Turulete,Mensual
+1700,Agua de jamaica,Tostada,Plátano Asado,Diario
+1701,Tascalate,Quesadilla,Plátano Asado,Mensual
+1702,Agua de horchata,Tamal,Cocada,Rara vez
+1703,Pozol,Tostada,Turulete,Semanal
+1704,Agua de jamaica,Taco,Nuegado,Diario
+1705,Coca-Cola,Tostada,Turrón,Mensual
+1706,Agua de horchata,Tostada,Plátano Asado,Rara vez
+1707,Pozol,Empanada,Cocada,Mensual
+1708,Agua de jamaica,Empanada,Turrón,Diario
+1709,Agua de horchata,Gordita,Turulete,Mensual
+1710,Coca-Cola,Tostada,Turulete,Semanal
+1711,Agua de jamaica,Empanada,Plátano Asado,Mensual
+1712,Agua de chía,Empanada,Cocada,Semanal
+1713,Agua de chía,Tamal,Turrón,Diario
+1714,Agua de jamaica,Gordita,Cocada,Semanal
+1715,Agua de horchata,Tamal,Turulete,Diario
+1716,Agua de chía,Quesadilla,Bunuelo,Rara vez
+1717,Agua de jamaica,Empanada,Bunuelo,Semanal
+1718,Agua de jamaica,Taco,Turrón,Diario
+1719,Agua de chía,Gordita,Nuegado,Semanal
+1720,Coca-Cola,Tostada,Turulete,Semanal
+1721,Coca-Cola,Tamal,Bunuelo,Rara vez
+1722,Coca-Cola,Taco,Cocada,Mensual
+1723,Agua de chía,Quesadilla,Plátano Asado,Mensual
+1724,Tascalate,Tostada,Turulete,Semanal
+1725,Tascalate,Gordita,Turrón,Semanal
+1726,Tascalate,Gordita,Bunuelo,Rara vez
+1727,Pozol,Gordita,Turrón,Diario
+1728,Agua de chía,Tamal,Cocada,Diario
+1729,Agua de jamaica,Empanada,Nuegado,Mensual
+1730,Agua de jamaica,Gordita,Nuegado,Rara vez
+1731,Agua de chía,Tostada,Cocada,Semanal
+1732,Agua de horchata,Quesadilla,Plátano Asado,Semanal
+1733,Pozol,Gordita,Nuegado,Semanal
+1734,Agua de chía,Quesadilla,Plátano Asado,Mensual
+1735,Agua de chía,Tostada,Turulete,Rara vez
+1736,Agua de horchata,Tamal,Bunuelo,Mensual
+1737,Coca-Cola,Tostada,Turulete,Semanal
+1738,Pozol,Empanada,Plátano Asado,Mensual
+1739,Agua de horchata,Gordita,Turrón,Diario
+1740,Pozol,Quesadilla,Plátano Asado,Mensual
+1741,Tascalate,Gordita,Plátano Asado,Rara vez
+1742,Agua de horchata,Tamal,Turulete,Semanal
+1743,Pozol,Tostada,Bunuelo,Diario
+1744,Pozol,Empanada,Nuegado,Rara vez
+1745,Agua de chía,Quesadilla,Cocada,Semanal
+1746,Agua de horchata,Gordita,Bunuelo,Diario
+1747,Coca-Cola,Gordita,Cocada,Rara vez
+1748,Coca-Cola,Quesadilla,Turulete,Diario
+1749,Agua de horchata,Tamal,Cocada,Diario
+1750,Tascalate,Empanada,Nuegado,Rara vez
+1751,Pozol,Gordita,Turulete,Rara vez
+1752,Agua de jamaica,Gordita,Nuegado,Diario
+1753,Agua de jamaica,Tamal,Bunuelo,Rara vez
+1754,Tascalate,Gordita,Bunuelo,Semanal
+1755,Agua de chía,Gordita,Turrón,Diario
+1756,Pozol,Quesadilla,Plátano Asado,Diario
+1757,Coca-Cola,Tamal,Nuegado,Semanal
+1758,Agua de chía,Gordita,Plátano Asado,Diario
+1759,Agua de horchata,Empanada,Nuegado,Diario
+1760,Agua de chía,Tamal,Turulete,Diario
+1761,Agua de jamaica,Tostada,Turulete,Diario
+1762,Tascalate,Quesadilla,Plátano Asado,Semanal
+1763,Agua de chía,Taco,Bunuelo,Semanal
+1764,Tascalate,Tostada,Turrón,Mensual
+1765,Coca-Cola,Taco,Turrón,Mensual
+1766,Tascalate,Tostada,Nuegado,Rara vez
+1767,Pozol,Tamal,Turulete,Diario
+1768,Coca-Cola,Taco,Plátano Asado,Rara vez
+1769,Agua de jamaica,Quesadilla,Cocada,Diario
+1770,Tascalate,Taco,Plátano Asado,Semanal
+1771,Agua de chía,Gordita,Turrón,Mensual
+1772,Pozol,Gordita,Bunuelo,Diario
+1773,Agua de horchata,Tostada,Bunuelo,Rara vez
+1774,Agua de chía,Empanada,Cocada,Mensual
+1775,Coca-Cola,Tostada,Cocada,Mensual
+1776,Tascalate,Tamal,Turulete,Diario
+1777,Agua de horchata,Gordita,Turrón,Diario
+1778,Tascalate,Quesadilla,Nuegado,Rara vez
+1779,Tascalate,Taco,Turrón,Diario
+1780,Agua de jamaica,Taco,Nuegado,Rara vez
+1781,Agua de chía,Tostada,Cocada,Rara vez
+1782,Tascalate,Tostada,Turrón,Diario
+1783,Agua de chía,Tostada,Bunuelo,Rara vez
+1784,Tascalate,Tostada,Nuegado,Diario
+1785,Tascalate,Gordita,Plátano Asado,Semanal
+1786,Pozol,Empanada,Nuegado,Rara vez
+1787,Tascalate,Gordita,Turulete,Mensual
+1788,Agua de horchata,Gordita,Plátano Asado,Semanal
+1789,Agua de chía,Quesadilla,Cocada,Diario
+1790,Tascalate,Empanada,Cocada,Mensual
+1791,Agua de jamaica,Tamal,Turrón,Rara vez
+1792,Pozol,Tostada,Nuegado,Diario
+1793,Pozol,Gordita,Plátano Asado,Mensual
+1794,Agua de horchata,Tostada,Nuegado,Mensual
+1795,Agua de horchata,Taco,Cocada,Diario
+1796,Pozol,Gordita,Turulete,Mensual
+1797,Pozol,Empanada,Plátano Asado,Rara vez
+1798,Agua de jamaica,Empanada,Turrón,Rara vez
+1799,Agua de horchata,Gordita,Cocada,Rara vez
+1800,Agua de horchata,Quesadilla,Turulete,Diario
+1801,Pozol,Taco,Plátano Asado,Diario
+1802,Coca-Cola,Tamal,Turulete,Diario
+1803,Pozol,Empanada,Plátano Asado,Rara vez
+1804,Agua de horchata,Tostada,Plátano Asado,Semanal
+1805,Agua de chía,Tamal,Turrón,Mensual
+1806,Pozol,Tostada,Cocada,Diario
+1807,Agua de horchata,Tostada,Plátano Asado,Rara vez
+1808,Pozol,Taco,Plátano Asado,Diario
+1809,Coca-Cola,Tamal,Cocada,Rara vez
+1810,Tascalate,Quesadilla,Bunuelo,Semanal
+1811,Agua de horchata,Tamal,Plátano Asado,Mensual
+1812,Agua de jamaica,Tostada,Nuegado,Semanal
+1813,Coca-Cola,Quesadilla,Plátano Asado,Rara vez
+1814,Coca-Cola,Quesadilla,Turrón,Mensual
+1815,Agua de jamaica,Gordita,Turrón,Semanal
+1816,Coca-Cola,Quesadilla,Nuegado,Diario
+1817,Tascalate,Taco,Turulete,Semanal
+1818,Agua de horchata,Tamal,Cocada,Mensual
+1819,Coca-Cola,Taco,Plátano Asado,Semanal
+1820,Tascalate,Tamal,Bunuelo,Rara vez
+1821,Coca-Cola,Tamal,Plátano Asado,Rara vez
+1822,Agua de horchata,Gordita,Bunuelo,Semanal
+1823,Coca-Cola,Gordita,Cocada,Mensual
+1824,Pozol,Gordita,Nuegado,Semanal
+1825,Tascalate,Empanada,Turulete,Semanal
+1826,Agua de chía,Tamal,Plátano Asado,Rara vez
+1827,Agua de chía,Gordita,Bunuelo,Semanal
+1828,Coca-Cola,Tostada,Plátano Asado,Semanal
+1829,Agua de horchata,Taco,Turrón,Mensual
+1830,Agua de chía,Tamal,Cocada,Diario
+1831,Pozol,Empanada,Turulete,Mensual
+1832,Agua de chía,Tostada,Nuegado,Mensual
+1833,Coca-Cola,Empanada,Turulete,Semanal
+1834,Pozol,Gordita,Turulete,Rara vez
+1835,Tascalate,Tamal,Plátano Asado,Semanal
+1836,Agua de jamaica,Tostada,Plátano Asado,Semanal
+1837,Agua de jamaica,Taco,Turrón,Mensual
+1838,Agua de chía,Quesadilla,Cocada,Diario
+1839,Agua de horchata,Quesadilla,Nuegado,Diario
+1840,Agua de horchata,Tamal,Turulete,Diario
+1841,Pozol,Tostada,Turrón,Semanal
+1842,Agua de jamaica,Tostada,Turrón,Semanal
+1843,Pozol,Gordita,Turulete,Rara vez
+1844,Tascalate,Taco,Cocada,Diario
+1845,Pozol,Taco,Turrón,Diario
+1846,Agua de jamaica,Gordita,Cocada,Mensual
+1847,Agua de chía,Taco,Bunuelo,Diario
+1848,Agua de chía,Taco,Bunuelo,Rara vez
+1849,Tascalate,Gordita,Turulete,Semanal
+1850,Agua de horchata,Gordita,Cocada,Rara vez
+1851,Agua de chía,Gordita,Turrón,Diario
+1852,Tascalate,Tostada,Nuegado,Semanal
+1853,Pozol,Taco,Turulete,Semanal
+1854,Pozol,Gordita,Nuegado,Diario
+1855,Agua de jamaica,Gordita,Plátano Asado,Rara vez
+1856,Agua de chía,Taco,Turrón,Diario
+1857,Agua de chía,Empanada,Bunuelo,Mensual
+1858,Tascalate,Taco,Turulete,Diario
+1859,Agua de jamaica,Gordita,Cocada,Diario
+1860,Agua de chía,Taco,Cocada,Mensual
+1861,Agua de jamaica,Quesadilla,Plátano Asado,Rara vez
+1862,Pozol,Quesadilla,Nuegado,Mensual
+1863,Coca-Cola,Tamal,Plátano Asado,Mensual
+1864,Coca-Cola,Quesadilla,Plátano Asado,Mensual
+1865,Agua de chía,Tamal,Cocada,Rara vez
+1866,Agua de jamaica,Tostada,Turulete,Diario
+1867,Coca-Cola,Empanada,Plátano Asado,Mensual
+1868,Tascalate,Tamal,Bunuelo,Mensual
+1869,Coca-Cola,Tostada,Cocada,Mensual
+1870,Tascalate,Taco,Nuegado,Mensual
+1871,Pozol,Tostada,Cocada,Semanal
+1872,Agua de chía,Tostada,Turrón,Rara vez
+1873,Agua de jamaica,Gordita,Nuegado,Semanal
+1874,Pozol,Gordita,Bunuelo,Diario
+1875,Agua de horchata,Tostada,Cocada,Mensual
+1876,Coca-Cola,Tamal,Plátano Asado,Rara vez
+1877,Agua de chía,Taco,Nuegado,Semanal
+1878,Pozol,Taco,Bunuelo,Rara vez
+1879,Pozol,Empanada,Bunuelo,Rara vez
+1880,Agua de jamaica,Quesadilla,Turulete,Rara vez
+1881,Pozol,Quesadilla,Plátano Asado,Semanal
+1882,Coca-Cola,Taco,Bunuelo,Semanal
+1883,Tascalate,Gordita,Turulete,Rara vez
+1884,Tascalate,Tostada,Bunuelo,Diario
+1885,Agua de chía,Tamal,Plátano Asado,Semanal
+1886,Pozol,Tamal,Turrón,Diario
+1887,Agua de horchata,Taco,Plátano Asado,Semanal
+1888,Agua de chía,Empanada,Plátano Asado,Rara vez
+1889,Pozol,Empanada,Turrón,Rara vez
+1890,Pozol,Quesadilla,Cocada,Mensual
+1891,Coca-Cola,Tamal,Bunuelo,Rara vez
+1892,Coca-Cola,Quesadilla,Bunuelo,Semanal
+1893,Tascalate,Empanada,Plátano Asado,Semanal
+1894,Coca-Cola,Tostada,Nuegado,Rara vez
+1895,Coca-Cola,Tostada,Bunuelo,Mensual
+1896,Agua de horchata,Quesadilla,Cocada,Diario
+1897,Agua de chía,Quesadilla,Cocada,Semanal
+1898,Coca-Cola,Taco,Turrón,Semanal
+1899,Tascalate,Gordita,Turulete,Semanal
+1900,Agua de jamaica,Tostada,Turulete,Rara vez
+1901,Agua de jamaica,Taco,Bunuelo,Semanal
+1902,Agua de horchata,Empanada,Turulete,Mensual
+1903,Coca-Cola,Empanada,Plátano Asado,Diario
+1904,Coca-Cola,Empanada,Nuegado,Diario
+1905,Agua de jamaica,Tostada,Nuegado,Diario
+1906,Agua de jamaica,Tostada,Plátano Asado,Diario
+1907,Agua de chía,Taco,Cocada,Mensual
+1908,Agua de horchata,Gordita,Cocada,Mensual
+1909,Agua de chía,Quesadilla,Bunuelo,Diario
+1910,Agua de horchata,Tamal,Plátano Asado,Rara vez
+1911,Agua de jamaica,Tostada,Plátano Asado,Diario
+1912,Coca-Cola,Quesadilla,Nuegado,Semanal
+1913,Agua de horchata,Quesadilla,Nuegado,Mensual
+1914,Agua de jamaica,Tamal,Cocada,Rara vez
+1915,Agua de horchata,Tostada,Cocada,Mensual
+1916,Tascalate,Gordita,Nuegado,Mensual
+1917,Pozol,Tostada,Turulete,Mensual
+1918,Pozol,Empanada,Cocada,Semanal
+1919,Coca-Cola,Tostada,Nuegado,Diario
+1920,Pozol,Gordita,Cocada,Mensual
+1921,Agua de jamaica,Tamal,Nuegado,Mensual
+1922,Tascalate,Tostada,Nuegado,Rara vez
+1923,Agua de chía,Gordita,Cocada,Rara vez
+1924,Pozol,Tamal,Turrón,Diario
+1925,Tascalate,Tostada,Plátano Asado,Diario
+1926,Pozol,Taco,Nuegado,Diario
+1927,Agua de horchata,Tostada,Bunuelo,Diario
+1928,Coca-Cola,Empanada,Turulete,Mensual
+1929,Agua de horchata,Taco,Nuegado,Rara vez
+1930,Agua de horchata,Empanada,Bunuelo,Semanal
+1931,Agua de chía,Gordita,Cocada,Mensual
+1932,Tascalate,Empanada,Turulete,Diario
+1933,Tascalate,Empanada,Turulete,Mensual
+1934,Agua de chía,Tamal,Bunuelo,Diario
+1935,Tascalate,Empanada,Plátano Asado,Mensual
+1936,Pozol,Gordita,Turulete,Mensual
+1937,Agua de chía,Tostada,Turrón,Semanal
+1938,Coca-Cola,Tostada,Nuegado,Semanal
+1939,Agua de chía,Empanada,Nuegado,Mensual
+1940,Agua de chía,Taco,Bunuelo,Mensual
+1941,Agua de chía,Quesadilla,Plátano Asado,Mensual
+1942,Tascalate,Tostada,Turrón,Rara vez
+1943,Agua de chía,Tostada,Cocada,Rara vez
+1944,Tascalate,Empanada,Nuegado,Diario
+1945,Agua de chía,Tamal,Nuegado,Semanal
+1946,Pozol,Gordita,Plátano Asado,Mensual
+1947,Coca-Cola,Quesadilla,Turrón,Mensual
+1948,Tascalate,Taco,Cocada,Rara vez
+1949,Tascalate,Gordita,Turrón,Semanal
+1950,Agua de chía,Quesadilla,Turrón,Diario
+1951,Agua de jamaica,Quesadilla,Plátano Asado,Semanal
+1952,Agua de chía,Gordita,Cocada,Rara vez
+1953,Agua de chía,Tamal,Cocada,Mensual
+1954,Coca-Cola,Quesadilla,Plátano Asado,Diario
+1955,Coca-Cola,Empanada,Cocada,Semanal
+1956,Agua de jamaica,Tostada,Turulete,Rara vez
+1957,Tascalate,Tamal,Plátano Asado,Rara vez
+1958,Coca-Cola,Quesadilla,Turrón,Rara vez
+1959,Agua de horchata,Tamal,Plátano Asado,Semanal
+1960,Agua de chía,Taco,Turulete,Mensual
+1961,Agua de horchata,Gordita,Plátano Asado,Rara vez
+1962,Agua de chía,Empanada,Bunuelo,Rara vez
+1963,Coca-Cola,Tostada,Turrón,Semanal
+1964,Pozol,Taco,Plátano Asado,Rara vez
+1965,Agua de horchata,Taco,Turulete,Diario
+1966,Tascalate,Taco,Bunuelo,Semanal
+1967,Agua de jamaica,Tostada,Plátano Asado,Diario
+1968,Agua de chía,Taco,Bunuelo,Rara vez
+1969,Pozol,Tostada,Nuegado,Mensual
+1970,Pozol,Empanada,Bunuelo,Semanal
+1971,Coca-Cola,Empanada,Turulete,Rara vez
+1972,Agua de jamaica,Tamal,Plátano Asado,Mensual
+1973,Pozol,Taco,Turrón,Mensual
+1974,Pozol,Tostada,Turrón,Mensual
+1975,Tascalate,Gordita,Turulete,Mensual
+1976,Agua de horchata,Taco,Turrón,Rara vez
+1977,Agua de horchata,Tamal,Nuegado,Diario
+1978,Agua de chía,Empanada,Plátano Asado,Mensual
+1979,Tascalate,Tostada,Cocada,Rara vez
+1980,Tascalate,Tostada,Cocada,Rara vez
+1981,Agua de chía,Empanada,Cocada,Diario
+1982,Agua de chía,Empanada,Turrón,Diario
+1983,Tascalate,Quesadilla,Turrón,Diario
+1984,Coca-Cola,Empanada,Cocada,Mensual
+1985,Agua de horchata,Tostada,Nuegado,Rara vez
+1986,Agua de jamaica,Gordita,Nuegado,Diario
+1987,Agua de horchata,Tamal,Bunuelo,Rara vez
+1988,Agua de chía,Quesadilla,Nuegado,Diario
+1989,Agua de horchata,Quesadilla,Turrón,Rara vez
+1990,Agua de chía,Quesadilla,Plátano Asado,Rara vez
+1991,Agua de chía,Taco,Bunuelo,Rara vez
+1992,Agua de horchata,Quesadilla,Cocada,Semanal
+1993,Agua de horchata,Tamal,Cocada,Rara vez
+1994,Coca-Cola,Tamal,Cocada,Diario
+1995,Agua de horchata,Taco,Turrón,Mensual
+1996,Coca-Cola,Tamal,Plátano Asado,Diario
+1997,Pozol,Taco,Bunuelo,Rara vez
+1998,Coca-Cola,Tostada,Bunuelo,Semanal
+1999,Agua de jamaica,Tostada,Turulete,Mensual
+2000,Coca-Cola,Tostada,Nuegado,Diario
