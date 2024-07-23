@@ -120,8 +120,8 @@ class MainWindow(QMainWindow):
             probabilidad_mutacion_gen = float(self.inputs[3].text())
             num_generaciones = int(self.inputs[4].text())
 
-            if tamano_poblacion <= 0 or tamano_maximo_poblacion <= 0 or num_generaciones <= 0:
-                raise ValueError("La población inicial, la población máxima y el número de generaciones deben ser enteros positivos.")
+            if tamano_poblacion < 2 or tamano_maximo_poblacion <= 0 or num_generaciones <= 0:
+                raise ValueError("El tamaño de la población debe ser 2 o más. La población máxima y el número de generaciones deben ser enteros positivos.")
             if not (0 < probabilidad_mutacion < 1):
                 raise ValueError("La probabilidad de mutación debe estar entre 0 y 1 (excluyendo 0 y 1).")
             if not (0 < probabilidad_mutacion_gen < 1):
