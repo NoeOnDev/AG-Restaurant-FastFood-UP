@@ -3,27 +3,27 @@ from datetime import datetime, timedelta
 import random
 
 productos = [
-    {"nombre": "Pozol", "precio_produccion": 7, "precio_venta": 15},
-    {"nombre": "Coca-Cola", "precio_produccion": 18, "precio_venta": 25},
-    {"nombre": "Tascalate", "precio_produccion": 8, "precio_venta": 14},
-    {"nombre": "Agua de chía", "precio_produccion": 11, "precio_venta": 25},
-    {"nombre": "Agua de horchata", "precio_produccion": 10, "precio_venta": 20},
-    {"nombre": "Agua de jamaica", "precio_produccion": 9, "precio_venta": 18},
-    {"nombre": "Quesadilla", "precio_produccion": 12, "precio_venta": 22},
-    {"nombre": "Gordita", "precio_produccion": 10, "precio_venta": 18},
-    {"nombre": "Taco", "precio_produccion": 9, "precio_venta": 14},
-    {"nombre": "Empanada", "precio_produccion": 8, "precio_venta": 15},
-    {"nombre": "Tamal", "precio_produccion": 10, "precio_venta": 20},
-    {"nombre": "Tostada", "precio_produccion": 7, "precio_venta": 12},
-    {"nombre": "Turrón", "precio_produccion": 4, "precio_venta": 10},
-    {"nombre": "Nuegado", "precio_produccion": 5, "precio_venta": 12},
-    {"nombre": "Turulete", "precio_produccion": 3, "precio_venta": 10},
-    {"nombre": "Cocada", "precio_produccion": 4, "precio_venta": 8},
-    {"nombre": "Plátano Asado", "precio_produccion": 4, "precio_venta": 9},
-    {"nombre": "Bunuelo", "precio_produccion": 5, "precio_venta": 10},
+    {"nombre": "Pozol", "precio_produccion": 7, "precio_venta": 16},
+    {"nombre": "Coca-Cola", "precio_produccion": 18, "precio_venta": 26},
+    {"nombre": "Tascalate", "precio_produccion": 8, "precio_venta": 15},
+    {"nombre": "Agua de chía", "precio_produccion": 11, "precio_venta": 24},
+    {"nombre": "Agua de horchata", "precio_produccion": 10, "precio_venta": 21},
+    {"nombre": "Agua de jamaica", "precio_produccion": 9, "precio_venta": 19},
+    {"nombre": "Quesadilla", "precio_produccion": 12, "precio_venta": 23},
+    {"nombre": "Gordita", "precio_produccion": 10, "precio_venta": 19},
+    {"nombre": "Taco", "precio_produccion": 9, "precio_venta": 15},
+    {"nombre": "Empanada", "precio_produccion": 8, "precio_venta": 16},
+    {"nombre": "Tamal", "precio_produccion": 10, "precio_venta": 21},
+    {"nombre": "Tostada", "precio_produccion": 7, "precio_venta": 13},
+    {"nombre": "Turrón", "precio_produccion": 4, "precio_venta": 11},
+    {"nombre": "Nuegado", "precio_produccion": 5, "precio_venta": 13},
+    {"nombre": "Turulete", "precio_produccion": 3, "precio_venta": 9},
+    {"nombre": "Cocada", "precio_produccion": 4, "precio_venta": 9},
+    {"nombre": "Plátano Asado", "precio_produccion": 4, "precio_venta": 10},
+    {"nombre": "Bunuelo", "precio_produccion": 5, "precio_venta": 11},
 ]
 
-num_filas = 10000
+num_filas = 9998
 
 fecha_inicio = datetime(2024, 1, 1)
 
