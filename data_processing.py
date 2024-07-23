@@ -2,10 +2,12 @@ import pandas as pd
 import random
 import matplotlib.pyplot as plt
 
+# Carga de datos
 precios_productos_df = pd.read_csv('market analysis/datasets/precios_productos.csv')
 encuestas_clientes_df = pd.read_csv('market analysis/datasets/encuestas_clientes.csv')
 historial_ventas_df = pd.read_csv('market analysis/datasets/historial_ventas_comida_rapida.csv')
 
+# Calcular preferencias normalizadas
 def calcular_preferencias(df, columna):
     return (df[columna].value_counts(normalize=True) * 100).to_dict()
 
@@ -13,13 +15,14 @@ preferencia_bebidas_dict = calcular_preferencias(encuestas_clientes_df, 'Bebida 
 preferencia_comidas_dict = calcular_preferencias(encuestas_clientes_df, 'Comida Favorita')
 preferencia_postres_dict = calcular_preferencias(encuestas_clientes_df, 'Postre Favorito')
 
+# Crear diccionario de productos con precios, ventas y preferencias
 def crear_productos_dict(precios_df, *preferencias_dicts):
     productos = {}
     for _, row in precios_df.iterrows():
         producto = row['producto']
         preferencia = 0
         for pref_dict in preferencias_dicts:
-            preferencia = pref_dict.get(producto, preferencia)
+            preferencia += pref_dict.get(producto, 0)
         productos[producto] = {
             "costo": row['costo'],
             "venta": row['venta'],
@@ -29,6 +32,7 @@ def crear_productos_dict(precios_df, *preferencias_dicts):
 
 productos_dict = crear_productos_dict(precios_productos_df, preferencia_bebidas_dict, preferencia_comidas_dict, preferencia_postres_dict)
 
+# Calcular total de ventas por producto
 def calcular_total_ventas(historial_df):
     ventas_por_producto = {}
     for _, row in historial_df.iterrows():
@@ -42,16 +46,19 @@ total_ventas_por_producto = calcular_total_ventas(historial_ventas_df)
 productos_df = pd.DataFrame.from_dict(productos_dict, orient='index').reset_index().rename(columns={'index': 'nombre'})
 historial_df = pd.DataFrame.from_dict(total_ventas_por_producto, orient='index', columns=['ventas'])
 
+# Listas de productos
 BEBIDAS = ["Pozol", "Coca-Cola", "Tascalate", "Agua de chía", "Agua de horchata", "Agua de jamaica"]
 COMIDAS = ["Gordita", "Empanada", "Taco", "Quesadilla", "Tamal", "Tostada"]
 POSTRES = ["Nuegado", "Turrón", "Turulete", "Cocada", "Plátano Asado", "Bunuelo"]
 
+# Crear un combo aleatorio
 def crear_combo():
     bebida = random.choice(BEBIDAS)
     comida = random.choice(COMIDAS)
     postre = random.choice(POSTRES)
     return [bebida, comida, postre]
 
+# Calcular el descuento basado en las ventas
 def calcular_descuento(combo):
     total_ventas = sum(historial_df.loc[combo]["ventas"])
     promedio_ventas = total_ventas / len(combo)
@@ -59,6 +66,7 @@ def calcular_descuento(combo):
     factor_descuento = 1 - (promedio_ventas / max_ventas) * 0.3
     return factor_descuento
 
+# Calcular el fitness del combo
 def calcular_fitness(combo):
     venta_individual_total = sum(productos_df[productos_df['nombre'].isin(combo)]["venta"])
     costo_total = sum(productos_df[productos_df['nombre'].isin(combo)]["costo"])
@@ -69,6 +77,7 @@ def calcular_fitness(combo):
     fitness = rentabilidad * 0.5 + satisfaccion * 0.5
     return fitness, venta_combo, costo_total
 
+# Transformar fitness para que todos sean positivos
 def transformar_fitness(poblacion):
     min_fitness = min(fitness for _, fitness, _, _ in poblacion)
     if min_fitness < 0:
@@ -76,6 +85,7 @@ def transformar_fitness(poblacion):
     else:
         return poblacion
 
+# Selección de padres basada en fitness
 def seleccionar_padres(poblacion):
     poblacion = transformar_fitness(poblacion)
     fitness_total = sum(fitness for _, fitness, _, _ in poblacion)
@@ -90,6 +100,7 @@ def seleccionar_padres(poblacion):
                 break
     return seleccionados
 
+# Cruce de padres para generar hijos
 def cruce(padre1, padre2):
     num_puntos_cruce = random.randint(1, len(padre1) - 1)
     puntos_cruce = sorted(random.sample(range(1, len(padre1)), num_puntos_cruce))
@@ -114,6 +125,7 @@ def cruce(padre1, padre2):
         
     return hijo1, hijo2
 
+# Mutación de un combo con ciertas probabilidades
 def mutar(combo, probabilidad_mutacion, probabilidad_mutacion_gen):
     if random.random() < probabilidad_mutacion:
         for i in range(len(combo)):
@@ -126,6 +138,7 @@ def mutar(combo, probabilidad_mutacion, probabilidad_mutacion_gen):
                     combo[i] = random.choice(POSTRES)
     return combo
 
+# Poda de la población para mantener el tamaño máximo
 def poda(poblacion, tamano_maximo_poblacion):
     poblacion.sort(key=lambda x: x[1], reverse=True)
     mejor_individuo = poblacion[0]
@@ -136,6 +149,7 @@ def poda(poblacion, tamano_maximo_poblacion):
         poblacion.append(mejor_individuo)
     return poblacion
 
+# Algoritmo genético principal
 def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion, probabilidad_mutacion, probabilidad_mutacion_gen):
     poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
     poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
@@ -165,6 +179,7 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
     mejor_combo = max(poblacion, key=lambda x: x[1])
     return mejor_combo, fitness_max, fitness_avg, fitness_min
 
+# Graficar resultados de fitness a lo largo de las generaciones
 def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.plot(fitness_max, label='Max Fitness')
     plt.plot(fitness_avg, label='Avg Fitness')
@@ -173,3 +188,15 @@ def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.ylabel('Fitness')
     plt.legend()
     plt.show()
+
+# Ejemplo de ejecución del algoritmo genético
+mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
+    tamano_poblacion=50, 
+    num_generaciones=100, 
+    tamano_maximo_poblacion=100, 
+    probabilidad_mutacion=0.1, 
+    probabilidad_mutacion_gen=0.2
+)
+
+print("Mejor Combo:", mejor_combo)
+graficar_resultados(fitness_max, fitness_avg, fitness_min)
