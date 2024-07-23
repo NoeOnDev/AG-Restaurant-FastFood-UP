@@ -126,6 +126,8 @@ class MainWindow(QMainWindow):
                 raise ValueError("La probabilidad de mutación debe estar entre 0 y 1 (excluyendo 0 y 1).")
             if not (0 < probabilidad_mutacion_gen < 1):
                 raise ValueError("La probabilidad de mutación por gen debe estar entre 0 y 1 (excluyendo 0 y 1).")
+            if tamano_poblacion > tamano_maximo_poblacion:
+                raise ValueError("El tamaño de la población no puede ser mayor que el tamaño de la población máxima.")
             
             mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
                 tamano_poblacion, num_generaciones, tamano_maximo_poblacion,
