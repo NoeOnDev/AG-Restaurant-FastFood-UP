@@ -3,6 +3,8 @@ import sys
 import qtawesome as qta
 from data_processing import algoritmo_genetico, graficar_resultados
 
+# Implement the MainWindow class here
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
