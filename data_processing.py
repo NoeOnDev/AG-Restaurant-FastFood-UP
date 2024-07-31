@@ -142,8 +142,9 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
     fitness_max = []
     fitness_avg = []
     fitness_min = []
+    generaciones = []
 
-    for _ in range(num_generaciones):
+    for gen in range(num_generaciones):
         nueva_poblacion = []
         for _ in range(tamano_poblacion // 2):
             padre1, padre2 = seleccionar_padres(poblacion)
@@ -160,9 +161,12 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
         fitness_max.append(max(fitness_vals))
         fitness_avg.append(sum(fitness_vals) / len(fitness_vals))
         fitness_min.append(min(fitness_vals))
+
+        mejor_combo = max(poblacion, key=lambda x: x[1])
+        generaciones.append((gen, mejor_combo[0], mejor_combo[1], mejor_combo[2], mejor_combo[3]))
     
     mejor_combo = max(poblacion, key=lambda x: x[1])
-    return mejor_combo, fitness_max, fitness_avg, fitness_min
+    return mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones
 
 def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.plot(fitness_max, label='Max Fitness')

@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QMessageBox, QTableWidget, QTableWidgetItem
 import sys
 import qtawesome as qta
 from data_processing import algoritmo_genetico, graficar_resultados
@@ -42,6 +42,11 @@ class MainWindow(QMainWindow):
         button_layout.addStretch()
 
         main_layout.addLayout(button_layout)
+
+        self.table = QTableWidget()
+        self.table.setColumnCount(5)  # Corregir el número de columnas
+        self.table.setHorizontalHeaderLabels(["Generación", "Mejor Combo", "Fitness", "Venta Combo", "Costo Total"])
+        main_layout.addWidget(self.table)
 
         self.mode_button = QPushButton(self)
         self.mode_button.setIcon(qta.icon('fa5s.sun', color='black'))
@@ -107,7 +112,7 @@ class MainWindow(QMainWindow):
                 background-color: #555555;
             }
         """)
-        
+
     def run_algorithm(self):
         try:
             for input_field in self.inputs:
@@ -129,20 +134,32 @@ class MainWindow(QMainWindow):
             if tamano_poblacion > tamano_maximo_poblacion:
                 raise ValueError("El tamaño de la población no puede ser mayor que el tamaño de la población máxima.")
             
-            mejor_combo, fitness_max, fitness_avg, fitness_min = algoritmo_genetico(
+            mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones = algoritmo_genetico(
                 tamano_poblacion, num_generaciones, tamano_maximo_poblacion,
                 probabilidad_mutacion, probabilidad_mutacion_gen
             )
 
             graficar_resultados(fitness_max, fitness_avg, fitness_min)
 
-            print(f"Mejor Combo: {mejor_combo[0]}")
-            print(f"Fitness: {mejor_combo[1]}")
-            print(f"Venta Combo: {mejor_combo[2]}")
-            print(f"Costo Total: {mejor_combo[3]}")
+            self.update_table(generaciones[-1])
 
         except ValueError as e:
             self.show_error_message(str(e))
+
+    def update_table(self, ultima_generacion):
+        self.table.setRowCount(1)
+        
+        generacion_item = QTableWidgetItem(str(ultima_generacion[0]))
+        combo_item = QTableWidgetItem(str(ultima_generacion[1]))
+        fitness_item = QTableWidgetItem(str(ultima_generacion[2]))
+        venta_combo_item = QTableWidgetItem(str(ultima_generacion[3]))
+        costo_total_item = QTableWidgetItem(str(ultima_generacion[4]))
+        
+        self.table.setItem(0, 0, generacion_item)
+        self.table.setItem(0, 1, combo_item)
+        self.table.setItem(0, 2, fitness_item)
+        self.table.setItem(0, 3, venta_combo_item)
+        self.table.setItem(0, 4, costo_total_item)
 
     def show_error_message(self, message):
         msg_box = QMessageBox()
