@@ -1,4 +1,5 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QMessageBox, QTableWidget, QTableWidgetItem
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QMessageBox, QTableWidget, QTableWidgetItem, QHeaderView
 import sys
 import qtawesome as qta
 from data_processing import algoritmo_genetico, graficar_resultados
@@ -44,8 +45,12 @@ class MainWindow(QMainWindow):
         main_layout.addLayout(button_layout)
 
         self.table = QTableWidget()
-        self.table.setColumnCount(5)  # Corregir el número de columnas
-        self.table.setHorizontalHeaderLabels(["Generación", "Mejor Combo", "Fitness", "Venta Combo", "Costo Total"])
+        self.table.setColumnCount(4)
+        self.table.setHorizontalHeaderLabels(["Mejor Combo", "Fitness", "Venta Combo", "Costo Total"])
+
+        header = self.table.horizontalHeader()
+        header.setSectionResizeMode(QHeaderView.Stretch)
+
         main_layout.addWidget(self.table)
 
         self.mode_button = QPushButton(self)
@@ -149,17 +154,39 @@ class MainWindow(QMainWindow):
     def update_table(self, ultima_generacion):
         self.table.setRowCount(1)
         
-        generacion_item = QTableWidgetItem(str(ultima_generacion[0]))
         combo_item = QTableWidgetItem(str(ultima_generacion[1]))
         fitness_item = QTableWidgetItem(str(ultima_generacion[2]))
-        venta_combo_item = QTableWidgetItem(str(ultima_generacion[3]))
-        costo_total_item = QTableWidgetItem(str(ultima_generacion[4]))
         
-        self.table.setItem(0, 0, generacion_item)
-        self.table.setItem(0, 1, combo_item)
-        self.table.setItem(0, 2, fitness_item)
-        self.table.setItem(0, 3, venta_combo_item)
-        self.table.setItem(0, 4, costo_total_item)
+        venta_combo = f"${ultima_generacion[3]:.2f} pesos"
+        costo_total = f"${ultima_generacion[4]} pesos"
+        
+        venta_combo_item = QTableWidgetItem(venta_combo)
+        costo_total_item = QTableWidgetItem(costo_total)
+
+        combo_item.setTextAlignment(Qt.AlignCenter)
+        fitness_item.setTextAlignment(Qt.AlignCenter)
+        venta_combo_item.setTextAlignment(Qt.AlignCenter)
+        costo_total_item.setTextAlignment(Qt.AlignCenter)
+        
+        combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[1]))
+        fitness_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[2]))
+        venta_combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + venta_combo)
+        costo_total_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + costo_total)
+
+        self.table.setItem(0, 0, combo_item)
+        self.table.setItem(0, 1, fitness_item)
+        self.table.setItem(0, 2, venta_combo_item)
+        self.table.setItem(0, 3, costo_total_item)
+
+        header = self.table.horizontalHeader()
+
+        header.setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(2, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
+
+        header.setSectionResizeMode(0, QHeaderView.Stretch)
+        header.setStretchLastSection(True)
 
     def show_error_message(self, message):
         msg_box = QMessageBox()
