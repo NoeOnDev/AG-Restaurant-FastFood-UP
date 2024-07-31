@@ -19,7 +19,7 @@ def guardar_grafica(df, columna, titulo, nombre_archivo):
     plt.title(titulo)
     plt.xlabel(columna)
     plt.ylabel('Porcentaje')
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=90)
     for i, v in enumerate(counts):
         plt.text(i, v + 0.5, f"{v:.2f}%", ha='center', va='bottom')
     plt.tight_layout()
