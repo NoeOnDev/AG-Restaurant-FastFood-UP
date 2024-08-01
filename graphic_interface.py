@@ -45,8 +45,8 @@ class MainWindow(QMainWindow):
         main_layout.addLayout(button_layout)
 
         self.table = QTableWidget()
-        self.table.setColumnCount(4)
-        self.table.setHorizontalHeaderLabels(["Mejor Combo", "Fitness", "Venta Combo", "Costo Total"])
+        self.table.setColumnCount(5)
+        self.table.setHorizontalHeaderLabels(["Mejor Combo", "Fitness", "Venta Combo", "Precio Individual Total", "Costo Total"])
 
         header = self.table.horizontalHeader()
         header.setSectionResizeMode(QHeaderView.Stretch)
@@ -158,25 +158,30 @@ class MainWindow(QMainWindow):
         fitness_item = QTableWidgetItem(str(ultima_generacion[2]))
         
         venta_combo = f"${ultima_generacion[3]:.2f} pesos"
-        costo_total = f"${ultima_generacion[4]} pesos"
-        
+        costo_total = f"${ultima_generacion[5]} pesos"
+        precio_individual_total = f"${ultima_generacion[4]:.2f} pesos"
+
         venta_combo_item = QTableWidgetItem(venta_combo)
         costo_total_item = QTableWidgetItem(costo_total)
+        precio_individual_total_item = QTableWidgetItem(precio_individual_total)
 
         combo_item.setTextAlignment(Qt.AlignCenter)
         fitness_item.setTextAlignment(Qt.AlignCenter)
         venta_combo_item.setTextAlignment(Qt.AlignCenter)
         costo_total_item.setTextAlignment(Qt.AlignCenter)
+        precio_individual_total_item.setTextAlignment(Qt.AlignCenter)
         
         combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[1]))
         fitness_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[2]))
         venta_combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + venta_combo)
         costo_total_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + costo_total)
+        precio_individual_total_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + precio_individual_total)
 
         self.table.setItem(0, 0, combo_item)
         self.table.setItem(0, 1, fitness_item)
         self.table.setItem(0, 2, venta_combo_item)
         self.table.setItem(0, 3, costo_total_item)
+        self.table.setItem(0, 4, precio_individual_total_item)
 
         header = self.table.horizontalHeader()
 
@@ -184,6 +189,7 @@ class MainWindow(QMainWindow):
         header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
         header.setSectionResizeMode(2, QHeaderView.ResizeToContents)
         header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(4, QHeaderView.ResizeToContents)
 
         header.setSectionResizeMode(0, QHeaderView.Stretch)
         header.setStretchLastSection(True)
