@@ -66,23 +66,23 @@ def calcular_fitness(combo):
     satisfaccion = sum(productos_dict[producto]['preferencia'] for producto in combo)
     rentabilidad = venta_combo - costo_total
     fitness = (rentabilidad * 0.5) + (satisfaccion * 0.5)
-    return fitness, venta_combo, costo_total
+    return fitness, venta_combo, costo_total, venta_individual_total
 
 def transformar_fitness(poblacion):
-    min_fitness = min(fitness for _, fitness, _, _ in poblacion)
+    min_fitness = min(fitness for _, fitness, _, _, _ in poblacion)
     if min_fitness < 0:
-        return [(combo, fitness - min_fitness, venta, costo) for combo, fitness, venta, costo in poblacion]
+        return [(combo, fitness - min_fitness, venta, costo, venta_individual_total) for combo, fitness, venta, costo, venta_individual_total in poblacion]
     else:
         return poblacion
 
 def seleccionar_padres(poblacion):
     poblacion = transformar_fitness(poblacion)
-    fitness_total = sum(fitness for _, fitness, _, _ in poblacion)
+    fitness_total = sum(fitness for _, fitness, _, _, _ in poblacion)
     seleccionados = []
     for _ in range(2):
         pick = random.uniform(0, fitness_total)
         current = 0
-        for combo, fitness, _, _ in poblacion:
+        for combo, fitness, _, _, _ in poblacion:
             current += fitness
             if current > pick:
                 seleccionados.append(combo)
@@ -136,8 +136,8 @@ def poda(poblacion, tamano_maximo_poblacion):
     return poblacion
 
 def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion, probabilidad_mutacion, probabilidad_mutacion_gen):
-    poblacion = [(crear_combo(), 0, 0, 0) for _ in range(tamano_poblacion)]
-    poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _ in poblacion]
+    poblacion = [(crear_combo(), 0, 0, 0, 0) for _ in range(tamano_poblacion)]
+    poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _, _ in poblacion]
 
     fitness_max = []
     fitness_avg = []
@@ -157,14 +157,16 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
         poblacion.extend(nueva_poblacion)
         poblacion = poda(poblacion, tamano_maximo_poblacion)
         
-        fitness_vals = [fitness for _, fitness, _, _ in poblacion]
+        fitness_vals = [fitness for _, fitness, _, _, _ in poblacion]
         fitness_max.append(max(fitness_vals))
         fitness_avg.append(sum(fitness_vals) / len(fitness_vals))
         fitness_min.append(min(fitness_vals))
 
         mejor_combo = max(poblacion, key=lambda x: x[1])
-        generaciones.append((gen, mejor_combo[0], mejor_combo[1], mejor_combo[2], mejor_combo[3]))
-    
+        generaciones.append((gen, mejor_combo[0], mejor_combo[1], mejor_combo[2], mejor_combo[3], mejor_combo[4]))
+
+        print(f"Generación {gen + 1}: Combo = {mejor_combo[0]}, Precio de venta individual total = {mejor_combo[4]}")
+
     mejor_combo = max(poblacion, key=lambda x: x[1])
     return mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones
 
