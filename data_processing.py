@@ -138,24 +138,36 @@ def poda(poblacion, tamano_maximo_poblacion):
 def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblacion, probabilidad_mutacion, probabilidad_mutacion_gen):
     poblacion = [(crear_combo(), 0, 0, 0, 0) for _ in range(tamano_poblacion)]
     poblacion = [(combo, *calcular_fitness(combo)) for combo, _, _, _, _ in poblacion]
-
+    
+    combos_unicos = {tuple(combo) for combo, _, _, _, _ in poblacion}
+    
     fitness_max = []
     fitness_avg = []
     fitness_min = []
     generaciones = []
 
+    mejores_individuos = []
+
     for gen in range(num_generaciones):
         nueva_poblacion = []
-        for _ in range(tamano_poblacion // 2):
+        while len(nueva_poblacion) < tamano_poblacion:
             padre1, padre2 = seleccionar_padres(poblacion)
             hijo1, hijo2 = cruce(padre1, padre2)
             hijo1 = mutar(hijo1, probabilidad_mutacion, probabilidad_mutacion_gen)
             hijo2 = mutar(hijo2, probabilidad_mutacion, probabilidad_mutacion_gen)
-            nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
-            nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
+            
+            if tuple(hijo1) not in combos_unicos:
+                nueva_poblacion.append((hijo1, *calcular_fitness(hijo1)))
+                combos_unicos.add(tuple(hijo1))
+            
+            if tuple(hijo2) not in combos_unicos:
+                nueva_poblacion.append((hijo2, *calcular_fitness(hijo2)))
+                combos_unicos.add(tuple(hijo2))
         
         poblacion.extend(nueva_poblacion)
         poblacion = poda(poblacion, tamano_maximo_poblacion)
+        
+        combos_unicos = {tuple(combo) for combo, _, _, _, _ in poblacion}
         
         fitness_vals = [fitness for _, fitness, _, _, _ in poblacion]
         fitness_max.append(max(fitness_vals))
@@ -163,12 +175,15 @@ def algoritmo_genetico(tamano_poblacion, num_generaciones, tamano_maximo_poblaci
         fitness_min.append(min(fitness_vals))
 
         mejor_combo = max(poblacion, key=lambda x: x[1])
-        generaciones.append((gen, mejor_combo[0], mejor_combo[1], mejor_combo[2], mejor_combo[3], mejor_combo[4]))
+        generaciones.append(mejor_combo)
 
         print(f"Generación {gen + 1}: Combo = {mejor_combo[0]}, Precio de venta individual total = {mejor_combo[4]}")
 
+        if gen == num_generaciones - 1:
+            mejores_individuos = sorted(poblacion, key=lambda x: x[1], reverse=True)[:3]
+
     mejor_combo = max(poblacion, key=lambda x: x[1])
-    return mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones
+    return mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones, mejores_individuos
 
 def graficar_resultados(fitness_max, fitness_avg, fitness_min):
     plt.plot(fitness_max, label='Max Fitness')

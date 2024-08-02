@@ -139,59 +139,50 @@ class MainWindow(QMainWindow):
             if tamano_poblacion > tamano_maximo_poblacion:
                 raise ValueError("El tamaño de la población no puede ser mayor que el tamaño de la población máxima.")
             
-            mejor_combo, fitness_max, fitness_avg, fitness_min, generaciones = algoritmo_genetico(
-                tamano_poblacion, num_generaciones, tamano_maximo_poblacion,
-                probabilidad_mutacion, probabilidad_mutacion_gen
-            )
+            _, fitness_max, fitness_avg, fitness_min, _, mejores_individuos = algoritmo_genetico(
+                tamano_poblacion,
+                num_generaciones, 
+                tamano_maximo_poblacion, 
+                probabilidad_mutacion,
+                probabilidad_mutacion_gen)
 
             graficar_resultados(fitness_max, fitness_avg, fitness_min)
 
-            self.update_table(generaciones[-1])
+            self.update_table(mejores_individuos)
 
         except ValueError as e:
             self.show_error_message(str(e))
 
-    def update_table(self, ultima_generacion):
-        self.table.setRowCount(1)
-        
-        combo_item = QTableWidgetItem(str(ultima_generacion[1]))
-        fitness_item = QTableWidgetItem(str(ultima_generacion[2]))
-        
-        venta_combo = f"${ultima_generacion[3]:.2f} pesos"
-        costo_total = f"${ultima_generacion[5]} pesos"
-        precio_individual_total = f"${ultima_generacion[4]:.2f} pesos"
+    def update_table(self, mejores_individuos):
+        self.table.setRowCount(0)
 
-        venta_combo_item = QTableWidgetItem(venta_combo)
-        costo_total_item = QTableWidgetItem(costo_total)
-        precio_individual_total_item = QTableWidgetItem(precio_individual_total)
+        for i, combo in enumerate(mejores_individuos):
+            self.table.insertRow(i)
 
-        combo_item.setTextAlignment(Qt.AlignCenter)
-        fitness_item.setTextAlignment(Qt.AlignCenter)
-        venta_combo_item.setTextAlignment(Qt.AlignCenter)
-        costo_total_item.setTextAlignment(Qt.AlignCenter)
-        precio_individual_total_item.setTextAlignment(Qt.AlignCenter)
-        
-        combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[1]))
-        fitness_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + str(ultima_generacion[2]))
-        venta_combo_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + venta_combo)
-        costo_total_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + costo_total)
-        precio_individual_total_item.setData(Qt.ItemDataRole.DisplayRole, '    ' + precio_individual_total)
+            combo_item = QTableWidgetItem(str(combo[0]))
+            fitness_item = QTableWidgetItem(str(combo[1]))
 
-        self.table.setItem(0, 0, combo_item)
-        self.table.setItem(0, 1, fitness_item)
-        self.table.setItem(0, 2, venta_combo_item)
-        self.table.setItem(0, 3, costo_total_item)
-        self.table.setItem(0, 4, precio_individual_total_item)
+            venta_combo = f"${combo[2]:.2f} pesos"
+            costo_total = f"${combo[3]:.2f} pesos"
+            precio_individual_total = f"${combo[4]:.2f} pesos"
+
+            combo_item.setTextAlignment(Qt.AlignCenter)
+            fitness_item.setTextAlignment(Qt.AlignCenter)
+            venta_combo_item = QTableWidgetItem(venta_combo)
+            costo_total_item = QTableWidgetItem(costo_total)
+            precio_individual_total_item = QTableWidgetItem(precio_individual_total)
+            venta_combo_item.setTextAlignment(Qt.AlignCenter)
+            costo_total_item.setTextAlignment(Qt.AlignCenter)
+            precio_individual_total_item.setTextAlignment(Qt.AlignCenter)
+
+            self.table.setItem(i, 0, combo_item)
+            self.table.setItem(i, 1, fitness_item)
+            self.table.setItem(i, 2, venta_combo_item)
+            self.table.setItem(i, 3, costo_total_item)
+            self.table.setItem(i, 4, precio_individual_total_item)
 
         header = self.table.horizontalHeader()
-
-        header.setSectionResizeMode(0, QHeaderView.ResizeToContents)
-        header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
-        header.setSectionResizeMode(2, QHeaderView.ResizeToContents)
-        header.setSectionResizeMode(3, QHeaderView.ResizeToContents)
-        header.setSectionResizeMode(4, QHeaderView.ResizeToContents)
-
-        header.setSectionResizeMode(0, QHeaderView.Stretch)
+        header.setSectionResizeMode(QHeaderView.Stretch)
         header.setStretchLastSection(True)
 
     def show_error_message(self, message):
