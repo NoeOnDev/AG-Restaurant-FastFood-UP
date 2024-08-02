@@ -41,6 +41,7 @@ class MainWindow(QMainWindow):
         button_layout.addStretch()
         button_layout.addWidget(button)
         button_layout.addStretch()
+        button_layout.setContentsMargins(0, 20, 0, 20)
 
         main_layout.addLayout(button_layout)
 
